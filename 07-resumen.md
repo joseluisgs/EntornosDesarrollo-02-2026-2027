@@ -11,10 +11,11 @@
     - [IDEs del Curso](#ides-del-curso)
     - [Herramientas de Apoyo](#herramientas-de-apoyo)
   - [7.4. Checklist de Supervivencia](#74-checklist-de-supervivencia)
-  - [7.5. Glosario de Términos](#75-glosario-de-términos)
-  - [7.6. Ejercicios de Repaso](#76-ejercicios-de-repaso)
-  - [7.7. ¿Qué viene después?](#77-qué-viene-después)
-  - [7.8. Mapa de Conexiones entre Temas](#78-mapa-de-conexiones-entre-temas)
+  - [7.5. Errores Comunes a Evitar](#75-errores-comunes-a-evitar)
+  - [7.6. Glosario de Términos](#76-glosario-de-términos)
+  - [7.7. Ejercicios de Repaso](#77-ejercicios-de-repaso)
+  - [7.8. ¿Qué viene después?](#78-qué-viene-después)
+  - [7.9. Mapa de Conexiones entre Temas](#79-mapa-de-conexiones-entre-temas)
 
 
 # 7. Resumen y Conclusiones
@@ -165,7 +166,22 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 - [ ] ¿Puedo comparar IDEs y elegir el más adecuado según el lenguaje y proyecto?
 - [ ] ¿Puedo crear un proyecto, compilarlo, depurarlo desde la consola con su CLI y desde el IDE?
 
-## 7.5. Glosario de Términos
+## 7.5. Errores Comunes a Evitar
+
+| Error | Por qué está mal | Cómo evitarlo |
+|-------|------------------|---------------|
+| No instalar el SDK (JDK/.NET) | El IDE no puede compilar sin el SDK | Siempre instalar el SDK ANTES del IDE |
+| Confundir Build y Rebuild | Build es incremental, Rebuild limpia todo | Usar Build normalmente, Rebuild solo si hay problemas de dependencias |
+| No usar breakpoints | Depurar con `Console.WriteLine` es lento y sucio | Aprender a usar breakpoints y Step Over/Into |
+| Instalar demasiados plugins | Ralentizan el IDE significativamente | Instalar solo los que uses diariamente |
+| No sincronizar configuración | Pierdes tu entorno al cambiar de máquina | Usar Settings Sync (VS Code) o Settings Repository (JetBrains) |
+| Ignorar las actualizaciones | Te pierdes correcciones de bugs y seguridad | Configurar actualizaciones automáticas en canal Stable |
+| No usar control de versiones | Pierdes código y no puedes colaborar | Git integrado en el IDE, hacer commit frecuente |
+| Olvidar `.editorconfig` | Formato inconsistente en equipo | Crear `.editorconfig` en la raíz del proyecto |
+| No conocer atajos básicos | Evas tiempo usando el ratón para todo | Memorizar los 10 atajos esenciales primero |
+| Confundir Rider con IntelliJ | Rider es para .NET, IntelliJ para Java | Usar el IDE según el lenguaje del proyecto |
+
+## 7.6. Glosario de Términos
 
 | Término | Definición |
 |---------|------------|
@@ -191,7 +207,7 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 | **Top Level Statements** | Sintaxis C# sin clase Main explícita |
 | **Main simplificado** | Sintaxis Java 25: `void main()` sin `public static` |
 
-## 7.6. Ejercicios de Repaso
+## 7.7. Ejercicios de Repaso
 
 1. **Conceptos:** Explica con tus palabras qué es un IDE y por qué no basta con un editor de texto.
 2. **Instalación:** Instala Rider, IntelliJ y VS Code. Configura el mismo tema en los tres.
@@ -202,11 +218,11 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 7. **Atajos:** Sin usar el ratón, abre un archivo, compila, depura y formatea el código.
 8. **Comparativa:** Evalúa Rider, IntelliJ y VS Code para un proyecto de Java. Justifica tu elección.
 
-## 7.7. ¿Qué viene después?
+## 7.8. ¿Qué viene después?
 
 En la siguiente unidad (**UD03: Sistema de Control de Versiones**) veremos en profundidad **Git**: ramas, merges, conflictos, flujos de trabajo y colaboración en equipo. Todo lo que aprendiste aquí sobre Git integrado en el IDE será la base para dominar el control de versiones.
 
-## 7.8. Mapa de Conexiones entre Temas
+## 7.9. Mapa de Conexiones entre Temas
 
 ```mermaid
 graph LR
