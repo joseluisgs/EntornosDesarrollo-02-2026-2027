@@ -1,8 +1,8 @@
 - [3. Anatomía y Estructura de los IDEs Seleccionados](#3-anatomía-y-estructura-de-los-ides-seleccionados)
   - [3.1. Filosofía JetBrains: Uniformidad de Flujo de Trabajo](#31-filosofía-jetbrains-uniformidad-de-flujo-de-trabajo)
-    - [3.1.1. Consistencia de la Interfaz (IntelliJ IDEA y Rider)](#311-consistencia-de-la-interfaz-intellij-idea-y-rider)
+    - [3.1.1. Consistencia de la Interfaz (Rider y IntelliJ IDEA)](#311-consistencia-de-la-interfaz-rider-y-intellij-idea)
     - [3.1.2. Uso de la Terminal integrada](#312-uso-de-la-terminal-integrada)
-  - [3.2. Estructura de IntelliJ IDEA y JetBrains Rider](#32-estructura-de-intellij-idea-y-jetbrains-rider)
+  - [3.2. Estructura de JetBrains Rider y IntelliJ IDEA](#32-estructura-de-jetbrains-rider-y-intellij-idea)
   - [3.3. Estructura de Visual Studio Code (VS Code)](#33-estructura-de-visual-studio-code-vs-code)
 
 
@@ -26,11 +26,11 @@ En el Punto 02 instalaste las herramientas de desarrollo. Ahora veremos qué hay
 
 ## 3.1. Filosofía JetBrains: Uniformidad de Flujo de Trabajo
 
-Una característica notable al utilizar IDEs del mismo fabricante, como **IntelliJ IDEA** y **JetBrains Rider**, es la **consistencia de la interfaz** y la **familiaridad del flujo de trabajo**. Esto facilita la transición entre entornos diseñados para diferentes plataformas (Java en IDEA, .NET en Rider).
+Una característica notable al utilizar IDEs del mismo fabricante, como **JetBrains Rider** e **IntelliJ IDEA**, es la **consistencia de la interfaz** y la **familiaridad del flujo de trabajo**. Esto facilita la transición entre entornos diseñados para diferentes plataformas (.NET en Rider, Java en IDEA).
 
-> 💡 **Ventaja de usar productos JetBrains:** Si aprendes IntelliJ IDEA, aprender Rider es muy fácil. Los atajos, la estructura de menús y la filosofía son idénticas. Tu inversión en aprender una herramienta se transfiere a otras.
+> 💡 **Ventaja de usar productos JetBrains:** Si aprendes Rider, aprender IntelliJ IDEA es muy fácil. Los atajos, la estructura de menús y la filosofía son idénticas. Tu inversión en aprender una herramienta se transfiere a otras.
 
-### 3.1.1. Consistencia de la Interfaz (IntelliJ IDEA y Rider)
+### 3.1.1. Consistencia de la Interfaz (Rider y IntelliJ IDEA)
 
 Ambos IDEs comparten una filosofía de diseño basada en:
 
@@ -106,7 +106,7 @@ git status                    # Ver cambios
 
 > 💡 **Truco:** La terminal integrada hereda el PATH del sistema, pero también puedes configurarla para usar diferentes shells (PowerShell, CMD, WSL, bash).
 
-## 3.2. Estructura de IntelliJ IDEA y JetBrains Rider
+## 3.2. Estructura de JetBrains Rider y IntelliJ IDEA
 
 Ambos IDEs comparten elementos de navegación y control en el encabezado (Nueva UI):
 

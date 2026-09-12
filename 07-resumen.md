@@ -39,8 +39,8 @@ graph TD
 
     HERR --> HERR1[JDK 25]
     HERR --> HERR2[.NET 10]
-    HERR --> HERR3[IntelliJ IDEA]
-    HERR --> HERR4[Rider]
+    HERR --> HERR3[Rider]
+    HERR --> HERR4[IntelliJ IDEA]
     HERR --> HERR5[VS Code]
     HERR --> HERR6[Git]
     HERR --> HERR7[GitKraken]
@@ -59,8 +59,8 @@ graph TD
     OPER --> OPER3[Debugging]
     OPER --> OPER4[Git integration]
 
-    ATAJ --> ATAJ1[IntelliJ IDEA]
-    ATAJ --> ATAJ2[Rider]
+    ATAJ --> ATAJ1[Rider]
+    ATAJ --> ATAJ2[IntelliJ IDEA]
     ATAJ --> ATAJ3[VS Code]
 
     style UD02 fill:#2196F3,color:#fff
@@ -71,7 +71,7 @@ graph TD
 ### Entorno de Desarrollo Integrado (IDE)
 - **Definición:** Aplicación que agrupa editor, compilador, depurador y herramientas de gestión
 - **Componentes esenciales:** Editor, compilador/intérprete, depurador, control de versiones
-- **IDEs del curso:** IntelliJ IDEA, JetBrains Rider, VS Code
+- **IDEs del curso:** JetBrains Rider, IntelliJ IDEA, VS Code
 
 ### Herramientas Fundamentales
 | Herramienta | Función | Comando clave |
@@ -83,7 +83,7 @@ graph TD
 
 ### Anatomía del IDE
 
-**JetBrains (IntelliJ/Rider):**
+**JetBrains (Rider/IntelliJ):**
 - Tool Windows (`Alt+1` a `Alt+12`)
 - Gutter (números, breakpoints, acciones)
 - Status Bar (línea, encoding, branch)
@@ -109,7 +109,7 @@ graph TD
 
 ## 7.3. Comparativa de IDEs
 
-| Aspecto | IntelliJ IDEA | Rider | VS Code |
+| Aspecto | Rider | IntelliJ IDEA | VS Code |
 |---------|--------------|-------|---------|
 | **Licencia** | Community (free) / Ultimate (paid) | Commercial (trial) | Free (MIT) |
 | **Peso** | Pesado (~500MB) | Pesado | Ligero (~100MB) |
@@ -128,7 +128,7 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 
 - [ ] ¿Conozco los componentes esenciales de un IDE?
 - [ ] ¿Sé instalar JDK 25 y configurar el PATH?
-- [ ] ¿Puedo instalar y configurar IntelliJ IDEA y VS Code?
+- [ ] ¿Puedo instalar y configurar JetBrains Rider, IntelliJ IDEA y VS Code?
 - [ ] ¿Sé qué son los plugins y cómo instalarlos?
 - [ ] ¿Puedo personalizar temas, fuentes y atajos?
 - [ ] ¿Sé usar el editor con autocompletado e IntelliSense?
@@ -137,4 +137,6 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 - [ ] ¿Puedo usar Git integrado para commit y push?
 - [ ] ¿He memorizado al menos 10 atajos de teclado esenciales?
 - [ ] ¿Entiendo la diferencia entre Build y Rebuild?
-- [ ] ¿Sé crear un JAR ejecutable en IntelliJ?
+- [ ] ¿Sé crear un nuevo proyecto, configurar su estructura y crear un ejecutable?
+- [ ] ¿Puedo comparar IDEs y elegir el más adecuado según el lenguaje y proyecto?
+- [ ] ¿Puedo crear unn proyecto, compilarlo, depurarlo desde la consola con su CLI y desde el IDE?

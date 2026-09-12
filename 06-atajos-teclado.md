@@ -1,7 +1,8 @@
 - [6. Atajos de Teclado Esenciales para la Productividad](#6-atajos-de-teclado-esenciales-para-la-productividad)
-  - [6.1. Atajos de Teclado Esenciales para la Productividad en JetBrains IntelliJ IDEA](#61-atajos-de-teclado-esenciales-para-la-productividad-en-jetbrains-intellij-idea)
-  - [6.2. Atajos de Teclado Esenciales para la Productividad en JetBrains Rider](#62-atajos-de-teclado-esenciales-para-la-productividad-en-jetbrains-rider)
-  - [6.3. Atajos de Teclado Esenciales para la Productividad en Visual Studio Code (VS Code)](#63-atajos-de-teclado-esenciales-para-la-productividad-en-visual-studio-code-vs-code)
+  - [6.1. Los 10 Atajos para Sobrevivir (Primeros días)](#61-los-10-atajos-para-sobrevivir-primeros-días)
+  - [6.2. Atajos Intermedios (Primeras semanas)](#62-atajos-intermedios-primeras-semanas)
+  - [6.3. Atajos Avanzados (Para destacar)](#63-atajos-avanzados-para-destacar)
+  - [6.4. Tabla Completa de Referencia](#64-tabla-completa-de-referencia)
 
 
 > 💡 **Punto de partida:** Un programador profesional hace miles de acciones al día en el IDE. Si cada acción te lleva 2 segundos más de lo necesario, al día son minutos perdidos. Al año, horas.
@@ -15,8 +16,8 @@ En el Punto 05 viste las operaciones básicas del IDE. Ahora verás los atajos d
 
 **Objetivos de aprendizaje:**
 
-- Memorizar los atajos más importantes de IntelliJ IDEA
-- Memorizar los atajos más importantes de Rider
+- Memorizar los atajos más importantes de JetBrains Rider (IDE principal)
+- Memorizar los atajos más importantes de IntelliJ IDEA (IDE secundario)
 - Memorizar los atajos más importantes de VS Code
 - Personalizar atajos según las necesidades del proyecto
 
@@ -26,7 +27,134 @@ Dominar los atajos de teclado es fundamental para ser un programador eficiente. 
 
 > 💡 **Dato:** Un programador profesional hace miles de acciones al día. Cada segundo ahorrado en cada acción se multiplica por miles.
 
-## 6.1. Atajos de Teclado Esenciales para la Productividad en JetBrains IntelliJ IDEA
+## 6.1. Los 10 Atajos para Sobrevivir (Primeros días)
+
+> 💡 **Punto de partida:** No necesitas memorizar 200 atajos. Empieza con estos 10 y serás más rápido que el 80% de los usuarios.
+
+| Atajo | Rider/IntelliJ | VS Code | Para qué sirve |
+|-------|----------------|---------|----------------|
+| **Paleta comandos** | `Ctrl+Shift+A` | `Ctrl+Shift+P` | Buscar cualquier acción |
+| **Buscar archivo** | `Ctrl+Shift+N` | `Ctrl+P` | Abrir archivo rápido |
+| **Buscar texto** | `Ctrl+F` | `Ctrl+F` | Buscar en el archivo |
+| **Reemplazar** | `Ctrl+R` | `Ctrl+H` | Buscar y reemplazar |
+| **Guardar** | `Ctrl+S` | `Ctrl+S` | Guardar archivo |
+| **Deshacer** | `Ctrl+Z` | `Ctrl+Z` | Deshacer último cambio |
+| **Ejecutar** | `Shift+F10` | `F5` | Ejecutar proyecto |
+| **Depurar** | `Shift+F9` | `F9` | Ejecutar en modo depuración |
+| **Terminal** | `Alt+F12` | `` Ctrl+` `` | Abrir terminal |
+| **Navegación** | `Ctrl+N` / `Ctrl+Shift+N` | `Ctrl+P` | Ir a clase/archivo |
+
+> 🔧 **Truco:** Practica estos 10 durante una semana. No busques más hasta que estos sean automáticos.
+
+### Mini-ejercicio 1: Memoria muscular
+1. Abre tu IDE
+2. Sin usar el ratón, ejecuta estos 5 pasos solo con atajos:
+   - Abrir la paleta de comandos (`Ctrl+Shift+A` o `Ctrl+Shift+P`)
+   - Buscar el archivo `Program.cs` o `Main.java`
+   - Abrir la terminal
+   - Escribir `dotnet --version` (o `java --version`)
+   - Cerrar la terminal
+3. Cronometra cuánto tardas. Repite hasta hacerlo en menos de 15 segundos.
+
+## 6.2. Atajos Intermedios (Primeras semanas)
+
+Una vez dominas los 10 básicos, estos te harán productivo:
+
+### Navegación Avanzada
+
+| Atajo | Rider/IntelliJ | VS Code | Para qué sirve |
+|-------|----------------|---------|----------------|
+| **Ir a implementación** | `Ctrl+Alt+B` | `F12` | Ver el código de una función/método |
+| **Ir a definición** | `Ctrl+B` | `Ctrl+F12` | Ir donde se define un símbolo |
+| **Usos de un símbolo** | `Alt+F7` | `Shift+F12` | Buscar todos los usos |
+| **Historial** | `Ctrl+Alt+←` | `Alt+←` | Volver a la posición anterior |
+| **Terraza** | `Ctrl+E` | `Ctrl+Tab` | Ver archivos abiertos recientemente |
+
+### Edición Eficiente
+
+| Atajo | Rider/IntelliJ | VS Code | Para qué sirve |
+|-------|----------------|---------|----------------|
+| **Duplicar línea** | `Ctrl+D` | `Ctrl+Shift+K` | Copiar línea actual |
+| **Eliminar línea** | `Ctrl+Y` | `Ctrl+Shift+K` | Borrar línea actual |
+| **Mover línea** | `Alt+↑/↓` | `Alt+↑/↓` | Subir/bajar línea |
+| **Comentar** | `Ctrl+/` | `Ctrl+/` | Comentar/descomentar |
+| **Selección múltiple** | `Alt+J` | `Ctrl+D` | Seleccionar múltiples ocurrencias |
+
+### Refactorización (solo JetBrains)
+
+| Atajo | Acción |
+|-------|--------|
+| `Ctrl+Shift+A` → "Rename" | Renombrar variable/método |
+| `Ctrl+Alt+M` | Extraer método |
+| `Ctrl+Alt+V` | Extraer variable |
+| `Ctrl+Alt+P` | Extraer parámetro |
+
+### Mini-ejercicio 2: Refactorización sin ratón
+1. Abre un archivo con un método de 10+ líneas
+2. Selecciona 3 líneas relacionadas (`Alt+J`)
+3. Extrae a un método nuevo (`Ctrl+Alt+M`)
+4. Renombra el método nuevo (`Ctrl+Shift+A` → Rename)
+5. Documenta cada paso con capturas
+
+## 6.3. Atajos Avanzados (Para destacar)
+
+| Atajo | Rider/IntelliJ | VS Code | Para qué sirve |
+|-------|----------------|---------|----------------|
+| **Find in Files** | `Ctrl+Shift+F` | `Ctrl+Shift+F` | Buscar en todo el proyecto |
+| **Replace in Files** | `Ctrl+Shift+R` | `Ctrl+Shift+H` | Reemplazar en todo el proyecto |
+| **Bookmarks** | `F11` | `Ctrl+K Ctrl+K` | Marcar línea importante |
+| **Column Selection** | `Alt+Shift+Insert` | `Ctrl+Shift+↑/↓` | Seleccionar en columna |
+| **Macro** | `Edit → Macros` | `Ctrl+Shift+P` → "Record Macro" | Grabar y repetir secuencia |
+| **Local History** | `Local History → Show` | — | Ver historial local |
+
+### Mini-ejercicio 3: Búsqueda masiva
+1. En tu proyecto, busca todos los `Console.Write` (o `System.out.println`)
+2. Reemplázalos por `Console.WriteLine` (o `System.out.println` con formato)
+3. Usa `Ctrl+Shift+R` (Replace in Files) para hacerlo en todos los archivos
+4. Documenta cuántos cambios se hicieron
+
+## 6.4. Tabla Completa de Referencia
+
+### JetBrains Rider
+
+| Categoría | Acción | Windows/Linux | macOS |
+|-----------|--------|---------------|-------|
+| **General** | Guardar todo | `Ctrl + S` | `Cmd + S` |
+| | Abrir Solución | `Ctrl + Shift + O` | `Cmd + Shift + O` |
+| **Búsqueda / Navegación** | Búsqueda en todas partes | `Doble Shift` | `Doble Shift` |
+| | Navegar a Clase | `Ctrl + N` | `Cmd + O` |
+| | Navegar a Archivo | `Ctrl + Shift + N` | `Cmd + Shift + O` |
+| | Archivos recientes | `Ctrl + E` | `Cmd + E` |
+| **Búsqueda / Reemplazo** | Buscar | `Ctrl + F` | `Cmd + F` |
+| | Buscar en Proyecto | `Ctrl + Shift + F` | `Cmd + Shift + F` |
+| | Reemplazar | `Ctrl + R` | `Cmd + R` |
+| **Navegación** | Ir a declaración | `Ctrl + B` | `Cmd + B` |
+| | Ir a implementación | `Ctrl + Alt + B` | `Cmd + Alt + B` |
+| | Ir a línea | `Ctrl + G` | `Cmd + L` |
+| **Multicursor** | Seleccionar siguiente | `F3` | `Cmd + G` |
+| | Seleccionar todas | `Ctrl + Alt + Shift + J` | `Ctrl + Cmd + G` |
+| **Edición** | Completado inteligente | `Ctrl + Shift + Space` | `Ctrl + Space` |
+| | Generar código | `Alt + Insert` | `Cmd + N` |
+| | Acciones de intención | `Alt + Enter` | `Alt + Enter` |
+| | Reformatar código | `Ctrl + Alt + L` | `Cmd + Alt + L` |
+| | Comentar línea | `Ctrl + /` | `Cmd + /` |
+| | Duplicar línea | `Ctrl + D` | `Cmd + D` |
+| **Refactorización** | Renombrar | `Shift + F6` | `Shift + F6` |
+| | Extraer Método | `Ctrl + Alt + M` | `Cmd + Alt + M` |
+| | Refactorizar esto | `Ctrl + Alt + Shift + T` | `Ctrl + T` |
+| **Compilación / Ejecución** | Compilar | `Ctrl + F9` | `Cmd + F9` |
+| | Ejecutar | `Shift + F10` | `Ctrl + R` |
+| | Depurar | `Shift + F9` | `Ctrl + D` |
+| **Depuración** | Step Over | `F8` | `F8` |
+| | Step Into | `F7` | `F7` |
+| | Continue | `F9` | `Cmd + Alt + R` |
+| **VCS** | Commit | `Ctrl + K` | `Cmd + K` |
+| | Update | `Ctrl + T` | `Cmd + T` |
+| | Push | `Ctrl + Shift + K` | `Cmd + Shift + K` |
+| **Interfaz** | Terminal | `Alt + F12` | `Alt + F12` |
+| | Project sidebar | `Alt + 1` | `Cmd + 1` |
+
+### IntelliJ IDEA
 
 | Categoría | Acción | Windows/Linux | macOS |
 |-----------|--------|---------------|-------|
@@ -83,46 +211,7 @@ Dominar los atajos de teclado es fundamental para ser un programador eficiente. 
 | | Pantalla completa | `Ctrl + Shift + F12` | `Cmd + Shift + F12` |
 | | Cerrar pestaña | `Ctrl + F4` | `Cmd + W` |
 
-## 6.2. Atajos de Teclado Esenciales para la Productividad en JetBrains Rider
-
-| Categoría | Acción | Windows/Linux | macOS |
-|-----------|--------|---------------|-------|
-| **General** | Guardar todo | `Ctrl + S` | `Cmd + S` |
-| | Abrir Solución | `Ctrl + Shift + O` | `Cmd + Shift + O` |
-| **Búsqueda / Navegación** | Búsqueda en todas partes | `Doble Shift` | `Doble Shift` |
-| | Navegar a Clase | `Ctrl + N` | `Cmd + O` |
-| | Navegar a Archivo | `Ctrl + Shift + N` | `Cmd + Shift + O` |
-| | Archivos recientes | `Ctrl + E` | `Cmd + E` |
-| **Búsqueda / Reemplazo** | Buscar | `Ctrl + F` | `Cmd + F` |
-| | Buscar en Proyecto | `Ctrl + Shift + F` | `Cmd + Shift + F` |
-| | Reemplazar | `Ctrl + R` | `Cmd + R` |
-| **Navegación** | Ir a declaración | `Ctrl + B` | `Cmd + B` |
-| | Ir a implementación | `Ctrl + Alt + B` | `Cmd + Alt + B` |
-| | Ir a línea | `Ctrl + G` | `Cmd + L` |
-| **Multicursor** | Seleccionar siguiente | `F3` | `Cmd + G` |
-| | Seleccionar todas | `Ctrl + Alt + Shift + J` | `Ctrl + Cmd + G` |
-| **Edición** | Completado inteligente | `Ctrl + Shift + Space` | `Ctrl + Space` |
-| | Generar código | `Alt + Insert` | `Cmd + N` |
-| | Acciones de intención | `Alt + Enter` | `Alt + Enter` |
-| | Reformatar código | `Ctrl + Alt + L` | `Cmd + Alt + L` |
-| | Comentar línea | `Ctrl + /` | `Cmd + /` |
-| | Duplicar línea | `Ctrl + D` | `Cmd + D` |
-| **Refactorización** | Renombrar | `Shift + F6` | `Shift + F6` |
-| | Extraer Método | `Ctrl + Alt + M` | `Cmd + Alt + M` |
-| | Refactorizar esto | `Ctrl + Alt + Shift + T` | `Ctrl + T` |
-| **Compilación / Ejecución** | Compilar | `Ctrl + F9` | `Cmd + F9` |
-| | Ejecutar | `Shift + F10` | `Ctrl + R` |
-| | Depurar | `Shift + F9` | `Ctrl + D` |
-| **Depuración** | Step Over | `F8` | `F8` |
-| | Step Into | `F7` | `F7` |
-| | Continue | `F9` | `Cmd + Alt + R` |
-| **VCS** | Commit | `Ctrl + K` | `Cmd + K` |
-| | Update | `Ctrl + T` | `Cmd + T` |
-| | Push | `Ctrl + Shift + K` | `Cmd + Shift + K` |
-| **Interfaz** | Terminal | `Alt + F12` | `Alt + F12` |
-| | Project sidebar | `Alt + 1` | `Cmd + 1` |
-
-## 6.3. Atajos de Teclado Esenciales para la Productividad en Visual Studio Code (VS Code)
+### Visual Studio Code (VS Code)
 
 | Categoría | Acción | Windows/Linux | macOS |
 |-----------|--------|---------------|-------|
@@ -173,8 +262,8 @@ Dominar los atajos de teclado es fundamental para ser un programador eficiente. 
 > 💡 **Atajos esenciales que debes memorizar primero:**
 > | IDE | Búsqueda | Guardar | Terminal | Command Palette |
 > |-----|----------|---------|----------|-----------------|
-> | IntelliJ | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+P` |
 > | Rider | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+P` |
+> | IntelliJ | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+P` |
 > | VS Code | `Ctrl+P` | `Ctrl+S` | `` Ctrl+` `` | `Ctrl+Shift+P` |
 
 > 📝 **Consejo de productividad:**
@@ -190,8 +279,8 @@ Dominar los atajos de teclado es fundamental para ser un programador eficiente. 
 
 | IDE | Búsqueda | Guardar | Terminal | Command Palette |
 |-----|----------|---------|----------|-----------------|
-| **IntelliJ** | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+A` |
 | **Rider** | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+A` |
+| **IntelliJ** | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+A` |
 | **VS Code** | `Ctrl+P` | `Ctrl+S` | `` Ctrl+` `` | `Ctrl+Shift+P` |
 
 En el siguiente punto encontrarás un resumen completo de toda la unidad, con un mapa conceptual y un checklist de supervivencia.

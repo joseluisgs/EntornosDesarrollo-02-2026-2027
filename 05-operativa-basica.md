@@ -119,7 +119,7 @@ La refactorización se invoca con **Ctrl+Alt+Shift+T**.
 
 > 📝 **Acceso rápido:** Haz clic derecho en el código → "Refactor" o usa el atajo directo si lo conoces.
 
-- **Tipos de Refactorización (IntelliJ IDEA):** Se soportan acciones como:
+- **Tipos de Refactorización (Rider / IntelliJ IDEA):** Se soportan acciones como:
 
 | Atajo | Refactorización | Descripción |
 |-------|-----------------|-------------|
@@ -146,7 +146,7 @@ La refactorización se invoca con **Ctrl+Alt+Shift+T**.
 > }
 > ```
 
-- **Previsualización:** IntelliJ IDEA permite **previsualizar los cambios** antes de aplicarlos en el diálogo *Refactoring Preview*.
+- **Previsualización:** Rider permite **previsualizar los cambios** antes de aplicarlos en el diálogo *Refactoring Preview*.
 
 > 📝 **Importante:** Siempre usa la previsualización antes de refactorizaciones grandes. Así puedes ver qué archivos serán afectados.
 
@@ -170,11 +170,11 @@ graph TD
     style E fill:#4CAF50,color:#fff
 ```
 
-**5.2.1. Métodos de Construcción (IntelliJ IDEA)**
+**5.2.1. Métodos de Construcción (Rider / IntelliJ IDEA)**
 
 - **Recompilar Archivo Único:** **Build | Recompile** (`Ctrl+Shift+F9`).
 
-- **Construcción Incremental (*Build*):** Compila todas las clases dentro del objetivo y solo las clases que han cambiado, además de sus dependencias. Se ejecuta con **Build | Build Project** (`Ctrl+F9`). IntelliJ IDEA recomienda usar su *incremental build* para proyectos Java/Kotlin por su velocidad.
+- **Construcción Incremental (*Build*):** Compila todas las clases dentro del objetivo y solo las clases que han cambiado, además de sus dependencias. Se ejecuta con **Build | Build Project** (`Ctrl+F9`). Rider usa `dotnet build` internamente para proyectos .NET.
 
 > 💡 **Build incremental vs Clean:**
 > - **Incremental:** Solo recompila lo que cambió (segundos)
@@ -184,7 +184,7 @@ graph TD
 
 - **Compilación Automática (*Auto-build*):** Se puede configurar en `Settings | Build, Execution, Deployment | Compiler` seleccionando **Build project automatically**.
 
-**5.2.2. Empaquetado de Artefactos JAR (IntelliJ IDEA)**
+**5.2.2. Empaquetado de Artefactos (Rider / IntelliJ IDEA)**
 
 Un archivo JAR (*Java archive*) compilado es llamado un **artefacto**. Para crearlo:
 
@@ -233,7 +233,7 @@ El depurador (*debugger*) interfiere con la ejecución para obtener información
 **5.3.1. Puntos de Ruptura (*Breakpoints*)**
 
 - Son marcadores que indican al depurador que debe **detener la ejecución** (*suspender*) del programa.
-- **Establecimiento:** En **IntelliJ IDEA**, se establece un punto de ruptura pulsando en el margen (*Gutter*) junto al número de línea; la línea queda resaltada en color rojo. En **VS Code**, se establece un *breakpoint* presionando **F9**.
+- **Establecimiento:** En **Rider**, se establece un punto de ruptura pulsando en el margen (*Gutter*) junto al número de línea; la línea queda resaltada en color rojo. En **VS Code**, se establece un *breakpoint* presionando **F9**.
 
 | Tipo de breakpoint | Uso |
 |-------------------|-----|
@@ -323,7 +323,7 @@ graph LR
 | `Ctrl + Shift + P` → "git push" | Push |
 | `Ctrl + Shift + P` → "git pull" | Pull |
 
-#### 5.4.2. IntelliJ IDEA y JetBrains Rider
+#### 5.4.2. JetBrains Rider y IntelliJ IDEA
 
 - **VCS Widget:** En los IDEs JetBrains, existe un *VCS widget* en la barra de herramientas que muestra la **rama actual** y ofrece acciones como actualizar, confirmar y empujar cambios.
 
@@ -334,7 +334,7 @@ graph LR
 | `Ctrl + Shift + K` | Push |
 | `Alt + BackQuote` | VCS Quick Popup |
 
-- **Historial Local (*Local History*):** Herramienta útil en IntelliJ IDEA que muestra las distintas versiones guardadas, destacando visualmente en **color verde** los cambios que ha sufrido el código en cada versión seleccionada.
+- **Historial Local (*Local History*):** Herramienta útil en Rider que muestra las distintas versiones guardadas, destacando visualmente en **color verde** los cambios que ha sufrido el código en cada versión seleccionada.
 
 > 💡 **Local History vs Git:**
 > - **Local History:** Automático, guardado frecuente, solo local

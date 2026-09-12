@@ -69,9 +69,17 @@ Existen entornos de desarrollo diseñados para un **solo lenguaje** o para **mú
 
 | IDE | Lenguajes principales | Ventajas |
 |-----|----------------------|----------|
-| **IntelliJ IDEA** | Java, Kotlin, Scala | El mejor para Java, análisis de código excelente |
 | **JetBrains Rider** | C#, .NET | Multiplataforma, muy rápido |
+| **IntelliJ IDEA** | Java, Kotlin, Scala | El mejor para Java, análisis de código excelente |
 | **VS Code** | JavaScript, Python, Java, C++... | Ligero, extensible, gratis |
+
+> 📌 **Ejemplo real:** Microsoft utiliza Rider como IDE principal para el desarrollo de herramientas internas de Azure y .NET. Stack Overflow, una de las comunidades más grandes para desarrolladores, también usa tecnologías .NET con Rider para su backend.
+
+> 📌 **Ejemplo real:** GitHub desarrolló Codespaces sobre VS Code, ofreciendo entornos de desarrollo en la nube. Microsoft lo usa internamente para el desarrollo de Azure y herramientas de VS.
+
+> 📌 **Ejemplo real:** El banco BBVA utiliza Eclipse para el desarrollo de aplicaciones bancarias en Java. La Agencia Espacial europea (ESA) también lo usa para sistemas de control de misiones.
+
+> 💡 **Dato profesional:** Según la encuesta de Stack Overflow 2025, VS Code es el editor más usado (73%), seguido de IntelliJ IDEA (26%). En entornos empresariales .NET/C#, Rider está creciendo rápidamente. Conocer varios IDEs te hace más polivalente en el mercado laboral. En este curso, Rider será nuestro IDE principal de JetBrains.
 
 ## 1.2. Componentes esenciales del IDE y su función
 

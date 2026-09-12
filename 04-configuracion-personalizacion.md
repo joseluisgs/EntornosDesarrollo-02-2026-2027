@@ -7,7 +7,8 @@
       - [4.2.2. Temas, Apariencia y Configuración de Archivos](#422-temas-apariencia-y-configuración-de-archivos)
       - [4.2.3. Configuraciones Específicas del Proyecto (VS Code)](#423-configuraciones-específicas-del-proyecto-vs-code)
       - [4.2.4. Refactorización (Mejora de Código)](#424-refactorización-mejora-de-código)
-  - [4.3. Actualización y Mantenimiento del Entorno](#43-actualización-y-mantenimiento-del-entorno)
+  - [4.3. Automatización y Configuración Reproducible](#43-automatización-y-configuración-reproducible)
+  - [4.4. Actualización y Mantenimiento del Entorno](#44-actualización-y-mantenimiento-del-entorno)
 
 
 > 💡 **Punto de partida:** ¿Por qué dos programadores con el mismo IDE pueden tener experiencias tan diferentes? Porque uno personaliza su entorno y el otro no.
@@ -37,7 +38,7 @@ La personalización es vital, ya que el programador pasa mucho tiempo en el ento
 
 Un *plugin* es un complemento que agrega una función nueva y específica a la aplicación principal.
 
-### 4.1.1. Gestión en IntelliJ IDEA y JetBrains Rider (JetBrains)
+### 4.1.1. Gestión en JetBrains Rider y IntelliJ IDEA (JetBrains)
 
 Los IDEs de JetBrains utilizan *plugins* para ampliar sus capacidades.
 
@@ -107,7 +108,7 @@ VS Code permite añadir soporte para lenguajes, depuradores y herramientas a tra
 
 #### 4.2.1. Acceso a la Configuración General
 
-- **IntelliJ IDEA / Rider:** Se accede mediante **Ctrl+Alt+S** o `File -> Settings`. El panel de opciones está dividido en un panel de navegación a la izquierda (árbol de directorios como Apariencia, Plugins, Control de Versiones) y un área de presentación a la derecha.
+- **Rider / IntelliJ IDEA:** Se accede mediante **Ctrl+Alt+S** o `File -> Settings`. El panel de opciones está dividido en un panel de navegación a la izquierda (árbol de directorios como Apariencia, Plugins, Control de Versiones) y un área de presentación a la derecha.
 
 ```mermaid
 graph TD
@@ -138,7 +139,7 @@ graph TD
 
 #### 4.2.2. Temas, Apariencia y Configuración de Archivos
 
-- **Temas y Apariencia (IntelliJ IDEA):** Al arrancar el IDE por primera vez, se le pide al usuario que **elija un tema** para la apariencia.
+- **Temas y Apariencia (Rider / IntelliJ IDEA):** Al arrancar el IDE por primera vez, se le pide al usuario que **elija un tema** para la apariencia.
 
 | Tema | Fondo | Uso recomendado |
 |------|-------|-----------------|
@@ -159,7 +160,7 @@ Enable ligatures: ✓
 - **Atajos de Teclado:** Es posible configurar los atajos del teclado para modificar las acciones que se realizan con más frecuencia. VS Code permite instalar **extensiones Keymap** para usar atajos de otros editores (Sublime Text, Atom, Vim).
 
 > 📝 **Extensión Keymap para VS Code:**
-> - "IntelliJ IDEA Keybindings" - Atajos de IDEA en VS Code
+> - "JetBrains Keybindings" - Atajos de JetBrains en VS Code
 > - "Vim" - Modo Vim emulado
 > - "Sublime Text Keybindings" - Atajos de Sublime
 
@@ -211,7 +212,7 @@ La **refactorización** es la parte del mantenimiento del código que busca **me
 
 > 💡 **Regla de oro:** "No modificar funcionalidad, solo estructura". El comportamiento del programa debe ser idéntico antes y después de refactorizar.
 
-- **Implementación (IntelliJ IDEA / Rider):** Ambos IDEs disponen de opciones específicas para la refactorización. En los IDEs JetBrains, se puede acceder a la lista contextual de refactorizaciones mediante **Ctrl+Alt+Shift+T** (*Refactor This*).
+- **Implementación (Rider / IntelliJ IDEA):** Ambos IDEs disponen de opciones específicas para la refactorización. En los IDEs JetBrains, se puede acceder a la lista contextual de refactorizaciones mediante **Ctrl+Alt+Shift+T** (*Refactor This*).
 
 **Refactorizaciones comunes:**
 
@@ -226,34 +227,156 @@ La **refactorización** es la parte del mantenimiento del código que busca **me
 
 - **Configuración:** Se puede ajustar la configuración de refactorización en `Settings | Editor | Code Editing | Refactorings`.
 
-- **Resolución de Conflictos:** Si IntelliJ IDEA encuentra problemas durante una refactorización, muestra un diálogo con conflictos, dando la opción de ignorarlos (*Refactor Anyway*) o gestionarlos en la ventana *Find*.
+- **Resolución de Conflictos:** Si Rider encuentra problemas durante una refactorización, muestra un diálogo con conflictos, dando la opción de ignorarlos (*Refactor Anyway*) o gestionarlos en la ventana *Find*.
 
 - **Limpieza de Código (Rider):** JetBrains Rider permite aplicar la limpieza de código para aplicar reglas de estilo mediante **Ctrl+R, C**.
 
-## 4.3. Actualización y Mantenimiento del Entorno
+## 4.3. Automatización y Configuración Reproducible
 
-El mantenimiento y la actualización del entorno es una tarea fundamental para **incluir y modificar funcionalidades**. Es por ello que los IDEs permiten actualizarse fácilmente.
+> 💡 **Punto de partida:** ¿Y si pudieras configurar tu entorno de una sola vez y que se aplique automáticamente en cualquier ordenador? Eso es la automatización: configurar una vez, usar siempre.
 
-- **IntelliJ IDEA / Rider:** Se accede a través de **`Help -> Check for Updates`**. Si hay una nueva versión, se muestra un diálogo con las novedades y la opción de descargar e instalar.
+> 💡 **¿Por qué me importa?**
+> En el ámbito profesional, los desarrolladores trabajan en múltiples máquinas (local, oficina, nube). La automatización permite tener el mismo entorno en todas partes sin configurar cada vez manualmente.
 
-> 📝 **Recomendación:** Mantened el IDE actualizado, pero evitad actualizar el día anterior a un examen o entrega importante. Las actualizaciones pueden introducir cambios inesperados.
+### Dotfiles: Tu configuración como código
 
-- **VS Code:** Se actualiza automáticamente en segundo plano. Si hay una actualización disponible, aparece un icono de actualización en la esquina inferior izquierda.
+Los **dotfiles** son archivos de configuración que empiezan por punto (`.settings.json`, `.editorconfig`). Guardarlos en un repositorio Git permite sincronizar tu configuración entre dispositivos.
 
-```bash
-# Ver versión actual
-# VS Code: Ctrl+Shift+P → "About"
-# IntelliJ: Help → About
+**Ejemplo de `.editorconfig`** (estándar de formato):
+
+```ini
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{csproj,slnx,xml}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
 ```
 
-> 💡 **Actualizaciones automáticas VS Code:**
-> - Las actualizaciones son automáticas por defecto
-> - Se puede configurar en `settings.json`:
-> ```json
-> "update.mode": "default"  // Auto
-> "update.mode": "manual"   // Manual
-> "update.mode": "start"    // Al iniciar
+### Snippets Personalizados
+
+Los **snippets** son plantillas de código que se expanden con un atajo. Ahorra tiempo escribiendo código repetitivo.
+
+**Crear un snippet en VS Code** (`settings.json`):
+
+```json
+{
+  "snippets": {
+    "Console.WriteLine": {
+      "prefix": "cw",
+      "body": [
+        "Console.WriteLine(\"$1\");"
+      ],
+      "description": "Imprime en consola"
+    },
+    "For Loop": {
+      "prefix": "for",
+      "body": [
+        "for (int ${1:i} = 0; ${1:i} < ${2:length}; ${1:i}++)",
+        "{",
+        "\t$0",
+        "}"
+      ],
+      "description": "Bucle for"
+    }
+  }
+}
+```
+
+### Configuración Sincronizada
+
+**VS Code:** Settings Sync (`Ctrl+Shift+P` → "Settings Sync") sincroniza: extensiones, settings, keybindings, snippets, themes.
+
+**JetBrains:** `Settings Repository` (plugin) o `JetBrains Account` sync.
+
+> 🔧 **Truco:** Crea un script `setup.ps1` (PowerShell) que instale todo automáticamente:
+> ```powershell
+> # Script de configuración del entorno
+> winget install JetBrains.Rider
+> winget install Microsoft.VisualStudioCode
+> winget install Git.Git
+> code --install-extension ms-dotnettools.csharp
+> code --install-extension JetBrains.ReSharper
+> code --install-extension ms-python.python
 > ```
+
+| Herramienta | Uso |
+|-------------|-----|
+| **Dotfiles** | Configuración persistente en Git |
+| **Snippets** | Ahorro de tiempo en código repetitivo |
+| **Settings Sync** | Sincronización entre dispositivos |
+| **Scripts setup** | Instalación automatizada |
+| **`.editorconfig`** | Formato consistente en equipo |
+
+## 4.4. Actualización y Mantenimiento del Entorno
+
+> 💡 **Punto de partida:** Tus IDEs se actualizan constantemente con nuevas funciones y parches de seguridad. ¿Sabes cuándo y cómo actualizar sin romper tu entorno?
+
+### Canales de Actualización
+
+Los IDEs de JetBrains ofrecen diferentes **canales de actualización**:
+
+| Canal | Descripción | Cuándo usarlo |
+|-------|-------------|---------------|
+| **Stable** | Versión probada y estable | Producción, proyectos importantes |
+| **EAP** (*Early Access Program*) | Versiones preliminares con nuevas funciones | Probar novedades, reportar bugs |
+| **Nightly** | Builds diarios, inestables | Desarrolladores de plugins |
+
+**Configurar en JetBrains:**
+- `Help → Change Settings → Updates`
+- Seleccionar canal: "Stable" (recomendado) o "EAP"
+- Marcar "Check for updates automatically"
+
+**VS Code** solo tiene un canal (estable), pero permite desactivar actualizaciones automáticas:
+- `File → Preferences → Settings → Search "update"`
+- `"update.mode": "manual"` para control manual
+
+### Proceso de Actualización
+
+**JetBrains (IntelliJ/Rider):**
+1. `Help → Check for Updates`
+2. Si hay actualización: descargar e instalar
+3. Reiniciar el IDE
+4. Verificar: `Help → About` (nueva versión)
+
+**VS Code:**
+1. Badge de notificación en la esquina inferior derecha
+2. Click en el badge → "Download and Install"
+3. Reiniciar
+
+> ⚠️ **Advertencia:** Antes de actualizar, haz commit de tu código. Algunas actualizaciones pueden cambiar configuraciones de proyecto o requerir migración de plugins.
+
+### Rollback: Volver a una Versión Anterior
+
+Si una actualización causa problemas:
+
+**JetBrains:**
+1. Desinstalar la versión actual
+2. Descargar la versión anterior desde https://www.jetbrains.com/idea/other-releases/
+3. Instalar la versión deseada
+
+**VS Code:**
+1. Descargar la versión anterior desde https://code.visualstudio.com/updates/v1XX (XX = versión)
+2. Instalar (sobreescribe la actual)
+
+> 💡 **Consejo:** JetBrains guarda configuraciones en `~/.IdeaICXXXX.X/` (IntelliJ) o `~/.riderXXXX.X/` (Rider). Si necesitas migrar configuración entre versiones, copia esta carpeta.
+
+### Actualización de Plugins/Extensiones
+
+**JetBrains:** `Settings → Plugins → Updates` → ver actualizaciones pendientes → actualizar una o todas
+
+**VS Code:** `Ctrl+Shift+X` → pestaña "Updates" → actualizar extensiones
+
+> 📝 **Nota:** Las actualizaciones de plugins son independientes del IDE. Un plugin puede actualizar sin actualizar el IDE y viceversa.
 
 ---
 

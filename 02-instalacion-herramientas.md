@@ -3,8 +3,8 @@
     - [2.1.1. Instalación de JDK 25 (Java Development Kit)](#211-instalación-de-jdk-25-java-development-kit)
     - [2.1.2. Instalación de .NET 10 (SDK/Runtime)](#212-instalación-de-net-10-sdkruntime)
   - [2.2. Instalación de Entornos Integrados de Desarrollo (IDE)](#22-instalación-de-entornos-integrados-de-desarrollo-ide)
-    - [2.2.1. Instalación de IntelliJ IDEA (JetBrains)](#221-instalación-de-intellij-idea-jetbrains)
-    - [2.2.2. Instalación de JetBrains Rider (JetBrains)](#222-instalación-de-jetbrains-rider-jetbrains)
+    - [2.2.1. Instalación de JetBrains Rider (JetBrains)](#221-instalación-de-jetbrains-rider-jetbrains)
+    - [2.2.2. Instalación de IntelliJ IDEA (JetBrains)](#222-instalación-de-intellij-idea-jetbrains)
     - [2.2.3. Instalación de Visual Studio Code (VS Code)](#223-instalación-de-visual-studio-code-vs-code)
   - [2.3. Instalación de Herramientas de Control de Versiones](#23-instalación-de-herramientas-de-control-de-versiones)
     - [2.3.1. Instalación de Git](#231-instalación-de-git)
@@ -27,7 +27,7 @@ En el Punto 01 vimos qué es un IDE y sus componentes principales. Ahora veremos
 
 - Instalar JDK 25 y verificar su funcionamiento
 - Instalar .NET 10 SDK y configurar el entorno
-- Instalar y configurar IntelliJ IDEA, Rider y VS Code
+- Instalar y configurar JetBrains Rider, IntelliJ IDEA y VS Code
 - Instalar Git y GitKraken
 - Crear soluciones y proyectos en C# con dotnet CLI
 - Configurar NuGet y gestionar paquetes
@@ -91,7 +91,29 @@ dotnet test                          # Ejecutar pruebas
 
 ## 2.2. Instalación de Entornos Integrados de Desarrollo (IDE)
 
-### 2.2.1. Instalación de IntelliJ IDEA (JetBrains)
+### 2.2.1. Instalación de JetBrains Rider (JetBrains)
+
+JetBrains Rider es un IDE *cross-platform* que proporciona una experiencia consistente en Windows, macOS y Linux. Su instalación también ofrece múltiples métodos.
+
+**Métodos de Instalación:**
+
+1. **Toolbox App (Recomendado):** Similar a IntelliJ IDEA.
+   - **Pasos Post-Instalación (Windows):** Después de la instalación mediante *Toolbox App*, un diálogo permite instalar el **JetBrains ETW Service** (necesario para *Performance profiling* y DPA) y **añadir los ejecutables de Rider a las exclusiones de Windows Defender** para mejorar el tiempo de arranque.
+
+2. **Instalación Standalone (Manual):** Permite configurar accesos directos, añadir *launchers* al *PATH*, asociar extensiones y las mismas opciones de instalación de servicios y exclusiones de Windows Defender que la *Toolbox App*.
+
+3. **Instalación Silenciosa (Windows):** Se realiza sin interfaz, utilizando *switches* como `/S` y archivos de configuración.
+
+4. **Snap Package (Linux):** Disponible, pero se recomienda la *Toolbox App* para una experiencia más fluida.
+
+```bash
+# Instalación en Ubuntu/Debian
+sudo snap install rider --classic
+```
+
+> 💡 **Rider es nuestro IDE principal:** En este curso de DAW, usaremos Rider como IDE principal de JetBrains para desarrollo en C#/.NET. Es multiplataforma (Windows, Linux, macOS) y ofrece todas las capacidades de IntelliJ adaptadas al ecosistema .NET.
+
+### 2.2.2. Instalación de IntelliJ IDEA (JetBrains)
 
 IntelliJ IDEA está disponible en **Community Edition** (libre y *open-source*) y **Ultimate** (comercial, con *trial* de 30 días). Es un IDE multiplataforma (Windows, Linux y Mac OS).
 
@@ -129,27 +151,7 @@ sudo snap install intellij-idea-community --classic
 
 > 📝 **Recomendación:** Para estudiantes, usad la **Community Edition** (gratis). Para el curso de DAW es más que suficiente. Si queréis probar Ultimate, hay licencia gratuita para estudiantes (mediante GitHub Student Pack).
 
-### 2.2.2. Instalación de JetBrains Rider (JetBrains)
-
-JetBrains Rider es un IDE *cross-platform* que proporciona una experiencia consistente en Windows, macOS y Linux. Su instalación también ofrece múltiples métodos.
-
-**Métodos de Instalación:**
-
-1. **Toolbox App (Recomendado):** Similar a IntelliJ IDEA.
-   - **Pasos Post-Instalación (Windows):** Después de la instalación mediante *Toolbox App*, un diálogo permite instalar el **JetBrains ETW Service** (necesario para *Performance profiling* y DPA) y **añadir los ejecutables de Rider a las exclusiones de Windows Defender** para mejorar el tiempo de arranque.
-
-2. **Instalación Standalone (Manual):** Permite configurar accesos directos, añadir *launchers* al *PATH*, asociar extensiones y las mismas opciones de instalación de servicios y exclusiones de Windows Defender que la *Toolbox App*.
-
-3. **Instalación Silenciosa (Windows):** Se realiza sin interfaz, utilizando *switches* como `/S` y archivos de configuración.
-
-4. **Snap Package (Linux):** Disponible, pero se recomienda la *Toolbox App* para una experiencia más fluida.
-
-```bash
-# Instalación en Ubuntu/Debian
-sudo snap install rider --classic
-```
-
-> 💡 **¿Cuándo usar Rider?** Rider es ideal para desarrollo C#/.NET en entornos no-Windows (Linux/Mac). Si usas Windows, Visual Studio también es excelente. Para el curso de DAW, usaremos Rider para consistencia multiplataforma.
+> 📝 **Nota:** IntelliJ IDEA es el IDE que usaremos para proyectos Java/Kotlin cuando sea necesario. Es secundario en este curso, pero es bueno conocerlo porque comparte la misma filosofía y atajos que Rider.
 
 ### 2.2.3. Instalación de Visual Studio Code (VS Code)
 
