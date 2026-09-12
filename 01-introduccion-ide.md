@@ -20,6 +20,13 @@
 > 
 > 🔗 **Conexión con otros puntos:** El Punto 02 verás cómo instalar estas herramientas. El Punto 03 profundizará en su anatomía. El Punto 05 enseñará a usarlas en la práctica.
 
+**Objetivos de aprendizaje:**
+
+- Definir qué es un IDE y sus componentes esenciales
+- Identificar las diferencias entre IDEs monolenguaje, políglota y especializado
+- Conocer las herramientas integradas en un IDE moderno
+- Reconocer la importancia del IDE en el ciclo de vida del software
+
 # 1. Introducción a los Entornos de Desarrollo Integrados (IDE)
 
 ## 1.1. Concepto y rol del IDE en la codificación
@@ -249,4 +256,16 @@ Los *plugins* o complementos son aplicaciones adicionales que se relacionan con 
 
 ---
 
-> 🔗 **Siguiente:** En el Punto 02 verás cómo instalar todos estos componentes en tu ordenador.
+**Resumen del punto:**
+
+| Concepto | Descripción |
+|----------|-------------|
+| **IDE** | Entorno que integra editor, compilador, depurador y herramientas |
+| **Editor** | Resaltado, autocompletado, análisis de código |
+| **Compilador** | Traduce código fuente a código máquina |
+| **Depurador** | Permite ejecutar paso a paso y examinar variables |
+| **Control de versiones** | Git integrado para seguimiento de cambios |
+| **Refactorización** | Mejora el código sin cambiar su comportamiento |
+| **Plugins** | Extensiones que añaden funcionalidades al IDE |
+
+En el siguiente punto veremos cómo instalar todos estos componentes en tu ordenador, desde los kits de desarrollo hasta los propios IDEs.

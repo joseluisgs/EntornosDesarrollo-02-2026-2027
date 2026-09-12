@@ -11,6 +11,15 @@
 > 
 > 🔗 **Conexión con otros puntos:** El Punto 05 viste las operaciones básicas. Este punto las ejecutas más rápido. Son complementarios.
 
+En el Punto 05 viste las operaciones básicas del IDE. Ahora verás los atajos de teclado para ejecutar esas operaciones más rápido. Dominar los atajos es la diferencia entre ser un usuario lento y uno veloz.
+
+**Objetivos de aprendizaje:**
+
+- Memorizar los atajos más importantes de IntelliJ IDEA
+- Memorizar los atajos más importantes de Rider
+- Memorizar los atajos más importantes de VS Code
+- Personalizar atajos según las necesidades del proyecto
+
 # 6. Atajos de Teclado Esenciales para la Productividad
 
 Dominar los atajos de teclado es fundamental para ser un programador eficiente. Estudios demuestran que usar atajos puede aumentar la productividad hasta un 50%.
@@ -177,4 +186,12 @@ Dominar los atajos de teclado es fundamental para ser un programador eficiente. 
 
 ---
 
-> 🔗 **Siguiente:** En el Punto 07 encontrarás un resumen completo de toda la unidad.
+**Resumen del punto:**
+
+| IDE | Búsqueda | Guardar | Terminal | Command Palette |
+|-----|----------|---------|----------|-----------------|
+| **IntelliJ** | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+A` |
+| **Rider** | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+A` |
+| **VS Code** | `Ctrl+P` | `Ctrl+S` | `` Ctrl+` `` | `Ctrl+Shift+P` |
+
+En el siguiente punto encontrarás un resumen completo de toda la unidad, con un mapa conceptual y un checklist de supervivencia.

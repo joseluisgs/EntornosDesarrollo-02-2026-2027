@@ -13,6 +13,15 @@
 > 
 > 🔗 **Conexión con otros puntos:** El Punto 01 introdujo los componentes. Este punto los detalla visualmente. El Punto 05 enseñará a usarlos en la práctica diaria.
 
+En el Punto 02 instalaste las herramientas de desarrollo. Ahora veremos qué hay dentro de los IDEs: cómo se estructuran, para qué sirve cada zona y cómo se organizan las herramientas.
+
+**Objetivos de aprendizaje:**
+
+- Identificar las zonas principales de un IDE JetBrains (Tool Windows, Gutter, Status Bar)
+- Conocer la estructura de VS Code (Activity Bar, Editor, Panel)
+- Entender la filosofía de uniformidad entre IDEs de JetBrains
+- Usar la terminal integrada y la barra de navegación
+
 # 3. Anatomía y Estructura de los IDEs Seleccionados
 
 ## 3.1. Filosofía JetBrains: Uniformidad de Flujo de Trabajo
@@ -217,4 +226,15 @@ graph TD
 
 ---
 
-> 🔗 **Siguiente:** En el Punto 04 aprenderás a personalizar y configurar estos IDEs.
+**Resumen del punto:**
+
+| Concepto | JetBrains (IntelliJ/Rider) | VS Code |
+|----------|---------------------------|---------|
+| **Panel proyecto** | Tool Window (`Alt+1`) | Activity Bar → Explorer |
+| **Terminal** | `Alt+F12` | `` Ctrl+` `` |
+| **Gutter** | Números, breakpoints, acciones | — |
+| **Barra de estado** | Línea, encoding, branch | Línea, encoding, branch |
+| **Navegación** | `Ctrl+N` (clases), `Ctrl+Shift+N` (archivos) | `Ctrl+P` (archivos) |
+| **Paleta comandos** | `Ctrl+Shift+A` | `Ctrl+Shift+P` |
+
+En el siguiente punto veremos cómo personalizar y configurar estos IDEs: temas, plugins, extensiones y opciones de actualización.

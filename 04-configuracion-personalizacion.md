@@ -17,6 +17,16 @@
 > 
 > 🔗 **Conexión con otros puntos:** El Punto 02 instalaste las herramientas. Este punto las personalizas. El Punto 04.3 verás cómo mantenerlas actualizadas.
 
+En el Punto 02 instalaste las herramientas. Ahora veremos cómo personalizar y configurar los IDEs: temas, plugins, extensiones y opciones de actualización.
+
+**Objetivos de aprendizaje:**
+
+- Instalar y gestionar plugins/extensiones en JetBrains y VS Code
+- Personalizar temas, fuentes y atajos de teclado
+- Configurar opciones de guardado automático y formato
+- Entender la jerarquía de configuración en VS Code
+- Configurar el sistema de actualización del entorno
+
 # 4. Plugins, Configuración y Personalización del Entorno
 
 La personalización es vital, ya que el programador pasa mucho tiempo en el entorno, que debe ser agradable y disponer de todas las funcionalidades necesarias. Todo entorno de desarrollo dispone de un panel donde se puede cambiar la configuración, incluyendo el aspecto visual, las conexiones de red y la asignación de teclas.
@@ -247,4 +257,16 @@ El mantenimiento y la actualización del entorno es una tarea fundamental para *
 
 ---
 
-> 🔗 **Siguiente:** En el Punto 05 verás la operativa básica: cómo usar el IDE para programar de verdad.
+**Resumen del punto:**
+
+| Concepto | Descripción |
+|----------|-------------|
+| **Plugins** | Extensiones que añaden funcionalidades al IDE |
+| **Marketplace** | Tienda de plugins/extensiones de cada IDE |
+| **Temas** | Light, Dark, Darcula (apariencia visual) |
+| **Fuentes** | JetBrains Mono, Fira Code (con ligaduras) |
+| **Atajos** | Configurables en Settings/Preferences |
+| **Auto Save** | Guardado automático configurable |
+| **Actualizaciones** | Help → Check for Updates (JetBrains), automático (VS Code) |
+
+En el siguiente punto veremos la operativa básica del IDE: cómo usar el editor, compilar, depurar y gestionar el código en el día a día.

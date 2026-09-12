@@ -1,9 +1,19 @@
+- [7. Resumen y Conclusiones](#7-resumen-y-conclusiones)
+  - [7.1. Mapa Conceptual de la Unidad](#71-mapa-conceptual-de-la-unidad)
+  - [7.2. Conceptos Clave](#72-conceptos-clave)
+    - [Entorno de Desarrollo Integrado (IDE)](#entorno-de-desarrollo-integrado-ide)
+    - [Herramientas Fundamentales](#herramientas-fundamentales)
+    - [Anatomía del IDE](#anatomía-del-ide)
+    - [Personalización](#personalización)
+    - [Operativa Básica](#operativa-básica)
+  - [7.3. Comparativa de IDEs](#73-comparativa-de-ides)
+  - [7.4. Checklist de Supervivencia](#74-checklist-de-supervivencia)
 
 > 💡 **Punto de partida:** Hemos recorrido todo el camino desde qué es un IDE hasta cómo usarlo como un profesional. Este resumen consolida todo lo aprendido.
 
 > 💡 **¿Por qué me importa?**
 > Este resumen es tu guía de referencia rápida. Antes de un examen o de empezar un proyecto, revisa este punto para asegurarte de que dominas todos los conceptos.
-> 
+
 > 🔗 **Conexión con la unidad:** Todos los puntos anteriores convergen aquí. El IDE es la herramienta que usarás cada día como desarrollador DAW.
 
 # 7. Resumen y Conclusiones
@@ -109,6 +119,8 @@ graph TD
 | **Extensible** | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 | **Startup** | Lento | Lento | Rápido |
 | **Configuración** | Compleja | Compleja | Simple (JSON) |
+
+---
 
 ## 7.4. Checklist de Supervivencia
 

@@ -17,6 +17,16 @@
 > 
 > 🔗 **Conexión con otros puntos:** El Punto 03 viste la anatomía. Este punto la usas. El Punto 06 te dará los atajos para hacerlo todo más rápido.
 
+En el Punto 04 personalizaste tu entorno. Ahora veremos la operativa básica: cómo usar el IDE para programar de verdad, compilar, depurar y gestionar el código.
+
+**Objetivos de aprendizaje:**
+
+- Usar el editor con autocompletado e IntelliSense
+- Compilar y ejecutar proyectos desde el IDE
+- Depurar código con breakpoints y ejecución paso a paso
+- Gestionar el control de versiones Git desde el IDE
+- Generar ejecutables a partir de código fuente
+
 # 5. Operativa Básica del IDE
 
 ## 5.1. Edición Asistida y Refactorización
@@ -334,4 +344,16 @@ graph LR
 
 ---
 
-> 🔗 **Siguiente:** En el Punto 06 encontrarás los atajos de teclado para ejecutar todo esto más rápido.
+**Resumen del punto:**
+
+| Concepto | Descripción |
+|----------|-------------|
+| **IntelliSense** | Autocompletado inteligente con sugerencias |
+| **Build** | Compilación incremental (solo cambia lo modificado) |
+| **Rebuild** | Recompilación completa desde cero |
+| **Breakpoints** | Puntos de ruptura para detener la ejecución |
+| **Step Over/Into/Out** | Ejecución paso a paso en depuración |
+| **Git integrado** | Commit, push, pull desde el IDE |
+| **JAR/NuGet** | Empaquetado de artefactos y gestión de dependencias |
+
+En el siguiente punto encontrarás los atajos de teclado esenciales para ejecutar todo esto más rápido y ser más productivo.

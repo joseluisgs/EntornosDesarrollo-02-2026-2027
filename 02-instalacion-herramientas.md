@@ -11,6 +11,7 @@
     - [2.3.2. Instalación de GitKraken](#232-instalación-de-gitkraken)
   - [2.4. Instalación de fuentes adicionales](#24-instalación-de-fuentes-adicionales)
   - [2.5. Instalación de terminal Oh My Posh (Desarrollador)](#25-instalación-de-terminal-oh-my-posh-desarrollador)
+  - [2.6. Creación de Proyectos y Soluciones en C#](#26-creación-de-proyectos-y-soluciones-en-c)
 
 
 > 💡 **Punto de partida:** Tienes el mejor coche del mundo, pero si no tienes motor, no va a ningún lado. Los IDEs son el coche, pero necesitas instalar los motores (JDK, .NET SDK) primero.
@@ -19,6 +20,17 @@
 > Sin las herramientas correctamente instaladas, no puedes ni empezar a programar. Un JDK mal configurado puede costarte horas de debugging frustrante. Instalar bien es el primer paso para desarrollar bien.
 > 
 > 🔗 **Conexión con otros puntos:** El Punto 01 explicó qué son los IDEs. Este punto los instala. El Punto 04 verás cómo personalizarlos. El Punto 06 los atajos para usarlos más rápido.
+
+En el Punto 01 vimos qué es un IDE y sus componentes principales. Ahora veremos cómo instalar las herramientas necesarias para empezar a programar: kits de desarrollo, IDEs, control de versiones y utilidades adicionales.
+
+**Objetivos de aprendizaje:**
+
+- Instalar JDK 25 y verificar su funcionamiento
+- Instalar .NET 10 SDK y configurar el entorno
+- Instalar y configurar IntelliJ IDEA, Rider y VS Code
+- Instalar Git y GitKraken
+- Crear soluciones y proyectos en C# con dotnet CLI
+- Configurar NuGet y gestionar paquetes
 
 # 2. Instalación de Herramientas Fundamentales para el Curso
 
@@ -175,6 +187,40 @@ graph TD
 | **Extension Pack for Java** | Soporte Java, depuración, Maven/Gradle |
 | **C#** | Soporte C#, .NET, debugging |
 | **ReSharper** | Análisis de código C#, refactorización, code smells |
+
+### ReSharper para VS Code
+
+**JetBrains ReSharper** es una extensión de JetBrains para VS Code que aporta las capacidades de análisis de código de los IDEs JetBrains al editor de Microsoft. Es la versión ligera de ReSharper Ultimate, diseñada específicamente para VS Code.
+
+**¿Qué hace ReSharper?**
+
+- **Análisis de código en tiempo real:** Detecta errores, code smells (código problemático) y sugiere mejoras mientras escribes.
+- **Refactorizaciones potentes:** Renombrar, extraer métodos, cambiar firmas, y decenas de refactorizaciones automáticas.
+- **Quick Fixes:** Correcciones automáticas con un clic (el icono del bombillo).
+- **Navigation:** Ir a declaraciones, implementaciones, usos de un símbolo.
+- **Code cleanup:** Formateo y limpieza automática de código según reglas de estilo.
+
+**Instalación:**
+
+1. Abre VS Code
+2. Ve a la vista Extensiones (`Ctrl+Shift+X`)
+3. Busca "ReSharper"
+4. Selecciona **JetBrains ReSharper** y pulsa **Install**
+5. Reinicia VS Code si es necesario
+
+> 📝 **ReSharper vs C# Dev Kit:** Ambas extensiones son complementarias. C# Dev Kit proporciona la estructura de proyecto (Solution Explorer, test runner), mientras ReSharper se centra en el análisis de código y refactorizaciones. Puedes usar las dos juntas.
+
+**Comandos habituales de ReSharper en VS Code:**
+
+| Comando | Atajo | Descripción |
+|---------|-------|-------------|
+| **Quick Fix** | `Alt+Enter` | Correcciones y sugerencias |
+| **Refactor** | `Ctrl+Shift+R` | Menú de refactorizaciones |
+| **Go to Implementation** | `Ctrl+F12` | Ir a la implementación de una interfaz |
+| **Find Usages** | `Shift+F12` | Buscar todos los usos de un símbolo |
+| **Code Cleanup** | `Ctrl+Shift+F9` | Limpiar y formatear código |
+
+> 💡 **Consejo:** Si usas Rider para C#, no necesitas ReSharper en VS Code (Rider ya incluye todo). ReSharper es ideal cuando prefieres VS Code como editor principal pero quieres las capacidades de análisis de JetBrains.
 | **Python** | Soporte Python, IntelliSense, linting |
 | **Prettier** | Formateo automático de código |
 | **GitLens** | Visualización avanzada de Git |
@@ -274,6 +320,131 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 
 > 📝 **Nota del Profesor:** Oh My Posh es opcional pero muy recomendable. Hace que la terminal sea más agradable y muestra información útil (git branch, tiempo de ejecución de comandos, etc.).
 
+## 2.6. Creación de Proyectos y Soluciones en C#
+
+Una vez instaladas las herramientas, necesitas saber cómo crear la estructura de un proyecto en C#. En .NET, la organización sigue una jerarquía: **solución → proyecto → código**.
+
+> 💡 **Analogía:** Una solución es como un libro. Los proyectos son los capítulos. Cada capítulo tiene sus propios archivos, pero todos forman parte del mismo libro.
+
+### Estructura de una Solución
+
+Una **solución** (*solution*) agrupa uno o más proyectos relacionados. En .NET 10, el formato por defecto es `.slnx` (basado en XML):
+
+```xml
+<Solution>
+  <Project Path="MiProyecto/MiProyecto.csproj" />
+</Solution>
+```
+
+### Estructura de un Proyecto
+
+Un **proyecto** se define en un archivo `.csproj`:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>14</LangVersion>
+  </PropertyGroup>
+</Project>
+```
+
+| Propiedad | Descripción | Valor |
+|-----------|-------------|-------|
+| `OutputType` | Tipo de salida | `Exe` (ejecutable) o `Library` (biblioteca) |
+| `TargetFramework` | Framework objetivo | `net10.0` |
+| `ImplicitUsings` | Usings implícitos | `enable` |
+| `Nullable` | Gestión estricta de nulos | `enable` |
+| `LangVersion` | Versión de C# | `14` para .NET 10 |
+
+### Crear una Solución con dotnet CLI
+
+```bash
+# 1. Crear carpeta raíz
+mkdir MiSolucion
+cd MiSolucion
+
+# 2. Crear la solución (.slnx)
+dotnet new sln
+
+# 3. Crear el proyecto de consola
+dotnet new console -n MiProyecto
+
+# 4. Añadir el proyecto a la solución
+dotnet sln add MiProyecto/MiProyecto.csproj
+
+# 5. Compilar y ejecutar
+dotnet build
+dotnet run --project MiProyecto
+```
+
+> 📝 **Nota:** En .NET 10, `dotnet new console` genera código con Top Level Statements. No necesitas `class Program` ni `static void Main()`.
+
+### Gestión de Paquetes NuGet
+
+**NuGet** es el gestor de paquetes de .NET (más de 350.000 bibliotecas).
+
+```bash
+# Instalar un paquete
+dotnet add package Newtonsoft.Json
+
+# Versión específica
+dotnet add package Newtonsoft.Json --version 13.0.3
+
+# Eliminar un paquete
+dotnet remove package Newtonsoft.Json
+
+# Ver paquetes instalados
+dotnet list package
+```
+
+**Configuración de NuGet** (`~/.nuget/NuGet/NuGet.Config`):
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
+  </packageSources>
+</configuration>
+```
+
+| Paquete | Uso |
+|---------|-----|
+| **Newtonsoft.Json** | Serialización JSON |
+| **Microsoft.EntityFrameworkCore** | ORM para bases de datos |
+| **Serilog** | Logging estructurado |
+| **NUnit** | Framework de tests |
+
+### Compilar y Ejecutar
+
+```bash
+dotnet build           # Compilar
+dotnet run             # Ejecutar
+dotnet clean           # Limpiar
+dotnet restore         # Restaurar paquetes
+dotnet publish -c Release -o ./publish  # Publicar ejecutable
+```
+
+> 📝 **Nota:** Los archivos compilados se generan en `bin/Debug/net10.0/`. El archivo `.dll` es el ensamblado .NET, y `.exe` es el ejecutable en Windows.
+
 ---
 
-> 🔗 **Siguiente:** En el Punto 03 profundizarás en la anatomía de los IDEs que acabas de instalar.
+**Resumen del punto:**
+
+| Herramienta | Función | Comando clave |
+|-------------|---------|---------------|
+| **JDK 25** | Desarrollo Java | `javac`, `java` |
+| **.NET 10 SDK** | Desarrollo C# | `dotnet new`, `dotnet run` |
+| **IntelliJ IDEA** | IDE para Java/Kotlin | Community (gratis) |
+| **JetBrains Rider** | IDE para C#/.NET | Multiplataforma |
+| **VS Code** | Editor extensible | Gratuito, ligero |
+| **Git** | Control de versiones | `git commit`, `git push` |
+| **GitKraken** | Cliente Git visual | UI gráfica |
+| **NuGet** | Gestor de paquetes .NET | `dotnet add package` |
+
+En el siguiente punto veremos la anatomía de estos IDEs: qué hay dentro de cada uno, para qué sirve cada parte y cómo se organizan las herramientas.
