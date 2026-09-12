@@ -83,8 +83,8 @@ graph TD
     style HERR fill:#FF9800,color:#fff
     style ANAT fill:#9C27B0,color:#fff
     style CONF fill:#f44336,color:#fff
-    style OPER fill:#00BCD4,color:#fff
-    style ATAJ fill:#795548,color:#fff
+    style OPER fill:#607D8B,color:#fff
+    style ATAJ fill:#4CAF50,color:#fff
 ```
 
 ## 7.2. Conceptos Clave
