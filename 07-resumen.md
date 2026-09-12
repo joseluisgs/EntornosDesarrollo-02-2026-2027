@@ -8,6 +8,10 @@
     - [Operativa Básica](#operativa-básica)
   - [7.3. Comparativa de IDEs](#73-comparativa-de-ides)
   - [7.4. Checklist de Supervivencia](#74-checklist-de-supervivencia)
+  - [7.5. Glosario de Términos](#75-glosario-de-términos)
+  - [7.6. Ejercicios de Repaso](#76-ejercicios-de-repaso)
+  - [7.7. ¿Qué viene después?](#77-qué-viene-después)
+  - [7.8. Mapa de Conexiones entre Temas](#78-mapa-de-conexiones-entre-temas)
 
 > 💡 **Punto de partida:** Hemos recorrido todo el camino desde qué es un IDE hasta cómo usarlo como un profesional. Este resumen consolida todo lo aprendido.
 
@@ -30,40 +34,50 @@ graph TD
     UD02 --> ATAJ[Atajos de Teclado]
 
     IDE --> IDE1[Editor de código]
-    IDE --> IDE2[Compilador/Intérprete]
+    IDE --> IDE2[Compilador]
     IDE --> IDE3[Depurador]
-    IDE --> IDE4[Control de Versiones]
+    IDE --> IDE4[Control de versiones]
     IDE --> IDE5[Gestión de proyectos]
-    IDE --> IDE6[Terminal]
+    IDE --> IDE6[Terminal integrada]
     IDE --> IDE7[Refactorización]
+    IDE --> IDE8[IntelliSense/Autocompletado]
 
-    HERR --> HERR1[JDK 25]
-    HERR --> HERR2[.NET 10]
-    HERR --> HERR3[Rider]
-    HERR --> HERR4[IntelliJ IDEA]
-    HERR --> HERR5[VS Code]
-    HERR --> HERR6[Git]
-    HERR --> HERR7[GitKraken]
+    HERR --> HERR1[JDK 25 — Java]
+    HERR --> HERR2[.NET 10 SDK — C#]
+    HERR --> HERR3[JetBrains Rider — IDE principal]
+    HERR --> HERR4[IntelliJ IDEA — IDE secundario]
+    HERR --> HERR5[VS Code — Editor extensible]
+    HERR --> HERR6[Git — Control de versiones]
+    HERR --> HERR7[GitKraken — Cliente visual]
+    HERR --> HERR8[Oh My Posh — Terminal]
 
-    ANAT --> ANAT1[JetBrains UI]
-    ANAT --> ANAT2[Tool Windows]
-    ANAT --> ANAT3[VS Code Layout]
+    ANAT --> ANAT1[JetBrains: Tool Windows, Gutter, Status Bar]
+    ANAT --> ANAT2[VS Code: Activity Bar, Editor, Panel]
+    ANAT --> ANAT3[Filosofía de uniformidad]
 
-    CONF --> CONF1[Plugins/Extensiones]
-    CONF --> CONF2[Personalización]
-    CONF --> CONF3[Themes y Fonts]
-    CONF --> CONF4[Actualizaciones]
+    CONF --> CONF1[Plugins y extensiones]
+    CONF --> CONF2[Temas y fuentes]
+    CONF --> CONF3[Atajos personalizados]
+    CONF --> CONF4[Dotfiles y sincronización]
+    CONF --> CONF5[Sistema de actualizaciones]
 
     OPER --> OPER1[Edición asistida]
-    OPER --> OPER2[Build/Compilación]
-    OPER --> OPER3[Debugging]
-    OPER --> OPER4[Git integration]
+    OPER --> OPER2[Build vs Rebuild vs Clean]
+    OPER --> OPER3[Debugging: breakpoints, Step]
+    OPER --> OPER4[Refactorización]
+    OPER --> OPER5[Git integrado]
 
-    ATAJ --> ATAJ1[Rider]
-    ATAJ --> ATAJ2[IntelliJ IDEA]
-    ATAJ --> ATAJ3[VS Code]
+    ATAJ --> ATAJ1[Rider / IntelliJ — Ctrl+Shift+A]
+    ATAJ --> ATAJ2[VS Code — Ctrl+Shift+P]
+    ATAJ --> ATAJ3[Progresión: básico → intermedio → avanzado]
 
     style UD02 fill:#2196F3,color:#fff
+    style IDE fill:#4CAF50,color:#fff
+    style HERR fill:#FF9800,color:#fff
+    style ANAT fill:#9C27B0,color:#fff
+    style CONF fill:#f44336,color:#fff
+    style OPER fill:#00BCD4,color:#fff
+    style ATAJ fill:#795548,color:#fff
 ```
 
 ## 7.2. Conceptos Clave
@@ -140,3 +154,64 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 - [ ] ¿Sé crear un nuevo proyecto, configurar su estructura y crear un ejecutable?
 - [ ] ¿Puedo comparar IDEs y elegir el más adecuado según el lenguaje y proyecto?
 - [ ] ¿Puedo crear un proyecto, compilarlo, depurarlo desde la consola con su CLI y desde el IDE?
+
+## 7.5. Glosario de Términos
+
+| Término | Definición |
+|---------|------------|
+| **IDE** | Entorno de Desarrollo Integrado: aplicación que agrupa editor, compilador y depurador |
+| **Rider** | IDE de JetBrains para C#/.NET, multiplataforma |
+| **IntelliJ IDEA** | IDE de JetBrains para Java/Kotlin |
+| **VS Code** | Editor extensible de Microsoft, gratuito y open source |
+| **Plugin/Extensión** | Módulo que añade funcionalidades al IDE |
+| **Build** | Compilación incremental (solo archivos modificados) |
+| **Rebuild** | Reconstrucción completa desde cero |
+| **Clean** | Eliminación de archivos compilados sin recompilar |
+| **Breakpoint** | Punto de ruptura para detener la ejecución en depuración |
+| **Step Over** | Ejecutar línea sin entrar en métodos |
+| **Step Into** | Ejecutar línea entrando en el método |
+| **Step Out** | Salir del método actual |
+| **Refactorización** | Mejorar código sin cambiar su comportamiento |
+| **IntelliSense** | Sistema de autocompletado inteligente |
+| **Dotfiles** | Archivos de configuración que empiezan por punto |
+| **JDK** | Java Development Kit: plataforma para desarrollar en Java |
+| **.NET SDK** | Kit de desarrollo para C#/.NET |
+| **NuGet** | Gestor de paquetes de .NET |
+| **Gradle** | Sistema de construcción para Java/Kotlin |
+| **Top Level Statements** | Sintaxis C# sin clase Main explícita |
+| **Main simplificado** | Sintaxis Java 25: `void main()` sin `public static` |
+
+## 7.6. Ejercicios de Repaso
+
+1. **Conceptos:** Explica con tus palabras qué es un IDE y por qué no basta con un editor de texto.
+2. **Instalación:** Instala Rider, IntelliJ y VS Code. Configura el mismo tema en los tres.
+3. **Anatomía:** Abre Rider y localiza: Gutter, Status Bar, Tool Windows, Terminal.
+4. **Configuración:** Crea un snippet personalizado en VS Code y sincroniza tu configuración con Settings Sync.
+5. **Compilación:** Crea un proyecto C# en Rider, compílalo con Build y luego con Rebuild. Explica la diferencia.
+6. **Depuración:** Crea un proyecto con error lógico, usa breakpoints para encontrarlo.
+7. **Atajos:** Sin usar el ratón, abre un archivo, compila, depura y formatea el código.
+8. **Comparativa:** Evalúa Rider, IntelliJ y VS Code para un proyecto de Java. Justifica tu elección.
+
+## 7.7. ¿Qué viene después?
+
+En la siguiente unidad (**UD03: Sistema de Control de Versiones**) veremos en profundidad **Git**: ramas, merges, conflictos, flujos de trabajo y colaboración en equipo. Todo lo que aprendiste aquí sobre Git integrado en el IDE será la base para dominar el control de versiones.
+
+## 7.8. Mapa de Conexiones entre Temas
+
+```mermaid
+graph LR
+    UD01[UD01: Desarrollo] --> UD02[UD02: Entornos]
+    UD02 --> UD03[UD03: Control de Versiones]
+    UD03 --> UD04[UD04: Diagrama de Clases]
+    UD04 --> UD05[UD05: Diagramas Comportamiento]
+    UD05 --> UD06[UD06: Optimización]
+    UD06 --> UD07[UD07: Pruebas]
+
+    UD02 -.->|IDEs| UD03
+    UD02 -.->|Compilación| UD01
+    UD02 -.->|Refactorización| UD06
+
+    style UD02 fill:#2196F3,color:#fff
+    style UD01 fill:#4CAF50,color:#fff
+    style UD03 fill:#FF9800,color:#fff
+```
