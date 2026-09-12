@@ -72,13 +72,13 @@ Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones
 
 ##### III. Anatomía y Estructura del IDE
 
-10. Al utilizar IDEs del mismo fabricante (IntelliJ IDEA y JetBrains Rider), ¿cuál es el principal beneficio de la **Filosofía JetBrains**?
+10. Al utilizar IDEs del mismo fabricante (JetBrains Rider e IntelliJ IDEA), ¿cuál es el principal beneficio de la **Filosofía JetBrains**?
     a) Se elimina la necesidad de instalar el JDK.
     b) Se garantiza la compatibilidad con todos los plugins de Eclipse.
     c) Se ofrece una consistencia de la interfaz y uniformidad del flujo de trabajo.
     d) Se deshabilita el *Auto Save* por defecto.
 
-11. ¿Cuál es el atajo de teclado en Windows/Linux para acceder rápidamente a la ventana de la Terminal integrada en los IDEs de JetBrains (IntelliJ IDEA y Rider)?
+11. ¿Cuál es el atajo de teclado en Windows/Linux para acceder rápidamente a la ventana de la Terminal integrada en los IDEs de JetBrains (Rider e IntelliJ IDEA)?
     a) Ctrl+Shift+P
     b) Ctrl+Shift+L
     c) Ctrl+F9
@@ -110,7 +110,7 @@ Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones
 
 ##### IV. Plugins, Configuración y Personalización
 
-16. ¿Qué atajo de teclado abre el menú de configuración (*Settings*) en IntelliJ IDEA y JetBrains Rider?
+16. ¿Qué atajo de teclado abre el menú de configuración (*Settings*) en JetBrains Rider e IntelliJ IDEA?
     a) Ctrl+Shift+A
     b) Ctrl+Alt+S
     c) Ctrl+Shift+V
