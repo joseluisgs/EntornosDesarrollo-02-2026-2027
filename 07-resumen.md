@@ -4,24 +4,30 @@
     - [Entorno de Desarrollo Integrado (IDE)](#entorno-de-desarrollo-integrado-ide)
     - [Herramientas Fundamentales](#herramientas-fundamentales)
     - [Anatomía del IDE](#anatomía-del-ide)
-    - [Personalización](#personalización)
+    - [Configuración y Personalización](#configuración-y-personalización)
     - [Operativa Básica](#operativa-básica)
-  - [7.3. Comparativa de IDEs](#73-comparativa-de-ides)
-  - [7.4. Errores Comunes a Evitar](#74-errores-comunes-a-evitar)
-  - [7.5. Checklist de Supervivencia](#75-checklist-de-supervivencia)
-  - [7.5. Glosario de Términos](#76-glosario-de-términos)
-  - [7.6. Ejercicios de Repaso](#77-ejercicios-de-repaso)
-  - [7.7. ¿Qué viene después?](#78-qué-viene-después)
-  - [7.8. Mapa de Conexiones entre Temas](#79-mapa-de-conexiones-entre-temas)
+  - [7.3. Herramientas y Perfiles](#73-herramientas-y-perfiles)
+    - [Kits de Desarrollo](#kits-de-desarrollo)
+    - [IDEs del Curso](#ides-del-curso)
+    - [Herramientas de Apoyo](#herramientas-de-apoyo)
+  - [7.4. Checklist de Supervivencia](#74-checklist-de-supervivencia)
+  - [7.5. Glosario de Términos](#75-glosario-de-términos)
+  - [7.6. Ejercicios de Repaso](#76-ejercicios-de-repaso)
+  - [7.7. ¿Qué viene después?](#77-qué-viene-después)
+  - [7.8. Mapa de Conexiones entre Temas](#78-mapa-de-conexiones-entre-temas)
+
+
+# 7. Resumen y Conclusiones
 
 > 💡 **Punto de partida:** Hemos recorrido todo el camino desde qué es un IDE hasta cómo usarlo como un profesional. Este resumen consolida todo lo aprendido.
 
-> 💡 **¿Por qué me importa?**
-> Este resumen es tu guía de referencia rápida. Antes de un examen o de empezar un proyecto, revisa este punto para asegurarte de que dominas todos los conceptos.
+Hemos visto la teoría completa de Entornos de Desarrollo. Este punto consolida todos los conceptos en una sola mirada.
 
-> 🔗 **Conexión con la unidad:** Todos los puntos anteriores convergen aquí. El IDE es la herramienta que usarás cada día como desarrollador DAW.
+**Objetivos de aprendizaje:**
 
-# 7. Resumen y Conclusiones
+- Repasar los conceptos fundamentales de la unidad
+- Consolidar el vocabulario técnico
+- Tener una referencia rápida para el examen
 
 ## 7.1. Mapa Conceptual de la Unidad
 
@@ -110,11 +116,13 @@ graph TD
 - Terminal integrada (`` Ctrl+` ``)
 - Multi-cursor y fuzzy search
 
-### Personalización
+### Configuración y Personalización
 - **Plugins/Extensiones:** Modularidad y funcionalidades adicionales
 - **Temas:** Light/Dark/Darcula
 - **Fuentes:** JetBrains Mono, Fira Code con ligaduras
 - **Atajos:** Personalizables en Settings
+- **Dotfiles:** Sincronización de configuración entre máquinas
+- **Actualizaciones:** Canal Stable, actualizaciones automáticas
 
 ### Operativa Básica
 - **Edición asistida:** IntelliSense, autocompletado, Code Actions
@@ -122,37 +130,23 @@ graph TD
 - **Debugging:** Breakpoints, Step Over/Into/Out, variables
 - **Git:** Commit, push, pull, branch, merge
 
-## 7.3. Comparativa de IDEs
+## 7.3. Herramientas y Perfiles
 
-| Aspecto | Rider | IntelliJ IDEA | VS Code |
-|---------|--------------|-------|---------|
-| **Licencia** | Comercial (~$149/año estudiantes, gratis con Student Pack) | Community (gratis) / Ultimate (trial) | Free (MIT) |
-| **Peso** | Pesado (~500MB) | Pesado | Ligero (~100MB) |
-| **Java** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
-| **.NET** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| **Web/JS** | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Extensible** | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Startup** | Lento | Lento | Rápido |
-| **Configuración** | Compleja | Compleja | Simple (JSON) |
+### Kits de Desarrollo
+- **JDK 25:** Java Development Kit — necesita `JAVA_HOME` y `PATH` configurados
+- **.NET 10 SDK:** Incluye compilador, runtime y CLI (`dotnet`)
 
----
+### IDEs del Curso
+- **JetBrains Rider:** IDE principal, multiplataforma, profesional (.NET, Java)
+- **IntelliJ IDEA:** IDE secundario, Java/Kotlin (Community gratuito)
+- **VS Code:** Editor extensible, gratuito, multiplataforma
 
-## 7.4. Errores Comunes a Evitar
+### Herramientas de Apoyo
+- **Git:** Control de versiones distribuido (imprescindible)
+- **GitKraken:** Cliente visual de Git (alternativa a la línea de comandos)
+- **Oh My Posh:** Temas para terminal (personalización visual)
 
-| Error | Por qué está mal | Cómo evitarlo |
-|-------|------------------|---------------|
-| No instalar el SDK (JDK/.NET) | El IDE no puede compilar sin el SDK | Siempre instalar el SDK ANTES del IDE |
-| Confundir Build y Rebuild | Build es incremental, Rebuild limpia todo | Usar Build normalmente, Rebuild solo si hay problemas de dependencias |
-| No usar breakpoints | Depurar con `Console.WriteLine` es lento y sucio | Aprender a usar breakpoints y Step Over/Into |
-| Instalar demasiados plugins | Ralentizan el IDE significativamente | Instalar solo los que uses diariamente |
-| No sincronizar configuración | Pierdes tu entorno al cambiar de máquina | Usar Settings Sync (VS Code) o Settings Repository (JetBrains) |
-| Ignorar las actualizaciones | Te pierdes correcciones de bugs y seguridad | Configurar actualizaciones automáticas en canal Stable |
-| Usar `Parse` sin `TryParse` | Excepción si el usuario no introduce un número válido | Siempre `TryParse` con datos de usuario |
-| No usar control de versiones | Pierdes código y no puedes colaborar | Git integrado en el IDE, hacer commit frecuente |
-| Olvidar `.editorconfig` | Formato inconsistente en equipo | Crear `.editorconfig` en la raíz del proyecto |
-| No conocer atajos básicos | Evas tiempo usando el ratón para todo | Memorizar los 10 atajos esenciales primero |
-
-## 7.5. Checklist de Supervivencia
+## 7.4. Checklist de Supervivencia
 
 Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas preguntas:
 
@@ -171,7 +165,7 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 - [ ] ¿Puedo comparar IDEs y elegir el más adecuado según el lenguaje y proyecto?
 - [ ] ¿Puedo crear un proyecto, compilarlo, depurarlo desde la consola con su CLI y desde el IDE?
 
-## 7.6. Glosario de Términos
+## 7.5. Glosario de Términos
 
 | Término | Definición |
 |---------|------------|
@@ -197,7 +191,7 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 | **Top Level Statements** | Sintaxis C# sin clase Main explícita |
 | **Main simplificado** | Sintaxis Java 25: `void main()` sin `public static` |
 
-## 7.7. Ejercicios de Repaso
+## 7.6. Ejercicios de Repaso
 
 1. **Conceptos:** Explica con tus palabras qué es un IDE y por qué no basta con un editor de texto.
 2. **Instalación:** Instala Rider, IntelliJ y VS Code. Configura el mismo tema en los tres.
@@ -208,11 +202,11 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 7. **Atajos:** Sin usar el ratón, abre un archivo, compila, depura y formatea el código.
 8. **Comparativa:** Evalúa Rider, IntelliJ y VS Code para un proyecto de Java. Justifica tu elección.
 
-## 7.8. ¿Qué viene después?
+## 7.7. ¿Qué viene después?
 
 En la siguiente unidad (**UD03: Sistema de Control de Versiones**) veremos en profundidad **Git**: ramas, merges, conflictos, flujos de trabajo y colaboración en equipo. Todo lo que aprendiste aquí sobre Git integrado en el IDE será la base para dominar el control de versiones.
 
-## 7.9. Mapa de Conexiones entre Temas
+## 7.8. Mapa de Conexiones entre Temas
 
 ```mermaid
 graph LR
@@ -231,3 +225,5 @@ graph LR
     style UD01 fill:#4CAF50,color:#fff
     style UD03 fill:#FF9800,color:#fff
 ```
+
+> 📝 **Nota:** Todos los temas están interconectados. No son temas sueltos: son piezas de un mismo puzzle. El Desarrollo de Software es un todo donde cada concepto alimenta a los demás.
