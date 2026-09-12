@@ -14,6 +14,8 @@
   - [2.6. Creación de Proyectos y Soluciones en C#](#26-creación-de-proyectos-y-soluciones-en-c)
 
 
+# 2. Instalación de Herramientas Fundamentales para el Curso
+
 > 💡 **Punto de partida:** Tienes el mejor coche del mundo, pero si no tienes motor, no va a ningún lado. Los IDEs son el coche, pero necesitas instalar los motores (JDK, .NET SDK) primero.
 
 > 💡 **¿Por qué me importa?**
@@ -31,8 +33,6 @@ En el Punto 01 vimos qué es un IDE y sus componentes principales. Ahora veremos
 - Instalar Git y GitKraken
 - Crear soluciones y proyectos en C# con dotnet CLI
 - Configurar NuGet y gestionar paquetes
-
-# 2. Instalación de Herramientas Fundamentales para el Curso
 
 Esta sección describe los procesos de instalación de los componentes esenciales, enfocándose en los requisitos y los métodos de instalación de los IDEs JetBrains y VS Code.
 

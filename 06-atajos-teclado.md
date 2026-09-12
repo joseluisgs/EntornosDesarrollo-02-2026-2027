@@ -5,6 +5,8 @@
   - [6.4. Tabla Completa de Referencia](#64-tabla-completa-de-referencia)
 
 
+# 6. Atajos de Teclado Esenciales para la Productividad
+
 > 💡 **Punto de partida:** Un programador profesional hace miles de acciones al día en el IDE. Si cada acción te lleva 2 segundos más de lo necesario, al día son minutos perdidos. Al año, horas.
 
 > 💡 **¿Por qué me importa?**
@@ -34,8 +36,6 @@ graph LR
     style C fill:#9C27B0,color:#fff
     style D fill:#FF9800,color:#fff
 ```
-
-# 6. Atajos de Teclado Esenciales para la Productividad
 
 Dominar los atajos de teclado es fundamental para ser un programador eficiente. Estudios demuestran que usar atajos puede aumentar la productividad hasta un 50%.
 

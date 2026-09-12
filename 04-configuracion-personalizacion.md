@@ -11,6 +11,8 @@
   - [4.4. Actualización y Mantenimiento del Entorno](#44-actualización-y-mantenimiento-del-entorno)
 
 
+# 4. Plugins, Configuración y Personalización del Entorno
+
 > 💡 **Punto de partida:** ¿Por qué dos programadores con el mismo IDE pueden tener experiencias tan diferentes? Porque uno personaliza su entorno y el otro no.
 
 > 💡 **¿Por qué me importa?**
@@ -27,8 +29,6 @@ En el Punto 02 instalaste las herramientas. Ahora veremos cómo personalizar y c
 - Configurar opciones de guardado automático y formato
 - Entender la jerarquía de configuración en VS Code
 - Configurar el sistema de actualización del entorno
-
-# 4. Plugins, Configuración y Personalización del Entorno
 
 La personalización es vital, ya que el programador pasa mucho tiempo en el entorno, que debe ser agradable y disponer de todas las funcionalidades necesarias. Todo entorno de desarrollo dispone de un panel donde se puede cambiar la configuración, incluyendo el aspecto visual, las conexiones de red y la asignación de teclas.
 

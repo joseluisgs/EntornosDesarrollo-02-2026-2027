@@ -13,6 +13,8 @@
     - [1.2.8. Plugins y Complementos (Modularidad)](#128-plugins-y-complementos-modularidad)
 
 
+# 1. Introducción a los Entornos de Desarrollo Integrados (IDE)
+
 > 💡 **Punto de partida:** ¿Alguna vez te has preguntado por qué un programador puede crear una aplicación completa en horas mientras que otro tarda días con la misma tarea? La diferencia no es solo el talento: es la herramienta que usa.
 
 > 💡 **¿Por qué me importa?**
@@ -26,8 +28,6 @@
 - Identificar las diferencias entre IDEs monolenguaje, políglota y especializado
 - Conocer las herramientas integradas en un IDE moderno
 - Reconocer la importancia del IDE en el ciclo de vida del software
-
-# 1. Introducción a los Entornos de Desarrollo Integrados (IDE)
 
 ## 1.1. Concepto y rol del IDE en la codificación
 

@@ -6,6 +6,8 @@
   - [3.3. Estructura de Visual Studio Code (VS Code)](#33-estructura-de-visual-studio-code-vs-code)
 
 
+# 3. Anatomía y Estructura de los IDEs Seleccionados
+
 > 💡 **Punto de partida:** Si nunca has abierto el capó de un coche, no sabes qué hay dentro. Lo mismo pasa con un IDE: saber qué hay y para qué sirve cada cosa te convierte en un usuario más eficiente.
 
 > 💡 **¿Por qué me importa?**
@@ -21,8 +23,6 @@ En el Punto 02 instalaste las herramientas de desarrollo. Ahora veremos qué hay
 - Conocer la estructura de VS Code (Activity Bar, Editor, Panel)
 - Entender la filosofía de uniformidad entre IDEs de JetBrains
 - Usar la terminal integrada y la barra de navegación
-
-# 3. Anatomía y Estructura de los IDEs Seleccionados
 
 ## 3.1. Filosofía JetBrains: Uniformidad de Flujo de Trabajo
 

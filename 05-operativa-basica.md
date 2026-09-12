@@ -10,6 +10,8 @@
       - [5.4.2. IntelliJ IDEA y JetBrains Rider](#542-intellij-idea-y-jetbrains-rider)
 
 
+# 5. Operativa Básica del IDE
+
 > 💡 **Punto de partida:** Tienes el IDE instalado y personalizado. Ahora viene lo importante: ¿cómo se usa para programar de verdad?
 
 > 💡 **¿Por qué me importa?**
@@ -26,8 +28,6 @@ En el Punto 04 personalizaste tu entorno. Ahora veremos la operativa básica: c�
 - Depurar código con breakpoints y ejecución paso a paso
 - Gestionar el control de versiones Git desde el IDE
 - Generar ejecutables a partir de código fuente
-
-# 5. Operativa Básica del IDE
 
 ## 5.1. Edición Asistida y Refactorización
 
