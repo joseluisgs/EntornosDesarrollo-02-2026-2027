@@ -121,8 +121,8 @@ dotnet publish MiApp -c Release -o ./publish
    ```java
    package com.example;
 
-   public class App {
-       public static void main(String[] args) {
+   class App {
+       void main() {
            System.out.println("¡Hola desde IntelliJ + Gradle!");
            System.out.println("Java version: " + System.getProperty("java.version"));
        }

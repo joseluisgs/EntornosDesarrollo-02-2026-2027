@@ -78,10 +78,10 @@ graph TD
 > ```
 >  1 | package com.ejemplo;
 >  2 |              ← Icono de acción (bombilla)
->  3 | public class Main {
+>  3 | class Main {
 >  4 |     // TODO: implementar
 >  5 |     ••••           ← Breakpoint
->  6 |     public static void main(String[] args) {
+>  6 |     void main() {
 >  7 |         System.out.println("Hola");
 >  8 |     }
 >  9 | }

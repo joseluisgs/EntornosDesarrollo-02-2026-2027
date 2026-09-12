@@ -68,7 +68,7 @@ Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones
     a) NetBeans
     b) Oracle JDeveloper
     c) Git
-    d) .NET 8
+    d) .NET 10
 
 ##### III. Anatomía y Estructura del IDE
 
