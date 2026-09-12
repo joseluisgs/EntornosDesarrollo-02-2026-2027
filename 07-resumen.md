@@ -27,8 +27,8 @@ graph TD
     IDE --> IDE6[Terminal]
     IDE --> IDE7[Refactorización]
 
-    HERR --> HERR1[JDK 21]
-    HERR --> HERR2[.NET 8]
+    HERR --> HERR1[JDK 25]
+    HERR --> HERR2[.NET 10]
     HERR --> HERR3[IntelliJ IDEA]
     HERR --> HERR4[Rider]
     HERR --> HERR5[VS Code]
@@ -66,8 +66,8 @@ graph TD
 ### Herramientas Fundamentales
 | Herramienta | Función | Comando clave |
 |-------------|---------|---------------|
-| **JDK 21** | Desarrollo Java | `javac`, `java` |
-| **.NET 8** | Desarrollo C# | `dotnet` |
+| **JDK 25** | Desarrollo Java | `javac`, `java` |
+| **.NET 10** | Desarrollo C# | `dotnet` |
 | **Git** | Control de versiones | `git commit`, `git push` |
 | **GitKraken** | Cliente Git visual | UI gráfica |
 
@@ -115,7 +115,7 @@ graph TD
 Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas preguntas:
 
 - [ ] ¿Conozco los componentes esenciales de un IDE?
-- [ ] ¿Sé instalar JDK 21 y configurar el PATH?
+- [ ] ¿Sé instalar JDK 25 y configurar el PATH?
 - [ ] ¿Puedo instalar y configurar IntelliJ IDEA y VS Code?
 - [ ] ¿Sé qué son los plugins y cómo instalarlos?
 - [ ] ¿Puedo personalizar temas, fuentes y atajos?

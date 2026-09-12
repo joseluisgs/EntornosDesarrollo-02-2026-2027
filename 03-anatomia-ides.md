@@ -19,7 +19,7 @@
 
 Una característica notable al utilizar IDEs del mismo fabricante, como **IntelliJ IDEA** y **JetBrains Rider**, es la **consistencia de la interfaz** y la **familiaridad del flujo de trabajo**. Esto facilita la transición entre entornos diseñados para diferentes plataformas (Java en IDEA, .NET en Rider).
 
-> 💡 ** Ventaja de usar productos JetBrains:** Si aprendes IntelliJ IDEA, aprender Rider es muy fácil. Los atajos, la estructura de menús y la filosofía son idénticas. Tu inversión en aprender una herramienta se transfiere a otras.
+> 💡 **Ventaja de usar productos JetBrains:** Si aprendes IntelliJ IDEA, aprender Rider es muy fácil. Los atajos, la estructura de menús y la filosofía son idénticas. Tu inversión en aprender una herramienta se transfiere a otras.
 
 ### 3.1.1. Consistencia de la Interfaz (IntelliJ IDEA y Rider)
 
@@ -63,7 +63,7 @@ graph TD
 
 - **Gutter:** El panel a la izquierda del editor contiene **iconos de acción** para corregir problemas de código, ejecutar o depurar. También muestra **números de línea, puntos de ruptura (*breakpoints*)** y **marcadores** (*bookmarks*). Permite el plegado de código y marca las líneas modificadas bajo control de versiones.
 
-> 📝 ** Partes del Gutter:**
+> 📝 **Partes del Gutter:**
 > ```
 >  1 | package com.ejemplo;
 >  2 |              ← Icono de acción (bombilla)
@@ -95,7 +95,7 @@ dotnet build                  # .NET build
 git status                    # Ver cambios
 ```
 
-> 💡 ** Truco:** La terminal integrada hereda el PATH del sistema, pero también puedes configurarla para usar diferentes shells (PowerShell, CMD, WSL, bash).
+> 💡 **Truco:** La terminal integrada hereda el PATH del sistema, pero también puedes configurarla para usar diferentes shells (PowerShell, CMD, WSL, bash).
 
 ## 3.2. Estructura de IntelliJ IDEA y JetBrains Rider
 
@@ -122,7 +122,7 @@ graph TD
 
 - **Barra de Navegación (*Navigation Bar*):** Se puede mostrar en la parte superior del IDE o en la barra de estado. Es una alternativa a la vista de Proyecto/Solución para navegar por la estructura del proyecto y saltar a elementos específicos del código. Se accede usando **Alt+Home**.
 
-> 📝 ** Uso de la barra de navegación:**
+> 📝 **Uso de la barra de navegación:**
 > ```
 > com.ejemplo.Main → main() → Variables
 > ```
@@ -181,7 +181,7 @@ graph TD
 
 - **Área del Editor (*Editor*):** Área principal de la ventana para leer, escribir y explorar el código. Permite la edición en múltiples pestañas y visualización lado a lado. Muestra sugerencias de autocompletado (*IntelliSense*) y **resaltado de sintaxis**.
 
-> 💡 ** Atajos esenciales del editor VS Code:**
+> 💡 **Atajos esenciales del editor VS Code:**
 > ```
 > Ctrl + P         → Quick Open (buscar archivo)
 > Ctrl + Shift + P → Command Palette
@@ -192,7 +192,7 @@ graph TD
 
 - **Panel Inferior (*Panel*) y Terminal Integrado:** El panel inferior incluye la **terminal integrada**, cuyo acceso se logra mediante **Ctrl+`** (Windows, Linux).
 
-> 📝 ** Configuración de terminal en VS Code:**
+> 📝 **Configuración de terminal en VS Code:**
 > ```
 > Ctrl + , → Settings → Terminal → Integrated
 > ```
@@ -202,7 +202,7 @@ graph TD
   - Permite buscar y ejecutar comandos (ej. `move terminal`).
   - Al quitar el símbolo `>` de la paleta, se puede usar directamente para **buscar archivos** en el *workspace*. Utiliza la **coincidencia difusa** (*fuzzy matching*) para encontrar comandos o archivos.
 
-> 💡 ** Fuzzy matching ejemplo:** Si buscas "jre", encontrará "JavaRuntimeEnvironment" porque las letras coinciden en orden.
+> 💡 **Fuzzy matching ejemplo:** Si buscas "jre", encontrará "JavaRuntimeEnvironment" porque las letras coinciden en orden.
 
 - **Guardado y Hot Exit:** Por defecto, VS Code requiere una acción explícita para guardar (`Ctrl+S`). Sin embargo, se puede activar el **Auto Save** para guardar después de un retardo (por defecto 1000 ms), al perder el foco del editor, o al perder el foco de la ventana. VS Code también recuerda los cambios no guardados al salir (*Hot Exit*).
 
@@ -213,7 +213,7 @@ graph TD
 | `files.autoSave` | `onFocusChange` | Al cambiar de pestaña |
 | `files.autoSave` | `onWindowChange` | Al cambiar de ventana |
 
-> 📝 ** Recomendación:** Para principiantes, mantener `off` es mejor para entender el flujo de trabajo. Para productividad, `afterDelay` de 1000ms es ideal.
+> 📝 **Recomendación:** Para principiantes, mantener `off` es mejor para entender el flujo de trabajo. Para productividad, `afterDelay` de 1000ms es ideal.
 
 ---
 

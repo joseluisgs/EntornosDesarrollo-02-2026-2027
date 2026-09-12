@@ -15,7 +15,7 @@
 
 Dominar los atajos de teclado es fundamental para ser un programador eficiente. Estudios demuestran que usar atajos puede aumentar la productividad hasta un 50%.
 
-> 💡 ** Dato:** Un programador profesional hace miles de acciones al día. Cada segundo ahorrado en cada acción se multiplica por miles.
+> 💡 **Dato:** Un programador profesional hace miles de acciones al día. Cada segundo ahorrado en cada acción se multiplica por miles.
 
 ## 6.1. Atajos de Teclado Esenciales para la Productividad en JetBrains IntelliJ IDEA
 
@@ -161,14 +161,14 @@ Dominar los atajos de teclado es fundamental para ser un programador eficiente. 
 | | Split editor | `Ctrl + \` | `Cmd + \` |
 | | Cerrar pestaña | `Ctrl + W` | `Cmd + W` |
 
-> 💡 ** Atajos esenciales que debes memorizar primero:**
+> 💡 **Atajos esenciales que debes memorizar primero:**
 > | IDE | Búsqueda | Guardar | Terminal | Command Palette |
 > |-----|----------|---------|----------|-----------------|
 > | IntelliJ | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+P` |
 > | Rider | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+P` |
 > | VS Code | `Ctrl+P` | `Ctrl+S` | `` Ctrl+` `` | `Ctrl+Shift+P` |
 
-> 📝 ** Consejo de productividad:**
+> 📝 **Consejo de productividad:**
 > 1. **Practica un atajo nuevo cada día**
 > 2. **Deshazte del mouse** para navegación básica
 > 3. **Personaliza** los atajos que uses frecuentemente

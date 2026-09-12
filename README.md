@@ -13,6 +13,7 @@ Tema 02. Entornos de desarrollo. Curso 2025-2026.
 5. [Operativa Básica del IDE](./05-operativa-basica.md)
 6. [Atajos de Teclado](./06-atajos-teclado.md)
 7. [Resumen y Conclusiones](./07-resumen.md)
+8. [Creación de Proyectos y Soluciones en C#](./08-proyectos-soluciones-csharp.md)
 
 ## Contenido en YouTube
 

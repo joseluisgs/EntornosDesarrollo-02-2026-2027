@@ -21,7 +21,7 @@
 
 La personalización es vital, ya que el programador pasa mucho tiempo en el entorno, que debe ser agradable y disponer de todas las funcionalidades necesarias. Todo entorno de desarrollo dispone de un panel donde se puede cambiar la configuración, incluyendo el aspecto visual, las conexiones de red y la asignación de teclas.
 
-> 💡 ** Analogía:** Un IDE es como tu puesto de trabajo. Puedes mover los monitores, organizar los cajones, poner una foto en el escritorio... Lo importante es que estés cómodo y productivo.
+> 💡 **Analogía:** Un IDE es como tu puesto de trabajo. Puedes mover los monitores, organizar los cajones, poner una foto en el escritorio... Lo importante es que estés cómodo y productivo.
 
 ## 4.1. Gestión de Plugins y Extensiones (Modularidad)
 
@@ -51,7 +51,7 @@ graph LR
 
 - **Instalación:** Dentro de la sección *Plugins*, se hace clic en *Install JetBrains plugins* para realizar búsquedas por nombre o categoría. Tras la instalación, es necesario **reiniciar el IDE**.
 
-> 📝 ** Plugins esenciales JetBrains:**
+> 📝 **Plugins esenciales JetBrains:**
 > | Plugin | Utilidad |
 > |--------|----------|
 > | **Key Promoter X** | Aprende atajos mientras trabajas |
@@ -61,7 +61,7 @@ graph LR
 
 - **Eliminación/Desactivación:** Un módulo se puede **desactivar** (sigue instalado, pero inactivo) o **desinstalar** (se elimina físicamente).
 
-> 💡 ** Consejo:** Desactivar en lugar de desinstalar es más seguro. Si el plugin causa problemas, puedes activarlo nuevamente.
+> 💡 **Consejo:** Desactivar en lugar de desinstalar es más seguro. Si el plugin causa problemas, puedes activarlo nuevamente.
 
 ### 4.1.2. Gestión en Visual Studio Code (VS Code)
 
@@ -69,7 +69,7 @@ VS Code permite añadir soporte para lenguajes, depuradores y herramientas a tra
 
 - **Vista de Extensiones:** La gestión se realiza desde la **vista Extensiones** (*Extensions view*) en la *Activity Bar*.
 
-> 💡 ** Atajo rápido:** `Ctrl+Shift+X` abre directamente la vista de extensiones.
+> 💡 **Atajo rápido:** `Ctrl+Shift+X` abre directamente la vista de extensiones.
 
 - **Instalación:** El usuario busca la extensión deseada (ej. *Python*), la selecciona y pulsa **Install**.
 
@@ -80,11 +80,12 @@ VS Code permite añadir soporte para lenguajes, depuradores y herramientas a tra
 | **Java** | Extension Pack for Java | ⭐⭐⭐⭐⭐ |
 | **Python** | Python (Microsoft) | ⭐⭐⭐⭐⭐ |
 | **C#** | C# (Microsoft) | ⭐⭐⭐⭐⭐ |
+| **C#** | ReSharper (JetBrains) | ⭐⭐⭐⭐⭐ |
 | **HTML/CSS** | Live Server | ⭐⭐⭐⭐⭐ |
 | **Git** | GitLens | ⭐⭐⭐⭐⭐ |
 | **Formato** | Prettier | ⭐⭐⭐⭐⭐ |
 
-> 📝 ** Instalación rápida desde comandos:**
+> 📝 **Instalación rápida desde comandos:**
 > ```bash
 > # Instalar extensión desde línea de comandos
 > code --install-extension ms-python.python
@@ -123,7 +124,7 @@ graph TD
 
 - **Visual Studio Code:** La configuración se abre presionando **Ctrl+,** (Windows/Linux). Se utiliza un cuadro de búsqueda para filtrar la lista de ajustes.
 
-> 💡 ** Truco VS Code:** La configuración se guarda en JSON. Puedes editar `settings.json` directamente para configuraciones avanzadas.
+> 💡 **Truco VS Code:** La configuración se guarda en JSON. Puedes editar `settings.json` directamente para configuraciones avanzadas.
 
 #### 4.2.2. Temas, Apariencia y Configuración de Archivos
 
@@ -147,7 +148,7 @@ Enable ligatures: ✓
 
 - **Atajos de Teclado:** Es posible configurar los atajos del teclado para modificar las acciones que se realizan con más frecuencia. VS Code permite instalar **extensiones Keymap** para usar atajos de otros editores (Sublime Text, Atom, Vim).
 
-> 📝 ** Extensión Keymap para VS Code:**
+> 📝 **Extensión Keymap para VS Code:**
 > - "IntelliJ IDEA Keybindings" - Atajos de IDEA en VS Code
 > - "Vim" - Modo Vim emulado
 > - "Sublime Text Keybindings" - Atajos de Sublime
@@ -174,7 +175,7 @@ En VS Code, las configuraciones se dividen por alcance:
 - **Configuración de Usuario (*User settings*):** Se aplican a todos los *workspaces*.
 - **Configuración del Workspace (*Workspace settings*):** Se aplican solo al *workspace* actual y **anulan** las de usuario.
 
-> 💡 ** Jerarquía de configuración:**
+> 💡 **Jerarquía de configuración:**
 > ```
 > 1. Default (valores del IDE)
 > 2. User (tu configuración personal)
@@ -198,7 +199,7 @@ En VS Code, las configuraciones se dividen por alcance:
 
 La **refactorización** es la parte del mantenimiento del código que busca **mejorar la facilidad de comprensión**.
 
-> 💡 ** Regla de oro:** "No modificar funcionalidad, solo estructura". El comportamiento del programa debe ser idéntico antes y después de refactorizar.
+> 💡 **Regla de oro:** "No modificar funcionalidad, solo estructura". El comportamiento del programa debe ser idéntico antes y después de refactorizar.
 
 - **Implementación (IntelliJ IDEA / Rider):** Ambos IDEs disponen de opciones específicas para la refactorización. En los IDEs JetBrains, se puede acceder a la lista contextual de refactorizaciones mediante **Ctrl+Alt+Shift+T** (*Refactor This*).
 
@@ -225,7 +226,7 @@ El mantenimiento y la actualización del entorno es una tarea fundamental para *
 
 - **IntelliJ IDEA / Rider:** Se accede a través de **`Help -> Check for Updates`**. Si hay una nueva versión, se muestra un diálogo con las novedades y la opción de descargar e instalar.
 
-> 📝 ** Recomendación:** Mantened el IDE actualizado, pero evitad actualizar el día anterior a un examen o entrega importante. Las actualizaciones pueden introducir cambios inesperados.
+> 📝 **Recomendación:** Mantened el IDE actualizado, pero evitad actualizar el día anterior a un examen o entrega importante. Las actualizaciones pueden introducir cambios inesperados.
 
 - **VS Code:** Se actualiza automáticamente en segundo plano. Si hay una actualización disponible, aparece un icono de actualización en la esquina inferior izquierda.
 
@@ -235,7 +236,7 @@ El mantenimiento y la actualización del entorno es una tarea fundamental para *
 # IntelliJ: Help → About
 ```
 
-> 💡 ** Actualizaciones automáticas VS Code:**
+> 💡 **Actualizaciones automáticas VS Code:**
 > - Las actualizaciones son automáticas por defecto
 > - Se puede configurar en `settings.json`:
 > ```json

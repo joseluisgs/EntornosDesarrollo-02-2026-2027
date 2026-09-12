@@ -1,7 +1,7 @@
 - [2. Instalación de Herramientas Fundamentales para el Curso](#2-instalación-de-herramientas-fundamentales-para-el-curso)
   - [2.1. Kits de Desarrollo](#21-kits-de-desarrollo)
-    - [2.1.1. Instalación de JDK 21 (Java Development Kit)](#211-instalación-de-jdk-21-java-development-kit)
-    - [2.1.2. Instalación de .NET 8 (SDK/Runtime)](#212-instalación-de-net-8-sdkruntime)
+    - [2.1.1. Instalación de JDK 25 (Java Development Kit)](#211-instalación-de-jdk-25-java-development-kit)
+    - [2.1.2. Instalación de .NET 10 (SDK/Runtime)](#212-instalación-de-net-10-sdkruntime)
   - [2.2. Instalación de Entornos Integrados de Desarrollo (IDE)](#22-instalación-de-entornos-integrados-de-desarrollo-ide)
     - [2.2.1. Instalación de IntelliJ IDEA (JetBrains)](#221-instalación-de-intellij-idea-jetbrains)
     - [2.2.2. Instalación de JetBrains Rider (JetBrains)](#222-instalación-de-jetbrains-rider-jetbrains)
@@ -28,9 +28,9 @@ Esta sección describe los procesos de instalación de los componentes esenciale
 
 Los Kits de Desarrollo son plataformas base que el IDE utiliza para compilar y ejecutar el código escrito.
 
-> 💡 ** Analogía:** El JDK o .NET SDK es como el motor del coche. El IDE (IntelliJ, VS Code) es el tablero de control y los volanteг. Sin motor, el tablero no sirve de nada.
+> 💡 **Analogía:** El JDK o .NET SDK es como el motor del coche. El IDE (IntelliJ, VS Code) es el tablero de control y los volantes. Sin motor, el tablero no sirve de nada.
 
-### 2.1.1. Instalación de JDK 21 (Java Development Kit)
+### 2.1.1. Instalación de JDK 25 (Java Development Kit)
 
 La instalación del **JDK (Java Development Kit)** es un paso previo fundamental, ya que es la plataforma del entorno.
 
@@ -45,9 +45,9 @@ jar cf miapp.jar *.class  # Empaquetar
 javadoc *.java          # Generar documentación
 ```
 
-- Para ejecutar IntelliJ IDEA, no es necesario instalar Java por separado, ya que **JetBrains Runtime está incluido** (*bundled*) con el IDE (basado en JBR 21), pero para desarrollar aplicaciones Java, se requiere un **JDK** (*standalone*).
+- Para ejecutar IntelliJ IDEA, no es necesario instalar Java por separado, ya que **JetBrains Runtime está incluido** (*bundled*) con el IDE (basado en JBR 25), pero para desarrollar aplicaciones Java, se requiere un **JDK** (*standalone*).
 
-> 📝 ** Nota del Profesor:** Para desarrollo Java profesional, usad siempre JDK (no JRE). El JRE solo permite ejecutar Java, el JDK permite compilar. En el curso usaremos **JDK 21** (la versión LTS más reciente).
+> 📝 **Nota del Profesor:** Para desarrollo Java profesional, usad siempre JDK (no JRE). El JRE solo permite ejecutar Java, el JDK permite compilar. En el curso usaremos **JDK 25** (la versión LTS más reciente).
 
 **Métodos de instalación del JDK:**
 
@@ -58,7 +58,7 @@ javadoc *.java          # Generar documentación
 | **SDKMAN!** (Linux/Mac) | Gestiona versiones múltiples | Solo terminal |
 | **Chocolatey/winget** (Windows) | Fácil actualización | Gestor adicional |
 
-### 2.1.2. Instalación de .NET 8 (SDK/Runtime)
+### 2.1.2. Instalación de .NET 10 (SDK/Runtime)
 
 La instalación de este SDK es un requisito fundamental para el desarrollo de proyectos en el ecosistema **.NET** (C#, F#). Este SDK es especialmente relevante para **JetBrains Rider**, ya que es el IDE que se centra en el desarrollo de soluciones .NET.
 
@@ -70,12 +70,12 @@ dotnet run                           # Ejecutar
 dotnet test                          # Ejecutar pruebas
 ```
 
-> 📝 ** Dato importante:** El SDK incluye el Runtime, así que con instalar el SDK tienes todo lo necesario para desarrollar y ejecutar.
+> 📝 **Dato importante:** El SDK incluye el Runtime, así que con instalar el SDK tienes todo lo necesario para desarrollar y ejecutar.
 
 **Versiones de .NET:**
-- **.NET 6:** LTS hasta noviembre 2024 (ya no soportada)
-- **.NET 8:** LTS hasta noviembre 2026 (recomendada)
-- **.NET 9:** Latest, sin LTS (para experimentar)
+- **.NET 8:** LTS hasta noviembre 2026 (ya no soportada)
+- **.NET 10:** LTS (recomendada)
+- **.NET 11:** Preview (2026)
 
 ## 2.2. Instalación de Entornos Integrados de Desarrollo (IDE)
 
@@ -115,7 +115,7 @@ ideaIC-2024.3.1.exe /S /D=C:\Program Files\JetBrains\IntelliJ
 sudo snap install intellij-idea-community --classic
 ```
 
-> 📝 ** Recomendación:** Para estudiantes, usad la **Community Edition** (gratis). Para el curso de DAW es más que suficiente. Si queréis probar Ultimate, hay licencia gratuita para estudiantes (mediante GitHub Student Pack).
+> 📝 **Recomendación:** Para estudiantes, usad la **Community Edition** (gratis). Para el curso de DAW es más que suficiente. Si queréis probar Ultimate, hay licencia gratuita para estudiantes (mediante GitHub Student Pack).
 
 ### 2.2.2. Instalación de JetBrains Rider (JetBrains)
 
@@ -137,7 +137,7 @@ JetBrains Rider es un IDE *cross-platform* que proporciona una experiencia consi
 sudo snap install rider --classic
 ```
 
-> 💡 ** ¿Cuándo usar Rider?** Rider es ideal para desarrollo C#/.NET en entornos no-Windows (Linux/Mac). Si usas Windows, Visual Studio también es excelente. Para el curso de DAW, usaremos Rider para consistencia multiplataforma.
+> 💡 **¿Cuándo usar Rider?** Rider es ideal para desarrollo C#/.NET en entornos no-Windows (Linux/Mac). Si usas Windows, Visual Studio también es excelente. Para el curso de DAW, usaremos Rider para consistencia multiplataforma.
 
 ### 2.2.3. Instalación de Visual Studio Code (VS Code)
 
@@ -161,7 +161,7 @@ graph TD
     E --> E2[User settings]
 ```
 
-> 📝 ** Ventajas de VS Code:**
+> 📝 **Ventajas de VS Code:**
 > - Gratuito y open source
 > - Extremadamente ligero (arranque en segundos)
 > - Miles de extensiones gratuitas
@@ -174,10 +174,13 @@ graph TD
 |-----------|---------------|
 | **Extension Pack for Java** | Soporte Java, depuración, Maven/Gradle |
 | **C#** | Soporte C#, .NET, debugging |
+| **ReSharper** | Análisis de código C#, refactorización, code smells |
 | **Python** | Soporte Python, IntelliSense, linting |
 | **Prettier** | Formateo automático de código |
 | **GitLens** | Visualización avanzada de Git |
 | **Live Server** | Servidor web para desarrollo |
+
+> 📝 **ReSharper para VS Code:** JetBrains ofrece ReSharper como extensión para VS Code. Proporciona análisis de código avanzado, detección de code smells y refactorizaciones potentes para C#. Se instala desde el marketplace de VS Code buscando "ReSharper".
 
 ## 2.3. Instalación de Herramientas de Control de Versiones
 
@@ -198,7 +201,7 @@ git status                # Ver estado
 git log                   # Ver historial
 ```
 
-> 💡 ** Dato:** Git fue creado por Linus Torvalds en 2005 para desarrollar el kernel Linux. Hoy es el sistema de control de versiones más usado del mundo.
+> 💡 **Dato:** Git fue creado por Linus Torvalds en 2005 para desarrollar el kernel Linux. Hoy es el sistema de control de versiones más usado del mundo.
 
 **Instalación según SO:**
 
@@ -212,7 +215,7 @@ git log                   # Ver historial
 
 GitKraken es un cliente Git popular que se utilizará en el curso. Permite gestionar visualmente repositorios y ramas de manera más intuitiva.
 
-> 💡 ** Ventaja de GitKraken:** Esencial para entender visualmente cómo funcionan las ramas y los merges. Mucho más intuitivo que la línea de comandos para principiantes.
+> 💡 **Ventaja de GitKraken:** Esencial para entender visualmente cómo funcionan las ramas y los merges. Mucho más intuitivo que la línea de comandos para principiantes.
 
 **Versiones:**
 - **Gratuita:** Para repositorios públicos y repositorios privados limitados
@@ -237,7 +240,7 @@ graph TD
     style D fill:#9C27B0,color:#fff
 ```
 
-> 📝 ** ¿Qué son las ligaduras?** Son combinaciones de caracteres. Por ejemplo, `!=` puede aparecer como `≠` o `=>` como `⇒`. Esto hace el código más legible.
+> 📝 **¿Qué son las ligaduras?** Son combinaciones de caracteres. Por ejemplo, `!=` puede aparecer como `≠` o `=>` como `⇒`. Esto hace el código más legible.
 
 **Instalación de JetBrains Mono:**
 1. Descargar desde https://www.jetbrains.com/es-es/mono/
@@ -262,14 +265,14 @@ brew install oh-my-posh
 curl -s https://ohmyposh.dev/install.sh | bash -s
 ```
 
-> 💡 ** Visual de Oh My Posh:**
+> 💡 **Visual de Oh My Posh:**
 > ```
 > ✦ ~ master → on branch master
 > ❯ cd projects/miapp
 > ✦ ~/projects/miApp main → git status
 > ```
 
-> 📝 ** Nota del Profesor:** Oh My Posh es opcional pero muy recomendable. Hace que la terminal sea más agradable y muestra información útil (git branch, tiempo de ejecución de comandos, etc.).
+> 📝 **Nota del Profesor:** Oh My Posh es opcional pero muy recomendable. Hace que la terminal sea más agradable y muestra información útil (git branch, tiempo de ejecución de comandos, etc.).
 
 ---
 

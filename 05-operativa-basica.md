@@ -25,7 +25,7 @@
 
 - **IntelliSense (VS Code):** Las sugerencias aparecerán al escribir. Se pueden navegar usando las teclas `Up` y `Down`, y se aceptan con `Tab` o `Enter`. Se puede activar manualmente con **Ctrl+Space**.
 
-> 💡 ** Tip:** IntelliSense funciona mejor si el archivo está bien formado. Errores de sintaxis previos pueden afectar las sugerencias.
+> 💡 **Tip:** IntelliSense funciona mejor si el archivo está bien formado. Errores de sintaxis previos pueden afectar las sugerencias.
 
 - **Soporte CamelCase:** El filtrado de sugerencias soporta *CamelCase*, permitiendo teclear solo las letras en mayúscula de un nombre de método para limitar las sugerencias (ej. "cra" para "createApplication").
 
@@ -66,7 +66,7 @@ graph LR
 
 - **Selección por Columna (*Box Selection*):** Se realiza colocando el cursor en una esquina y arrastrando mientras se mantiene pulsado **Shift+Alt**.
 
-> 💡 ** Ejemplo práctico:** Añadir `//` a múltiples líneas simultáneamente
+> 💡 **Ejemplo práctico:** Añadir `//` a múltiples líneas simultáneamente
 > ```
 > línea 1
 > línea 2
@@ -107,7 +107,7 @@ graph LR
 
 La refactorización se invoca con **Ctrl+Alt+Shift+T**.
 
-> 📝 ** Acceso rápido:** Haz clic derecho en el código → "Refactor" o usa el atajo directo si lo conoces.
+> 📝 **Acceso rápido:** Haz clic derecho en el código → "Refactor" o usa el atajo directo si lo conoces.
 
 - **Tipos de Refactorización (IntelliJ IDEA):** Se soportan acciones como:
 
@@ -138,7 +138,7 @@ La refactorización se invoca con **Ctrl+Alt+Shift+T**.
 
 - **Previsualización:** IntelliJ IDEA permite **previsualizar los cambios** antes de aplicarlos en el diálogo *Refactoring Preview*.
 
-> 📝 ** Importante:** Siempre usa la previsualización antes de refactorizaciones grandes. Así puedes ver qué archivos serán afectados.
+> 📝 **Importante:** Siempre usa la previsualización antes de refactorizaciones grandes. Así puedes ver qué archivos serán afectados.
 
 - **Deshacer:** Se puede **deshacer la refactorización** con **Ctrl+Z**.
 
@@ -166,7 +166,7 @@ graph TD
 
 - **Construcción Incremental (*Build*):** Compila todas las clases dentro del objetivo y solo las clases que han cambiado, además de sus dependencias. Se ejecuta con **Build | Build Project** (`Ctrl+F9`). IntelliJ IDEA recomienda usar su *incremental build* para proyectos Java/Kotlin por su velocidad.
 
-> 💡 ** Build incremental vs Clean:**
+> 💡 **Build incremental vs Clean:**
 > - **Incremental:** Solo recompila lo que cambió (segundos)
 > - **Clean:** Borra todo y recompila desde cero (minutos)
 
@@ -184,7 +184,7 @@ Un archivo JAR (*Java archive*) compilado es llamado un **artefacto**. Para crea
 4. Para construirlo, ir a **`Build | Build Artifacts`** → **Build**. El archivo `.jar` se alojará en la carpeta `out/artifacts`.
 5. **Añadir Archivos:** Se pueden añadir archivos adicionales (imágenes, configuraciones, otros JARs) al artefacto a través de la sección *Output Layout* en el diálogo *Artifacts*.
 
-> 💡 ** Ejecutar el JAR:**
+> 💡 **Ejecutar el JAR:**
 > ```bash
 > java -jar miaplicacion.jar
 > ```
@@ -218,7 +218,7 @@ Un mismo código fuente puede compilarse con diferentes entornos de desarrollo, 
 
 El depurador (*debugger*) interfiere con la ejecución para obtener información sobre el estado del programa y facilitar la detección y corrección de *bugs*.
 
-> 💡 ** Frase célebre:** "Si debuguear es el proceso de eliminar bugs, entonces programar es el proceso de ponerlos." - Edsger Dijkstra
+> 💡 **Frase célebre:** "Si debuguear es el proceso de eliminar bugs, entonces programar es el proceso de ponerlos." - Edsger Dijkstra
 
 **5.3.1. Puntos de Ruptura (*Breakpoints*)**
 
@@ -286,7 +286,7 @@ graph TD
 
 - VS Code incluye **Source Control Management (SCM) integrado** y soporta Git *out-of-the-box*.
 
-> 📝 ** Acceso:** `Ctrl+Shift+G` abre el panel de control de versiones.
+> 📝 **Acceso:** `Ctrl+Shift+G` abre el panel de control de versiones.
 
 - **Operaciones:** La vista de **Source Control** se abre desde la *Activity Bar*. Permite inicializar un repositorio, **preparar cambios** (*stage*) y realizar **confirmaciones** (*commits*).
 
@@ -326,7 +326,7 @@ graph LR
 
 - **Historial Local (*Local History*):** Herramienta útil en IntelliJ IDEA que muestra las distintas versiones guardadas, destacando visualmente en **color verde** los cambios que ha sufrido el código en cada versión seleccionada.
 
-> 💡 ** Local History vs Git:**
+> 💡 **Local History vs Git:**
 > - **Local History:** Automático, guardado frecuente, solo local
 > - **Git:** Manual, historial permanente, compartible
 >

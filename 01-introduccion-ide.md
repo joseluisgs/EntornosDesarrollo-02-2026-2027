@@ -26,7 +26,7 @@
 
 Un **Entorno de Desarrollo Integrado (IDE)** (*Integrated Development Environment*) es una aplicación informática diseñada para **facilitar la tarea al programador**, ayudando a desarrollar aplicaciones con mayor rapidez. Un IDE se define como un conjunto de procedimientos y herramientas que facilitan la labor del desarrollo de aplicaciones.
 
-> 💡 ** Analogía:** Un IDE es como un taller mecánico especializado. En lugar de tener herramientas sueltas (llave inglesa, destornillador, etc.) dispersas por todo el garage, tienes un taller completo con todo organizado: elevador, herramientas específicas para cada tipo de reparación, manuales técnicos a mano, etc. Todo está integrado para que el mecánico trabaje más rápido y con menos errores.
+> 💡 **Analogía:** Un IDE es como un taller mecánico especializado. En lugar de tener herramientas sueltas (llave inglesa, destornillador, etc.) dispersas por todo el garage, tienes un taller completo con todo organizado: elevador, herramientas específicas para cada tipo de reparación, manuales técnicos a mano, etc. Todo está integrado para que el mecánico trabaje más rápido y con menos errores.
 
 ### Rol en el Ciclo de Vida del Software
 
@@ -46,7 +46,7 @@ graph LR
     style D1 fill:#FF9800,color:#fff
 ```
 
-> 📝 ** Nota del Profesor:** Aunque el IDE se usa principalmente en codificación, las herramientas integradas (control de versiones, gestión de proyectos, testing)tochan todas las fases. Por ejemplo, el control de versiones acompaña al proyecto desde el primer día hasta el mantenimiento.
+> 📝 **Nota del Profesor:** Aunque el IDE se usa principalmente en codificación, las herramientas integradas (control de versiones, gestión de proyectos, testing)tochan todas las fases. Por ejemplo, el control de versiones acompaña al proyecto desde el primer día hasta el mantenimiento.
 
 ### Clasificación básica
 
@@ -113,11 +113,11 @@ El editor de código es la herramienta principal que permite escribir y modifica
 
 - **Autocompletado de código:** Ofrece sugerencias que ayudan a completar el código. En el contexto de VS Code, esto se conoce como **IntelliSense**.
 
-> 📝 ** Dato curioso:** IntelliSense es una marca registrada de Microsoft. Otros IDEs tienen sistemas similares pero con nombres diferentes: "Code Completion" en IntelliJ, "Kite" como extensión, etc.
+> 📝 **Dato curioso:** IntelliSense es una marca registrada de Microsoft. Otros IDEs tienen sistemas similares pero con nombres diferentes: "Code Completion" en IntelliJ, "Kite" como extensión, etc.
 
 - **Análisis de código:** Incluye un **analizador léxico** (que corrige palabras mal escritas) y un **analizador sintáctico** (que informa si la estructura está bien realizada).
 
-> 📝 ** Error típico de estudiante:** "El IDE me marca error pero el código está bien". A veces el IDE no ha actualizado su índice o hay problemas de caché. Reiniciar el IDE suele solucionar estos falsos positivos.
+> 📝 **Error típico de estudiante:** "El IDE me marca error pero el código está bien". A veces el IDE no ha actualizado su índice o hay problemas de caché. Reiniciar el IDE suele solucionar estos falsos positivos.
 
 - Otras utilidades: Identificación automática de código, e inserción automática de paréntesis, corchetes, tabulaciones y espaciados.
 
@@ -127,11 +127,11 @@ Los IDEs integran las herramientas necesarias para traducir el código fuente.
 
 - **Compilador:** Es la herramienta encargada de traducir el código fuente escrito en un lenguaje a código legible para las máquinas (código binario o código máquina).
 
-> 💡 ** Analogía:** El compilador es como un traductor profesional que traduce un libro completo de inglés a español antes de publicarlo. La traducción lleva tiempo, pero una vez publicada, la lectura es rápida.
+> 💡 **Analogía:** El compilador es como un traductor profesional que traduce un libro completo de inglés a español antes de publicarlo. La traducción lleva tiempo, pero una vez publicada, la lectura es rápida.
 
 - **Intérprete:** Su misión es similar al compilador, traduciendo el código fuente a código máquina línea a línea a medida que se va ejecutando, siendo generalmente más lento.
 
-> 💡 ** Analogía:** El intérprete es como un traductor simultáneo que traduce mientras hablas. La traducción es más lenta pero inmediata, sin esperar a terminar todo el discurso.
+> 💡 **Analogía:** El intérprete es como un traductor simultáneo que traduce mientras hablas. La traducción es más lenta pero inmediata, sin esperar a terminar todo el discurso.
 
 - Los IDEs permiten **compilar o interpretar** el código fuente en un formato ejecutable o en *bytecode*, y algunos ofrecen la capacidad de **ejecutar el código** directamente desde el entorno.
 
@@ -141,7 +141,7 @@ El depurador es una herramienta fundamental que permite probar y eliminar posibl
 
 - **Puntos de ruptura (*Breakpoints*):** Permite detener la ejecución del programa en puntos específicos que el desarrollador desee.
 
-> 💡 ** Ejemplo práctico:** Imagina que tu programa falla cuando procesa el elemento 50 de una lista de 100. En lugar de añadir 50 prints, pones un breakpoint al inicio del bucle y ejecutas paso a paso hasta llegar al elemento 50.
+> 💡 **Ejemplo práctico:** Imagina que tu programa falla cuando procesa el elemento 50 de una lista de 100. En lugar de añadir 50 prints, pones un breakpoint al inicio del bucle y ejecutas paso a paso hasta llegar al elemento 50.
 
 - **Ejecución controlada:** Permite ejecutar el código línea a línea (paso a paso), avanzando o retrasando la ejecución.
 
@@ -153,7 +153,7 @@ El depurador es una herramienta fundamental que permite probar y eliminar posibl
 
 - **Inspección y modificación de variables:** Permite examinar el estado y el valor actual de las variables en el momento de la ejecución. Es posible modificar el valor de las variables sobre la marcha y continuar la ejecución.
 
-> 📝 ** Truco profesional:** Durante la depuración, puedes cambiar el valor de una variable para probar diferentes escenarios sin modificar el código fuente. Útil para probar casos límite.
+> 📝 **Truco profesional:** Durante la depuración, puedes cambiar el valor de una variable para probar diferentes escenarios sin modificar el código fuente. Útil para probar casos límite.
 
 ### 1.2.4. Gestión de proyectos o fichecheros (Explorador de archivos o Soluciones)
 
@@ -183,7 +183,7 @@ Los IDEs suelen ofrecer integración con herramientas externas a través de una 
 - En los IDEs JetBrains (Rider e IntelliJ IDEA), se puede acceder a la ventana de herramientas de la **Terminal** (*Terminal tool window*) mediante el atajo de teclado **Alt+F12**.
 - Visual Studio Code (VS Code) cuenta con una **terminal integrada** a la que se accede mediante **Ctrl+`** (Windows, Linux).
 
-> 💡 ** Ventaja:** La terminal integrada tiene el mismo contexto que tu proyecto. Si estás en la carpeta `/projects/miapp`, la terminal ya abre ahí. No necesitas navegar con `cd`.
+> 💡 **Ventaja:** La terminal integrada tiene el mismo contexto que tu proyecto. Si estás en la carpeta `/projects/miapp`, la terminal ya abre ahí. No necesitas navegar con `cd`.
 
 ### 1.2.6. Control de Versiones
 
@@ -210,7 +210,7 @@ graph LR
     style G fill:#607D8B,color:#fff
 ```
 
-> 📝 ** Nota del Profesor:** Git es esencial en el desarrollo moderno. Desde el primer día de prácticas profesionales tendréis que usar Git. Practicad los comandos básicos: add, commit, push, pull, branch, merge.
+> 📝 **Nota del Profesor:** Git es esencial en el desarrollo moderno. Desde el primer día de prácticas profesionales tendréis que usar Git. Practicad los comandos básicos: add, commit, push, pull, branch, merge.
 
 ### 1.2.7. Herramientas de Refactorización (Mejora de Código)
 
@@ -245,7 +245,7 @@ Los *plugins* o complementos son aplicaciones adicionales que se relacionan con 
 | VS Code | VS Code Marketplace | Python, Prettier, GitLens |
 | Rider | JetBrains Marketplace | Unity, Unreal support |
 
-> 📝 ** Recomendación:** No instaléis demasiados plugins. Cada uno consume recursos y puede ralentizar el IDE. Instalad solo los que uséis diariamente.
+> 📝 **Recomendación:** No instaléis demasiados plugins. Cada uno consume recursos y puede ralentizar el IDE. Instalad solo los que uséis diariamente.
 
 ---
 
