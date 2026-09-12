@@ -53,7 +53,7 @@ graph LR
     style D1 fill:#FF9800,color:#fff
 ```
 
-> 📝 **Nota del Profesor:** Aunque el IDE se usa principalmente en codificación, las herramientas integradas (control de versiones, gestión de proyectos, testing)tochan todas las fases. Por ejemplo, el control de versiones acompaña al proyecto desde el primer día hasta el mantenimiento.
+> 📝 **Nota del Profesor:** Aunque el IDE se usa principalmente en codificación, las herramientas integradas (control de versiones, gestión de proyectos, testing) tocan todas las fases. Por ejemplo, el control de versiones acompaña al proyecto desde el primer día hasta el mantenimiento.
 
 ### Clasificación básica
 

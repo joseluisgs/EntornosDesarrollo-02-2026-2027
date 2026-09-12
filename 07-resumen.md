@@ -111,10 +111,10 @@ graph TD
 
 | Aspecto | Rider | IntelliJ IDEA | VS Code |
 |---------|--------------|-------|---------|
-| **Licencia** | Community (free) / Ultimate (paid) | Commercial (trial) | Free (MIT) |
+| **Licencia** | Comercial (~$149/año estudiantes, gratis con Student Pack) | Community (gratis) / Ultimate (trial) | Free (MIT) |
 | **Peso** | Pesado (~500MB) | Pesado | Ligero (~100MB) |
-| **Java** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| **.NET** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+| **Java** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+| **.NET** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
 | **Web/JS** | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 | **Extensible** | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 | **Startup** | Lento | Lento | Rápido |
@@ -139,4 +139,4 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 - [ ] ¿Entiendo la diferencia entre Build y Rebuild?
 - [ ] ¿Sé crear un nuevo proyecto, configurar su estructura y crear un ejecutable?
 - [ ] ¿Puedo comparar IDEs y elegir el más adecuado según el lenguaje y proyecto?
-- [ ] ¿Puedo crear unn proyecto, compilarlo, depurarlo desde la consola con su CLI y desde el IDE?
+- [ ] ¿Puedo crear un proyecto, compilarlo, depurarlo desde la consola con su CLI y desde el IDE?

@@ -104,6 +104,42 @@ El objetivo es lograr la máxima similitud visual en los tres IDEs.
 1. Descargue **Fira Code** desde https://github.com/tonsky/FiraCode
 2. Instale la fuente en su sistema operativo.
 
+##### 9.3. Gestión de Plugins: Instalación y Eliminación (CCEE b)
+
+El CCEE b) exige demostrar que sabes **añadir y eliminar módulos** en el entorno de desarrollo.
+
+**En Rider / IntelliJ IDEA:**
+1. Instale el plugin **Key Promoter X** desde Settings → Plugins
+2. Verifique que funciona (aparecen notificaciones al usar atajos)
+3. Desinstale el plugin desde Settings → Plugins → Installed → Key Promoter X → Uninstall
+4. Reinicie el IDE
+5. Verifique que las notificaciones ya no aparecen
+
+**En VS Code:**
+1. Instale la extensión **Python** desde Extensiones (`Ctrl+Shift+X`)
+2. Verifique que aparece en la lista de extensiones instaladas
+3. Desactívela (Disable) desde el menú de la extensión
+4. Desinstalela (Uninstall) completamente
+5. Verifique que ya no aparece
+
+**[CAPTURAR]** Antes y después de instalar/desinstalar en cada IDE.
+
+##### 9.4. Sistema de Actualizaciones (CCEE d)
+
+El CCEE d) exige demostrar que sabes configurar el sistema de actualizaciones.
+
+**En Rider / IntelliJ IDEA:**
+1. `Help → Check for Updates` — verifique si hay actualizaciones
+2. `Settings → Appearance & Behavior → System Settings → Updates` — configure el canal a "Stable"
+3. Marque "Check for updates automatically"
+
+**En VS Code:**
+1. Verifique la versión actual: `Help → About`
+2. Compruebe si hay actualizaciones: el badge de notificación en la esquina inferior derecha
+3. Configure: `Settings → Search "update"` → `"update.mode": "manual"` o `"default"`
+
+**[CAPTURAR]** El proceso de verificación de actualizaciones en cada IDE.
+
 #### 10. Configuración de Tema, Fuente y Ligaduras
 
 ##### 10.1. Configuración de JetBrains Rider
@@ -186,15 +222,4 @@ code --install-extension eamodio.gitlens
 
 ---
 
-### Criterios de Evaluación
-
-| Criterio | Puntos |
-|----------|--------|
-| Todas las herramientas instaladas y verificadas | 2 |
-| IDEs funcionando correctamente | 2 |
-| Apariencia unificada en los 3 IDEs | 2 |
-| Extensiones y plugins configurados | 1 |
-| Snippets y dotfiles creados | 1 |
-| Script de configuración funcional | 1 |
-| Capturas completas y claras | 1 |
-| **Total** | **10** |
+**Formato de entrega:** PDF con capturas de pantalla de cada paso documentado, organizadas por partes (I, II, III, IV). Incluir el script setup.ps1 y el archivo .editorconfig creados.

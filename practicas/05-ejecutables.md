@@ -185,6 +185,50 @@ java -jar build/libs/HolaMundoKotlin.jar
 
 ---
 
+### PARTE VI: Mismo Código, Varios IDEs (CCEE f)
+
+El CCEE f) exige demostrar que el **mismo código fuente** se puede compilar con **varios entornos de desarrollo**.
+
+#### 10. Proyecto C# compilado en Rider y VS Code
+
+1. Cree un proyecto de consola con dotnet CLI:
+   ```bash
+   dotnet new console -n HolaMundoMultiIDE
+   cd HolaMundoMultiIDE
+   ```
+2. Escriba en `Program.cs`:
+   ```csharp
+   Console.WriteLine("Este código se compila en múltiples IDEs");
+   Console.WriteLine($"Compilado en: {System.Environment.MachineName}");
+   ```
+3. **Abrir en Rider:** File → Open → seleccione la carpeta del proyecto
+   - Compile: `Build → Build Solution` (`Ctrl+Shift+B`)
+   - Ejecute: `Shift+F10`
+   - **[CAPTURAR]** Salida en Rider
+
+4. **Abrir en VS Code:** File → Open Folder → seleccione la misma carpeta
+   - Abra la terminal: `` Ctrl+` ``
+   - Ejecute: `dotnet run`
+   - **[CAPTURAR]** Salida en VS Code
+
+5. Compare: ¿La salida es idéntica? ¿Hay diferencias en la experiencia?
+
+#### 11. Proyecto Java compilado en IntelliJ y VS Code
+
+1. Cree un proyecto Java simple con Gradle (método del paso 6)
+2. **Abrir en IntelliJ:** Abra el proyecto directamente
+   - Compile y ejecute con el botón ▶
+   - **[CAPTURAR]** Salida en IntelliJ
+
+3. **Abrir en VS Code:** Instale "Extension Pack for Java", abra la carpeta
+   - VS Code detectará el proyecto Gradle
+   - Compile y ejecute desde VS Code
+   - **[CAPTURAR]** Salida en VS Code
+
+4. Compare experiencias: ¿Qué IDE ofrece mejor soporte para Java?
+
+---
+
 ### TABLA RESUMEN
 
 | # | Lenguaje | IDE/Herramienta | Comando compilación | Archivo generado | Ejecución |
@@ -197,16 +241,4 @@ java -jar build/libs/HolaMundoKotlin.jar
 
 ---
 
-### Criterios de Evaluación
-
-| Criterio | Puntos |
-|----------|--------|
-| Proyecto C# creado y ejecutado en Rider | 1 |
-| Proyecto C# creado y ejecutado en VS Code | 1 |
-| Proyecto C# creado con dotnet CLI (sin IDE) | 1 |
-| Proyecto Java con Gradle creado y ejecutado | 1 |
-| Proyecto Kotlin con Gradle creado y ejecutado | 1 |
-| Generación de ejecutables (todos los casos) | 2 |
-| Capturas completas de cada paso | 1 |
-| Tabla resumen rellenada | 1 |
-| **Total** | **9** |
+**Formato de entrega:** PDF con capturas de cada proyecto: creación, compilación, ejecución y archivos generados. Incluir la tabla resumen rellenada.

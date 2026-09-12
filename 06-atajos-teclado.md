@@ -14,12 +14,26 @@
 
 En el Punto 05 viste las operaciones básicas del IDE. Ahora verás los atajos de teclado para ejecutar esas operaciones más rápido. Dominar los atajos es la diferencia entre ser un usuario lento y uno veloz.
 
+> 📌 **Ejemplo real:** Los desarrolladores de GitHub recomienden aprender 10 atajos básicos antes de profundizar. Según sus estudios de productividad, un programador que domina los atajos es un 25% más rápido que uno que usa el ratón para todo.
+
 **Objetivos de aprendizaje:**
 
 - Memorizar los atajos más importantes de JetBrains Rider (IDE principal)
 - Memorizar los atajos más importantes de IntelliJ IDEA (IDE secundario)
 - Memorizar los atajos más importantes de VS Code
 - Personalizar atajos según las necesidades del proyecto
+
+```mermaid
+graph LR
+    A[Básico: 10 atajos] --> B[Intermedio: +15 atajos]
+    B --> C[Avanzado: +5 atajos]
+    C --> D[Productividad total]
+    
+    style A fill:#4CAF50,color:#fff
+    style B fill:#2196F3,color:#fff
+    style C fill:#9C27B0,color:#fff
+    style D fill:#FF9800,color:#fff
+```
 
 # 6. Atajos de Teclado Esenciales para la Productividad
 

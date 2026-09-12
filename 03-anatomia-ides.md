@@ -30,6 +30,8 @@ Una característica notable al utilizar IDEs del mismo fabricante, como **JetBra
 
 > 💡 **Ventaja de usar productos JetBrains:** Si aprendes Rider, aprender IntelliJ IDEA es muy fácil. Los atajos, la estructura de menús y la filosofía son idénticas. Tu inversión en aprender una herramienta se transfiere a otras.
 
+> 📌 **Ejemplo real:** Cuando abres Rider por primera vez, verás el Solution Explorer a la izquierda, el editor al centro y la barra de estado abajo. Es exactamente la misma disposición que en IntelliJ IDEA, solo que en vez de ver un proyecto Java, ves un proyecto C# con archivos .cs y una solución .slnx.
+
 ### 3.1.1. Consistencia de la Interfaz (Rider y IntelliJ IDEA)
 
 Ambos IDEs comparten una filosofía de diseño basada en:
@@ -50,7 +52,7 @@ graph TD
     C --> C3[Marcadores]
 
     D --> D1[Línea:Columna]
-    D --> D2[Encoding]
+    D --> D2[Codificación]
     D --> D3[Branch actual]
 
     style A fill:#2196F3,color:#fff
@@ -154,24 +156,24 @@ VS Code es un IDE/editor ligero que organiza el trabajo en torno a un *workspace
 
 ```mermaid
 graph TD
-    A[VS Code Layout] --> B[Activity Bar]
-    A --> C[Primary Side Bar]
-    A --> D[Editor Area]
+    A[Diseño de VS Code] --> B[Barra de Actividad]
+    A --> C[Barra lateral principal]
+    A --> D[Área del Editor]
     A --> E[Panel]
-    A --> F[Status Bar]
+    A --> F[Barra de Estado]
 
-    B --> B1[Explorer]
-    B --> B2[Search]
+    B --> B1[Explorador]
+    B --> B2[Búsqueda]
     B --> B3[Git]
-    B --> B4[Extensions]
+    B --> B4[Extensiones]
 
-    D --> D1[Tabs]
-    D --> D2[Splits]
+    D --> D1[Pestañas]
+    D --> D2[Divisiones]
     D --> D3[IntelliSense]
 
     E --> E1[Terminal]
-    E --> E2[Output]
-    E --> E3[Problems]
+    E --> E2[Salida]
+    E --> E3[Problemas]
 
     style A fill:#2196F3,color:#fff
 ```

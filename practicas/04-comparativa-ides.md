@@ -102,13 +102,4 @@ Investigue y responda brevemente:
 
 ---
 
-### Criterios de Evaluación
-
-| Criterio | Puntos |
-|----------|--------|
-| Tablas completadas correctamente (atajos y opciones) | 3 |
-| Capturas claras de cada funcionalidad | 3 |
-| Investigación de otros IDEs | 1 |
-| Tabla resumen de atajos rellenada | 1 |
-| Comparativa justificada (cuándo usar cada IDE) | 2 |
-| **Total** | **10** |
+**Formato de entrega:** PDF con las tablas completadas, capturas de cada funcionalidad y la investigación de otros IDEs.

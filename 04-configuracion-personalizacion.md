@@ -16,7 +16,7 @@
 > 💡 **¿Por qué me importa?**
 > Un IDE bien configurado se adapta a tu forma de trabajar y te ahorra tiempo. Los plugins correctos pueden duplicar tu productividad. La personalización no es un lujo: es una inversión en eficiencia.
 > 
-> 🔗 **Conexión con otros puntos:** El Punto 02 instalaste las herramientas. Este punto las personalizas. El Punto 04.3 verás cómo mantenerlas actualizadas.
+> 🔗 **Conexión con otros puntos:** El Punto 02 instalaste las herramientas. Este punto las personalizas. El Punto 04.4 verás cómo mantenerlas actualizadas.
 
 En el Punto 02 instalaste las herramientas. Ahora veremos cómo personalizar y configurar los IDEs: temas, plugins, extensiones y opciones de actualización.
 
@@ -48,12 +48,12 @@ Los IDEs de JetBrains utilizan *plugins* para ampliar sus capacidades.
 graph LR
     A[Settings] --> B[Plugins]
     B --> C[Marketplace]
-    B --> D[Installed]
-    B --> E[Updates]
+    B --> D[Instalado]
+    B --> E[Actualizaciones]
 
     C --> F[Buscar plugin]
-    F --> G[Install]
-    G --> H[Restart IDE]
+    F --> G[Instalar]
+    G --> H[Reiniciar IDE]
 
     style A fill:#2196F3,color:#fff
     style B fill:#4CAF50,color:#fff
@@ -112,21 +112,21 @@ VS Code permite añadir soporte para lenguajes, depuradores y herramientas a tra
 
 ```mermaid
 graph TD
-    A[Settings Structure] --> B[Appearance]
+    A[Estructura de Ajustes] --> B[Apariencia]
     A --> C[Editor]
     A --> D[Plugins]
-    A --> E[Version Control]
-    A --> F[Build Tools]
-    A --> G[Languages]
-    A --> H[Tools]
+    A --> E[Control de Versiones]
+    A --> F[Herramientas de Build]
+    A --> G[Idiomas]
+    A --> H[Herramientas]
 
-    B --> B1[Theme]
-    B --> B2[Font]
-    B --> B3[Layout]
+    B --> B1[Tema]
+    B --> B2[Fuente]
+    B --> B3[Diseño]
 
-    C --> C1[Font]
-    C --> C2[Colors]
-    C --> C3[Keymap]
+    C --> C1[Fuente]
+    C --> C2[Colores]
+    C --> C3[Mapa de teclado]
 
     style A fill:#2196F3,color:#fff
     style B fill:#4CAF50,color:#fff
@@ -140,6 +140,8 @@ graph TD
 #### 4.2.2. Temas, Apariencia y Configuración de Archivos
 
 - **Temas y Apariencia (Rider / IntelliJ IDEA):** Al arrancar el IDE por primera vez, se le pide al usuario que **elija un tema** para la apariencia.
+
+> 📌 **Ejemplo real:** Netflix proporciona a sus desarrolladores una configuración estándar de IntelliJ IDEA con plugins específicos de seguridad y análisis de código. Todos los programadores usan el mismo tema, las mismas reglas de formato y los mismos plugins, lo que facilita que cualquiera pueda trabajar en cualquier proyecto.
 
 | Tema | Fondo | Uso recomendado |
 |------|-------|-----------------|
@@ -261,6 +263,21 @@ indent_size = 2
 [*.md]
 trim_trailing_whitespace = false
 ```
+
+### Sincronización de Configuración entre Dispositivos
+
+**VS Code — Settings Sync:**
+1. `Ctrl+Shift+P` → "Settings Sync: Turn On"
+2. Seleccione qué sincronizar: settings, keybindings, extensions, snippets, UI state
+3. Inicie sesión con GitHub o Microsoft
+4. En otro equipo: active Settings Sync y seleccione "Download"
+
+**JetBrains — Settings Repository:**
+1. Instale el plugin "Settings Repository" desde Settings → Plugins
+2. `File → Settings Repository` → configure un repositorio Git
+3. La configuración se sincroniza automáticamente al abrir/cerrar el IDE
+
+> 📝 **Nota:** La sincronización incluye: configuración del editor, atajos de teclado, extensiones/plugins, snippets y apariencia. No incluye archivos de proyecto ni código.
 
 ### Snippets Personalizados
 

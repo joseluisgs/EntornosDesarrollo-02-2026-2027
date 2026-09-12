@@ -51,12 +51,12 @@ En el Punto 04 personalizaste tu entorno. Ahora veremos la operativa básica: c�
 
 ```mermaid
 graph LR
-    A[Typing] --> B[IntelliSense popup]
-    B --> C[Select suggestion]
-    B --> D[Ctrl+Space for more]
-    D --> E[Code actions bulb]
-    E --> F[Quick Fix]
-    F --> G[Refactor]
+    A[Escritura] --> B[Popup de IntelliSense]
+    B --> C[Seleccionar sugerencia]
+    B --> D[Ctrl+Space para más]
+    D --> E[Icono de acciones de código]
+    E --> F[Corrección rápida]
+    F --> G[Refactorizar]
 
     style A fill:#2196F3,color:#fff
     style B fill:#4CAF50,color:#fff
@@ -184,6 +184,26 @@ graph TD
 
 - **Compilación Automática (*Auto-build*):** Se puede configurar en `Settings | Build, Execution, Deployment | Compiler` seleccionando **Build project automatically**.
 
+### Diferencia entre Build, Rebuild y Clean
+
+| Comando | Qué hace | Cuándo usarlo |
+|---------|----------|---------------|
+| **Build** | Compila solo archivos modificados y sus dependencias | Uso diario (rápido) |
+| **Rebuild** | Limpia todo y compila desde cero | Después de cambiar dependencias o SDK |
+| **Clean** | Elimina archivos compilados (carpeta bin/obj) sin recompilar | Antes de un Build completo |
+
+**En .NET CLI:**
+```bash
+dotnet build      # Build incremental
+dotnet clean      # Clean (elimina bin/obj)
+dotnet build      # Tras clean, recompila todo
+```
+
+**En JetBrains:**
+- `Build → Build Project` (`Ctrl+F9`) = Build incremental
+- `Build → Rebuild Project` = Limpia + compila todo
+- `Build → Clean Project` = Solo elimina archivos compilados
+
 **5.2.2. Empaquetado de Artefactos (Rider / IntelliJ IDEA)**
 
 Un archivo JAR (*Java archive*) compilado es llamado un **artefacto**. Para crearlo:
@@ -228,6 +248,8 @@ Un mismo código fuente puede compilarse con diferentes entornos de desarrollo, 
 
 El depurador (*debugger*) interfiere con la ejecución para obtener información sobre el estado del programa y facilitar la detección y corrección de *bugs*.
 
+> 📌 **Ejemplo real:** Cuando un servicio de Spotify falla en producción, los desarrolladores usan breakpoints y depuración remota para inspectar el estado de la aplicación en tiempo real, encontrando el error sin necesidad de añadir logs por todo el código.
+
 > 💡 **Frase célebre:** "Si debuguear es el proceso de eliminar bugs, entonces programar es el proceso de ponerlos." - Edsger Dijkstra
 
 **5.3.1. Puntos de Ruptura (*Breakpoints*)**
@@ -257,7 +279,7 @@ El depurador se utiliza para controlar la ejecución paso a paso.
 
 ```mermaid
 graph TD
-    A[Start Debug] --> B[Hit Breakpoint]
+    A[Iniciar depuración] --> B[Alcanzar breakpoint]
     B --> C{¿Qué hacer?}
     C --> D[Step Over F8]
     C --> E[Step Into F7]
@@ -302,10 +324,10 @@ graph TD
 
 ```mermaid
 graph LR
-    A[Modified Files] --> B[Stage Changes]
-    B --> C[Write Commit Message]
+    A[Archivos modificados] --> B[Preparar cambios]
+    B --> C[Escribir mensaje de commit]
     C --> D[Commit]
-    D --> E[Push to Remote]
+    D --> E[Push al remoto]
     
     style A fill:#2196F3,color:#fff
     style B fill:#FF9800,color:#fff

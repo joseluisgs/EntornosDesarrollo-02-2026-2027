@@ -85,8 +85,7 @@ dotnet test                          # Ejecutar pruebas
 > 📝 **Dato importante:** El SDK incluye el Runtime, así que con instalar el SDK tienes todo lo necesario para desarrollar y ejecutar.
 
 **Versiones de .NET:**
-- **.NET 8:** LTS hasta noviembre 2026 (ya no soportada)
-- **.NET 10:** LTS (recomendada)
+- **.NET 10:** LTS (soportado hasta noviembre 2028)
 - **.NET 11:** Preview (2026)
 
 ## 2.2. Instalación de Entornos Integrados de Desarrollo (IDE)
@@ -223,10 +222,6 @@ graph TD
 | **Code Cleanup** | `Ctrl+Shift+F9` | Limpiar y formatear código |
 
 > 💡 **Consejo:** Si usas Rider para C#, no necesitas ReSharper en VS Code (Rider ya incluye todo). ReSharper es ideal cuando prefieres VS Code como editor principal pero quieres las capacidades de análisis de JetBrains.
-| **Python** | Soporte Python, IntelliSense, linting |
-| **Prettier** | Formateo automático de código |
-| **GitLens** | Visualización avanzada de Git |
-| **Live Server** | Servidor web para desarrollo |
 
 > 📝 **ReSharper para VS Code:** JetBrains ofrece ReSharper como extensión para VS Code. Proporciona análisis de código avanzado, detección de code smells y refactorizaciones potentes para C#. Se instala desde el marketplace de VS Code buscando "ReSharper".
 
