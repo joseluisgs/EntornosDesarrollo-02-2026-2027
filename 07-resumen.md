@@ -245,5 +245,3 @@ graph LR
     style UD06 fill:#607D8B,color:#fff
     style UD07 fill:#4CAF50,color:#fff
 ```
-
-> 📝 **Nota:** Todos los temas están interconectados. No son temas sueltos: son piezas de un mismo puzzle. El Desarrollo de Software es un todo donde cada concepto alimenta a los demás.
