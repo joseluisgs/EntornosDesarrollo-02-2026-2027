@@ -16,7 +16,9 @@ UD02. Entornos de desarrollo. Curso 2026-2027.
 
 ## Contenido en YouTube
 
-- [Resumen](https://youtu.be/ExmTL4x6mhc)
+- [Resumen](https://youtu.be/ScL0443bVdk)
+- [Montando tu entorno de desarrollo en 15 minutos](https://youtu.be/hG1iohmNt-c)
+- [Jetbrains Rider](https://youtu.be/dm_-anD-50E)
 - [Lista de Reproducción](https://www.youtube.com/playlist?list=PLIaRVRNDWeMA)
 
 ## Resultados de Aprendizaje y Criterios de Evaluación
