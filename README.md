@@ -1,6 +1,6 @@
-# Entornos de Desarrollo - 02 Entornos de desarrollo
+# Entornos de Desarrollo - 02 - Entornos de desarrollo
 
-Tema 02. Entornos de desarrollo. Curso 2026-2027.
+UD02. Entornos de desarrollo. Curso 2026-2027.
 
 ![imagen](https://raw.githubusercontent.com/joseluisgs/EntornosDesarrollo-00-2022-2023/master/images/entornos.png)
 
