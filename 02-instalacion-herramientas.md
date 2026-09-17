@@ -11,6 +11,7 @@
     - [2.3.2. Instalación de GitKraken](#232-instalación-de-gitkraken)
   - [2.4. Instalación de fuentes adicionales](#24-instalación-de-fuentes-adicionales)
   - [2.5. Instalación de terminal Oh My Posh (Desarrollador)](#25-instalación-de-terminal-oh-my-posh-desarrollador)
+    - [2.5.1. Fuentes Nerd Fonts](#251-fuentes-nerd-fonts)
   - [2.6. Creación de Proyectos y Soluciones en C#](#26-creación-de-proyectos-y-soluciones-en-c)
 
 
@@ -316,6 +317,28 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 > ```
 
 > 📝 **Nota del Profesor:** Oh My Posh es opcional pero muy recomendable. Hace que la terminal sea más agradable y muestra información útil (git branch, tiempo de ejecución de comandos, etc.).
+
+### Fuentes Nerd Fonts
+
+Para que los iconos de Oh My Posh se vean correctamente necesitas una **fuente Nerd Font**. Las Nerd Fonts son fuentes con miles de iconos extra (git, Docker, flechas, carpetas, etc.) que Oh My Posh usa para decorar la terminal.
+
+**Descarga las fuentes desde:** [nerdfonts.com](https://www.nerdfonts.com/font-downloads)
+
+Fuentes recomendadas para programar:
+- **FiraCode Nerd Font** — con ligaduras de código
+- **JetBrainsMono Nerd Font** — la que usamos en el IDE
+- **Cascadia Code Nerd Font** — la terminal de Windows
+- **Hack Nerd Font** — ligera y legible
+
+**Configurar la fuente en tu terminal:**
+
+- **Windows Terminal:** Ve a Configuración → Perfil → Apariencia → Fuente → selecciona la Nerd Font
+- **VS Code:** Añade en `settings.json`:
+  ```json
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font"
+  ```
+
+> ⚠️ **Sin la Nerd Font**, Oh My Posh mostrará caracteres raros o cuadros en lugar de iconos. Siempre instala primero la fuente y luego configúrala en la terminal.
 
 ## 2.6. Creación de Proyectos y Soluciones en C#
 
