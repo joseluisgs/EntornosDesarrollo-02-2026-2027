@@ -452,6 +452,14 @@ dotnet publish -c Release -o ./publish  # Publicar ejecutable
 
 > 📝 **Nota:** Los archivos compilados se generan en `bin/Debug/net10.0/`. El archivo `.dll` es el ensamblado .NET, y `.exe` es el ejecutable en Windows.
 
+> 💡 **Buenas Prácticas:**
+> - **Instala primero los SDKs (JDK, .NET) antes que los IDEs**: Si instalas el IDE primero, puede no detectar las herramientas y dar errores confusos.
+> - **Usa siempre la Toolbox App de JetBrains**: Centraliza las actualizaciones de Rider e IntelliJ en un solo sitio. Actualizar desde el IDE puede causar problemas de compatibilidad.
+> - **Verifica la instalación con comandos**: Después de instalar, ejecuta `java --version` y `dotnet --version` en la terminal para confirmar que todo funciona.
+> - **No instales versiones Preview en producción**: Usa siempre las versiones LTS (como .NET 10) para el desarrollo estable del curso.
+
+> 📌 **Ejemplo real:** Amazon Web Services (AWS) recomienda a sus desarrolladores configurar un entorno de desarrollo estandarizado con SDKs específicos antes de instalar cualquier IDE. Esto garantiza que todos los miembros del equipo trabajen con las mismas versiones y reduzca problemas de compatibilidad. En empresas como Spotify o Glovo, los scripts de configuración automatizan la instalación de JDK, .NET y Git en nuevas máquinas de desarrollo.
+
 ---
 
 **Resumen del punto:**
@@ -466,5 +474,17 @@ dotnet publish -c Release -o ./publish  # Publicar ejecutable
 | **Git** | Control de versiones | `git commit`, `git push` |
 | **GitKraken** | Cliente Git visual | UI gráfica |
 | **NuGet** | Gestor de paquetes .NET | `dotnet add package` |
+
+**¿Qué viene después?**
+
+En la **UD 02: Anatomía de los IDEs** aprenderás a identificar y usar las zonas principales de cada IDE: editor, terminal integrada, gutter, barra de estado y atajos de teclado.
+
+| Herramienta instalada | Se usa en la siguiente UD para |
+|----------------------|-------------------------------|
+| Rider / IntelliJ | Conocer la anatomía de los IDEs JetBrains (Tool Windows, Gutter, Status Bar) |
+| VS Code | Explorar la Activity Bar, el Panel y la Paleta de Comandos |
+| Terminal (Oh My Posh) | Usar la terminal integrada con comandos de proyecto |
+| Git / GitKraken | Entender el control de versiones desde el IDE |
+| dotnet CLI | Crear soluciones y proyectos paso a paso |
 
 En el siguiente punto veremos la anatomía de estos IDEs: qué hay dentro de cada uno, para qué sirve cada parte y cómo se organizan las herramientas.

@@ -364,6 +364,15 @@ graph LR
 >
 > Usa Local History para recover cambios no-committed. Usa Git para control de versiones real.
 
+> 💡 **Buenas Prácticas:**
+> - **Compila frecuentemente** (`Ctrl+F9`). No esperes a tener 500 líneas sin compilar: cuanto antes detectes errores, más fácil es corregirlos.
+> - **Usa breakpoints condicionales** en lugar de poner 20 breakpoints a lo loco. Así detienes la ejecución solo cuando importa.
+> - **Aprende a depurar antes de usar `Console.WriteLine`** para todo. El depurador te da mucha más información.
+> - **Haz commit con mensajes descriptivos** y a menudo. Un commit = un cambio lógico. No metas 30 cambios en un solo commit.
+> - **Revisa el historial de Local History** antes de preguntar "¿qué cambié?". Ahorra mucho tiempo.
+
+> 📌 **Ejemplo real:** Netflix exige a sus desarrolladores que hagan commits frecuentes con mensajes descriptivos. Esto permite hacer rollback rápido si una feature causa problemas en producción, y facilita la revisión de código entre equipos.
+
 ---
 
 **Resumen del punto:**
@@ -377,5 +386,14 @@ graph LR
 | **Step Over/Into/Out** | Ejecución paso a paso en depuración |
 | **Git integrado** | Commit, push, pull desde el IDE |
 | **JAR/NuGet** | Empaquetado de artefactos y gestión de dependencias |
+
+### ¿Qué viene después?
+
+| Tema de este punto | Se usa en el siguiente para |
+|--------------------|----------------------------|
+| **IntelliSense y autocompletado** | El Punto 06 escribirás código más rápido con atajos |
+| **Build y compilación** | La UD03 compilarás soluciones completas en C# |
+| **Depuración** | La UD04 depurarás errores en proyectos reales |
+| **Git integrado** | La UD05 gestionarás el control de versiones como un profesional |
 
 En el siguiente punto encontrarás los atajos de teclado esenciales para ejecutar todo esto más rápido y ser más productivo.

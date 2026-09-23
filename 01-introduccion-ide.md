@@ -262,6 +262,14 @@ Los *plugins* o complementos son aplicaciones adicionales que se relacionan con 
 
 > 📝 **Recomendación:** No instaléis demasiados plugins. Cada uno consume recursos y puede ralentizar el IDE. Instalad solo los que uséis diariamente.
 
+> 💡 **Buenas Prácticas:**
+> - **Aprende los atajos de teclado**: `Ctrl+Space` (autocompletado), `Ctrl+N` (buscar clase), `Ctrl+Shift+F` (buscar en todo). Los atajos te ahorran minutos cada hora de código.
+> - **Usa siempre el control de versiones desde el primer día**: Aunque sea un proyecto pequeño, practica `git add`, `git commit` y `git push` regularmente.
+> - **No instales todos los plugins que veas**: Elige los esenciales y comprueba que no ralentizan el IDE.
+> - **Aprovecha el depurador en vez de escribir `Console.WriteLine`**: Un breakpoint y la inspección de variables te dan mucha más información.
+
+> 📌 **Ejemplo real:** Spotify utiliza IntelliJ IDEA para el desarrollo de sus microservicios en Java. Netflix usa una combinación de IDEs JetBrains y VS Code en su stack de microservicios en la nube. Ambas empresas exigen a sus desarrolladores dominar las herramientas de depuración y control de versiones integradas en el IDE.
+
 ---
 
 **Resumen del punto:**
@@ -275,5 +283,17 @@ Los *plugins* o complementos son aplicaciones adicionales que se relacionan con 
 | **Control de versiones** | Git integrado para seguimiento de cambios |
 | **Refactorización** | Mejora el código sin cambiar su comportamiento |
 | **Plugins** | Extensiones que añaden funcionalidades al IDE |
+
+**¿Qué viene después?**
+
+En la **UD 02: Instalación de Herramientas** aprenderás a instalar y configurar todos los componentes que acabamos de ver: JDK, .NET SDK, IDEs (Rider, IntelliJ, VS Code), Git y utilidades como Oh My Posh.
+
+| Tema de este punto | Se usa en la siguiente UD para |
+|--------------------|-------------------------------|
+| Componentes del IDE | Instalar JDK y .NET SDK en tu ordenador |
+| Editor y autocompletado | Configurar Rider y VS Code con las extensiones adecuadas |
+| Depurador | Aprender a depurar programas C# paso a paso |
+| Control de versiones | Instalar Git y GitKraken |
+| Plugins | Elegir las extensiones esenciales para el curso |
 
 En el siguiente punto veremos cómo instalar todos estos componentes en tu ordenador, desde los kits de desarrollo hasta los propios IDEs.

@@ -1,21 +1,20 @@
-- [7. Resumen y Conclusiones](#7-resumen-y-conclusiones)
-  - [7.1. Mapa Conceptual de la Unidad](#71-mapa-conceptual-de-la-unidad)
-  - [7.2. Conceptos Clave](#72-conceptos-clave)
-    - [Entorno de Desarrollo Integrado (IDE)](#entorno-de-desarrollo-integrado-ide)
-    - [Herramientas Fundamentales](#herramientas-fundamentales)
-    - [Anatomía del IDE](#anatomía-del-ide)
-    - [Configuración y Personalización](#configuración-y-personalización)
-    - [Operativa Básica](#operativa-básica)
-  - [7.3. Herramientas y Perfiles](#73-herramientas-y-perfiles)
-    - [Kits de Desarrollo](#kits-de-desarrollo)
-    - [IDEs del Curso](#ides-del-curso)
-    - [Herramientas de Apoyo](#herramientas-de-apoyo)
-  - [7.4. Checklist de Supervivencia](#74-checklist-de-supervivencia)
-  - [7.5. Errores Comunes a Evitar](#75-errores-comunes-a-evitar)
-  - [7.6. Glosario de Términos](#76-glosario-de-términos)
-  - [7.7. Ejercicios de Repaso](#77-ejercicios-de-repaso)
-  - [7.8. ¿Qué viene después?](#78-qué-viene-después)
-  - [7.9. Mapa de Conexiones entre Temas](#79-mapa-de-conexiones-entre-temas)
+- [7.1. Mapa Conceptual de la Unidad](#71-mapa-conceptual-de-la-unidad)
+- [7.2. Conceptos Clave](#72-conceptos-clave)
+  - [Entorno de Desarrollo Integrado (IDE)](#entorno-de-desarrollo-integrado-ide)
+  - [Herramientas Fundamentales](#herramientas-fundamentales)
+  - [Anatomía del IDE](#anatomía-del-ide)
+  - [Configuración y Personalización](#configuración-y-personalización)
+  - [Operativa Básica](#operativa-básica)
+- [7.3. Herramientas y Perfiles](#73-herramientas-y-perfiles)
+  - [Kits de Desarrollo](#kits-de-desarrollo)
+  - [IDEs del Curso](#ides-del-curso)
+  - [Herramientas de Apoyo](#herramientas-de-apoyo)
+- [7.4. Checklist de Supervivencia](#74-checklist-de-supervivencia)
+- [7.5. Errores Comunes a Evitar](#75-errores-comunes-a-evitar)
+- [7.6. Glosario de Términos](#76-glosario-de-términos)
+- [7.7. Ejercicios de Repaso](#77-ejercicios-de-repaso)
+- [7.8. ¿Qué viene después?](#78-qué-viene-después)
+- [7.9. Mapa de Conexiones entre Temas](#79-mapa-de-conexiones-entre-temas)
 
 
 # 7. Resumen y Conclusiones
@@ -221,6 +220,10 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 ## 7.8. ¿Qué viene después?
 
 En la siguiente unidad (**UD03: Sistema de Control de Versiones**) veremos en profundidad **Git**: ramas, merges, conflictos, flujos de trabajo y colaboración en equipo. Todo lo que aprendiste aquí sobre Git integrado en el IDE será la base para dominar el control de versiones.
+
+> 📌 **Ejemplo real:** Netflix usa IDEs configurados con extensiones específicas para cada microservicio. Los desarrolladores tienen entornos personalizados con atajos de teclado estandarizados, lo que les permite cambiar de proyecto sin fricción. Herramientas como IntelliJ y VS Code son la base de su productividad.
+
+> 💡 **Buenas Prácticas:** 1) Invierte tiempo en configurar bien tu IDE al inicio del curso, 2) Aprende los atajos esenciales antes de instalar extensiones, 3) Usa la misma configuración en todos tus ordenadores con sincronización en la nube, 4) Documenta tus atajos y configuraciones favoritas.
 
 ## 7.9. Mapa de Conexiones entre Temas
 

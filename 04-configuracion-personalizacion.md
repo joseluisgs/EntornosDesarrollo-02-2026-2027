@@ -395,6 +395,15 @@ Si una actualización causa problemas:
 
 > 📝 **Nota:** Las actualizaciones de plugins son independientes del IDE. Un plugin puede actualizar sin actualizar el IDE y viceversa.
 
+> 💡 **Buenas Prácticas:**
+> - **Empieza con lo mínimo:** Instala solo los plugins que realmente necesitas. Demasiados plugins ralentizan el IDE.
+> - **Usa `.editorconfig`** en todos tus proyectos para que todo el equipo tenga el mismo formato de código.
+> - **Sincroniza tu configuración** con Settings Sync (VS Code) o Settings Repository (JetBrains) para no perder tu setup si cambias de ordenador.
+> - **No desactives las actualizaciones automáticas** del IDE: incluyen parches de seguridad importantes.
+> - **Prueba un tema oscuro** si programas muchas horas: reduce la fatiga visual.
+
+> 📌 **Ejemplo real:** Spotify utiliza `.editorconfig` en todos sus repositorios para garantizar que el código de más de 200 desarrolladores tenga el mismo estilo, independientemente del IDE que usen. Esto evita diffs innecesarios en las revisiones de código.
+
 ---
 
 **Resumen del punto:**
@@ -408,5 +417,14 @@ Si una actualización causa problemas:
 | **Atajos** | Configurables en Settings/Preferences |
 | **Auto Save** | Guardado automático configurable |
 | **Actualizaciones** | Help → Check for Updates (JetBrains), automático (VS Code) |
+
+### ¿Qué viene después?
+
+| Tema de este punto | Se usa en el siguiente para |
+|--------------------|----------------------------|
+| **Plugins y extensiones** | El Punto 05 usarás extensiones de C#, Git y Live Server |
+| **Personalización visual** | El Punto 06 optimizarás tu flujo de trabajo con atajos |
+| **Auto Save y formato** | El Punto 05 compilarás y depurarás sin perder cambios |
+| **Actualizaciones** | Mantendrás tu entorno actualizado durante todo el curso |
 
 En el siguiente punto veremos la operativa básica del IDE: cómo usar el editor, compilar, depurar y gestionar el código en el día a día.

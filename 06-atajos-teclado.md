@@ -287,6 +287,15 @@ Una vez dominas los 10 básicos, estos te harán productivo:
 > 4. **Usa Key Promoter X** en IntelliJ para aprender mientras trabajas
 > 5. **Instala extensiones de keymaps** si vienes de otro editor
 
+> 💡 **Buenas Prácticas:**
+> - **Aprende los 10 esenciales primero** (sección 6.1) y dominarlos antes de intentar memorizar todos.
+> - **Usa la paleta de comandos** (`Ctrl+Shift+P` / `Ctrl+Shift+A`) cuando no recuerdes un atajo: busca la acción por nombre.
+> - **Personaliza los atajos** que no te gusten: no sufras con configuración por defecto si no se adapta a ti.
+> - **Key Promoter X** es tu mejor aliado: te dice cada vez que usas el ratón qué atajo podrías haber usado.
+> - **Practica con un cronómetro:** intenta hacer tareas comunes cada vez más rápido.
+
+> 📌 **Ejemplo real:** Microsoft incorpora atajos de teclado personalizables en VS Code porque sabe que los desarrolladores profesionales gastan más del 60% de su tiempo en el IDE. Cada segundo ahorrado se traduce en miles de horas de productividad al año en una empresa.
+
 ---
 
 **Resumen del punto:**
@@ -296,5 +305,14 @@ Una vez dominas los 10 básicos, estos te harán productivo:
 | **Rider** | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+A` |
 | **IntelliJ** | `Double Shift` | `Ctrl+S` | `Alt+F12` | `Ctrl+Shift+A` |
 | **VS Code** | `Ctrl+P` | `Ctrl+S` | `` Ctrl+` `` | `Ctrl+Shift+P` |
+
+### ¿Qué viene después?
+
+| Tema de este punto | Se usa en el siguiente para |
+|--------------------|----------------------------|
+| **Atajos de navegación** | La UD03 navegarás por proyectos C# más complejos |
+| **Refactorización con atajos** | La UD04 mejorarás código existente de forma eficiente |
+| **Búsqueda en proyecto** | La UD05 encontrarás y corregirás errores rápidamente |
+| **Terminal integrada** | Ejecutarás `dotnet`, `git` y otras herramientas sin salir del IDE |
 
 En el siguiente punto encontrarás un resumen completo de toda la unidad, con un mapa conceptual y un checklist de supervivencia.

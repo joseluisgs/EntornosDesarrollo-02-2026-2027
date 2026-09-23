@@ -226,6 +226,14 @@ graph TD
 
 > 📝 **Recomendación:** Para principiantes, mantener `off` es mejor para entender el flujo de trabajo. Para productividad, `afterDelay` de 1000ms es ideal.
 
+> 💡 **Buenas Prácticas:**
+> - **Memoriza los atajos de las Tool Windows**: `Alt+1` (Proyecto), `Alt+F12` (Terminal), `Alt+9` (Git). Te permiten navegar sin tocar el ratón.
+> - **Usa la Command Palette (`Ctrl+Shift+P` en VS Code)**: Es la forma más rápida de encontrar cualquier comando o configuración sin buscar en menús.
+> - **Aprovecha el Gutter**: Los iconos del margen izquierdo son accesos directos para ejecutar, depurar y refactorizar. Pasa el ratón por encima para ver qué hacen.
+> - **Configura la barra de estado a tu gusto**: Los widgets de la derecha son interactivos. Puedes cambiar la codificación, el tipo de salto de línea o la rama de Git directamente desde ahí.
+
+> 📌 **Ejemplo real:** Toyota utiliza entornos IDE estandarizados con una configuración común para todos sus desarrolladores. La anatomía del IDE está mapeada en guías internas para que cualquier desarrollador pueda sentarse en cualquier workstation y encontrar las herramientas en el mismo sitio. Esto reduce el tiempo de adaptación de nuevos empleados de semanas a horas.
+
 ---
 
 **Resumen del punto:**
@@ -238,5 +246,17 @@ graph TD
 | **Barra de estado** | Línea, encoding, branch | Línea, encoding, branch |
 | **Navegación** | `Ctrl+N` (clases), `Ctrl+Shift+N` (archivos) | `Ctrl+P` (archivos) |
 | **Paleta comandos** | `Ctrl+Shift+A` | `Ctrl+Shift+P` |
+
+**¿Qué viene después?**
+
+En la **UD 02: Configuración y Personalización de IDEs** aprenderás a adaptar estos IDEs a tu flujo de trabajo: cambiar temas, instalar extensiones, configurar atajos y gestionar actualizaciones.
+
+| Zona del IDE | Se usa en la siguiente UD para |
+|-------------|-------------------------------|
+| Tool Windows / Activity Bar | Configurar qué vistas aparecen por defecto |
+| Terminal integrada | Personalizar el shell y los atajos de terminal |
+| Gutter / Editor | Ajustar el formato de código y las reglas de análisis |
+| Barra de estado | Configurar la información que se muestra |
+| Paleta de comandos | Usar comandos para cambiar configuraciones al vuelo |
 
 En el siguiente punto veremos cómo personalizar y configurar estos IDEs: temas, plugins, extensiones y opciones de actualización.
