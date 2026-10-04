@@ -78,19 +78,19 @@ Una vez dominas los 10 básicos, estos te harán productivo:
 
 | Atajo | Rider/IntelliJ | VS Code | Para qué sirve |
 |-------|----------------|---------|----------------|
-| **Ir a implementación** | `Ctrl+Alt+B` | `F12` | Ver el código de una función/método |
-| **Ir a definición** | `Ctrl+B` | `Ctrl+F12` | Ir donde se define un símbolo |
+| **Ir a implementación** | `Ctrl+Alt+B` | `Ctrl+F12` | Ver el código de una función/método |
+| **Ir a definición** | `Ctrl+B` | `F12` | Ir donde se define un símbolo |
 | **Usos de un símbolo** | `Alt+F7` | `Shift+F12` | Buscar todos los usos |
 | **Historial** | `Ctrl+Alt+←` | `Alt+←` | Volver a la posición anterior |
-| **Terraza** | `Ctrl+E` | `Ctrl+Tab` | Ver archivos abiertos recientemente |
+| **Archivos recientes** | `Ctrl+E` | `Ctrl+Tab` | Ver archivos abiertos recientemente |
 
 ### Edición Eficiente
 
 | Atajo | Rider/IntelliJ | VS Code | Para qué sirve |
 |-------|----------------|---------|----------------|
-| **Duplicar línea** | `Ctrl+D` | `Ctrl+Shift+K` | Copiar línea actual |
+| **Duplicar línea** | `Ctrl+D` | `Shift+Alt+↓/↑` | Copiar línea actual |
 | **Eliminar línea** | `Ctrl+Y` | `Ctrl+Shift+K` | Borrar línea actual |
-| **Mover línea** | `Alt+↑/↓` | `Alt+↑/↓` | Subir/bajar línea |
+| **Mover línea** | `Alt+Shift+↑/↓` | `Alt+↑/↓` | Subir/bajar línea |
 | **Comentar** | `Ctrl+/` | `Ctrl+/` | Comentar/descomentar |
 | **Selección múltiple** | `Alt+J` | `Ctrl+D` | Seleccionar múltiples ocurrencias |
 
@@ -116,10 +116,12 @@ Una vez dominas los 10 básicos, estos te harán productivo:
 |-------|----------------|---------|----------------|
 | **Find in Files** | `Ctrl+Shift+F` | `Ctrl+Shift+F` | Buscar en todo el proyecto |
 | **Replace in Files** | `Ctrl+Shift+R` | `Ctrl+Shift+H` | Reemplazar en todo el proyecto |
-| **Bookmarks** | `F11` | `Ctrl+K Ctrl+K` | Marcar línea importante |
-| **Column Selection** | `Alt+Shift+Insert` | `Ctrl+Shift+↑/↓` | Seleccionar en columna |
-| **Macro** | `Edit → Macros` | `Ctrl+Shift+P` → "Record Macro" | Grabar y repetir secuencia |
+| **Bookmarks** | `F11` | Requiere extensión | Marcar línea importante |
+| **Column Selection** | `Alt+Shift+Insert` | `Ctrl+Shift+Alt+↑/↓` | Seleccionar en columna |
+| **Macro** | `Edit → Macros` | Requiere extensión | Grabar y repetir secuencia |
 | **Local History** | `Local History → Show` | — | Ver historial local |
+
+> 📝 **Nota:** VS Code **no trae bookmarks ni grabación de macros de serie**: las dos funciones necesitan una extensión. Ojo porque `Ctrl+K Ctrl+K` es el atajo de **Visual Studio** (otro IDE de Microsoft), no el de VS Code; en Rider e IntelliJ, en cambio, los macros sí existen de serie en `Edit → Macros`.
 
 ### Mini-ejercicio 3: Búsqueda masiva
 1. En tu proyecto, busca todos los `Console.Write` (o `System.out.println`)
@@ -272,6 +274,11 @@ Una vez dominas los 10 básicos, estos te harán productivo:
 | | Modo Zen | `Ctrl + K Z` | `Cmd + K Z` |
 | | Split editor | `Ctrl + \` | `Cmd + \` |
 | | Cerrar pestaña | `Ctrl + W` | `Cmd + W` |
+
+> 📥 **Tarjetas de atajos oficiales:** están en la carpeta [`keymaps/`](keymaps/) por si quieres imprimirlas y tenerlas al lado del teclado.
+> - **VS Code:** [Windows](keymaps/keyboard-shortcuts-windows.pdf) · [macOS](keymaps/keyboard-shortcuts-macos.pdf) · [Linux](keymaps/keyboard-shortcuts-linux.pdf)
+> - **JetBrains Rider:** [Windows](keymaps/Rider_default_win_shortcuts.pdf) · [macOS](keymaps/Rider_macosx_shortcuts.pdf)
+> - **IntelliJ IDEA:** [Windows/Linux y macOS](keymaps/IntelliJIDEA_ReferenceCard.pdf)
 
 > 💡 **Atajos esenciales que debes memorizar primero:**
 > | IDE | Búsqueda | Guardar | Terminal | Command Palette |
