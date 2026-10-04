@@ -1,10 +1,21 @@
-## Práctica 4: comparativa funcional de entornos de desarrollo
+- [Práctica 4: comparativa funcional de entornos de desarrollo](#práctica-4-comparativa-funcional-de-entornos-de-desarrollo)
+  - [Parte I: componentes de interfaz y navegación](#parte-i-componentes-de-interfaz-y-navegación)
+  - [Parte II: edición avanzada y productividad](#parte-ii-edición-avanzada-y-productividad)
+  - [Parte III: compilación y depuración](#parte-iii-compilación-y-depuración)
+  - [Parte IV: refactorización y mantenimiento](#parte-iv-refactorización-y-mantenimiento)
+  - [Parte V: gestión de dependencias y plugins](#parte-v-gestión-de-dependencias-y-plugins)
+  - [Parte VI: investigación — otros IDEs](#parte-vi-investigación--otros-ides)
+  - [Tabla resumen: atajos principales](#tabla-resumen-atajos-principales)
 
-**Objetivo:** Identificar y comparar las herramientas clave de desarrollo en **JetBrains Rider**, **IntelliJ IDEA** y **Visual Studio Code**, documentando su ubicación, atajos y funcionalidades.
+
+# Práctica 4: comparativa funcional de entornos de desarrollo
+
+> 💡 **Punto de partida:** Rider, IntelliJ y VS Code se parecen más de lo que parece... ¿te moverías con soltura en los tres?
+
+**Objetivos de aprendizaje:** Identificar y comparar las herramientas clave de desarrollo en **JetBrains Rider**, **IntelliJ IDEA** y **Visual Studio Code**, documentando su ubicación, atajos y funcionalidades.
 
 **Metodología:** Complete las celdas de la tabla para cada IDE, indicando el atajo de teclado, la opción de menú o si la funcionalidad existe (Sí/No). Realice las capturas solicitadas.
 
----
 
 ### Parte I: componentes de interfaz y navegación
 
@@ -18,7 +29,6 @@
 | **Barra de Estado** | Status Bar | Status Bar | Status Bar | [CAPTURAR] |
 | **Gutter** | Números, breakpoints, iconos | Números, breakpoints, iconos | — | [CAPTURAR] |
 
----
 
 ### Parte II: edición avanzada y productividad
 
@@ -33,7 +43,6 @@
 | **Duplicar Línea** | | | | [CAPTURAR] |
 | **Ir a Definición/Implementación** | | | | [CAPTURAR] |
 
----
 
 ### Parte III: compilación y depuración
 
@@ -49,7 +58,6 @@
 | **Step Out** | `Shift+F8` | `Shift+F8` | `Shift+F11` | [CAPTURAR] |
 | **Evaluar Expresión** | `Alt+F8` | `Alt+F8` | — | [CAPTURAR] |
 
----
 
 ### Parte IV: refactorización y mantenimiento
 
@@ -61,7 +69,6 @@
 | **Safe Delete** | `Alt+Delete` | `Alt+Delete` | — | [CAPTURAR] |
 | **Refactor This** | `Ctrl+Alt+Shift+T` | `Ctrl+Alt+Shift+T` | — | [CAPTURAR] |
 
----
 
 ### Parte V: gestión de dependencias y plugins
 
@@ -72,7 +79,6 @@
 | **Control de versiones (Git)** | Integrado | Integrado | Integrado | [CAPTURAR] |
 | **Ventana de Git** | Git tool window | Git tool window | Source Control | [CAPTURAR] |
 
----
 
 ### Parte VI: investigación — otros IDEs
 
@@ -85,7 +91,6 @@ Investigue y responda brevemente:
 | **Visual Studio** | C#/.NET | Community gratis | |
 | **Xcode** | Swift/Objective-C | Sí (solo macOS) | |
 
----
 
 ### Tabla resumen: atajos principales
 
@@ -100,6 +105,5 @@ Investigue y responda brevemente:
 | Depurar | `Shift+F9` | `F5` |
 | Refactorizar | `Ctrl+Alt+Shift+T` | `F2` |
 
----
 
 **Formato de entrega:** PDF con las tablas completadas, capturas de cada funcionalidad y la investigación de otros IDEs.

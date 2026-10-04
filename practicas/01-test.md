@@ -1,5 +1,3 @@
-## Cuestionario tipo test: evaluación de entornos integrados de desarrollo
-
 - [Cuestionario tipo test: evaluación de entornos integrados de desarrollo](#cuestionario-tipo-test-evaluación-de-entornos-integrados-de-desarrollo)
       - [I. Fundamentos y componentes del IDE](#i-fundamentos-y-componentes-del-ide)
       - [II. Instalación y requisitos](#ii-instalación-y-requisitos)
@@ -8,6 +6,16 @@
       - [V. Operativa básica del IDE](#v-operativa-básica-del-ide)
       - [VI. Atajos de teclado](#vi-atajos-de-teclado)
       - [VII. Conceptos adicionales](#vii-conceptos-adicionales)
+
+
+# Cuestionario tipo test: evaluación de entornos integrados de desarrollo
+
+> 💡 **Punto de partida:** ¿Te has parado a pensar cuánto sabes de IDEs antes de arrancar el curso? Este cuestionario mide tu punto de partida.
+
+**Objetivos de aprendizaje:**
+- Evaluar tu dominio de los entornos del curso
+- Identificar qué repasar antes de las prácticas
+- Familiarizarte con el formato tipo test
 
 Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones que cubren los aspectos fundamentales de los Entornos Integrados de Desarrollo (IDE), su instalación, estructura, configuración, operativa básica, atajos de teclado y conceptos adicionales. Cada pregunta tiene cuatro opciones de respuesta, de las cuales solo una es correcta.
 

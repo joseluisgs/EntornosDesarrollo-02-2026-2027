@@ -3,9 +3,15 @@
 
 # Práctica 2: cuestionario de razonamiento
 
+> 💡 **Punto de partida:** Un compañero asegura que para programar le basta el Bloc de Notas... ¿le damos la razón?
+
+**Objetivos de aprendizaje:**
+- Explicar las ventajas de un IDE frente a un editor de texto
+- Relacionar cada componente del IDE con su función
+- Argumentar con ejemplos del curso
+
 **Instrucciones:** Responde a cada pregunta explicando tu razonamiento y basándote en la información proporcionada.
 
----
 
 1.  **Ventajas de un IDE frente a un editor de texto.**
     Un compañero de clase dice que para programar solo necesita el Bloc de Notas y una terminal. Explica por qué un Entorno de Desarrollo Integrado (IDE) como Rider ofrece ventajas significativas frente a un editor de texto plano. Menciona al menos tres componentes esenciales de un IDE y cómo mejoran la productividad del programador.

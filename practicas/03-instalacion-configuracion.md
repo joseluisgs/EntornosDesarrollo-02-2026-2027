@@ -1,11 +1,18 @@
+- [Práctica 3: instalación y configuración de entornos de desarrollo](#práctica-3-instalación-y-configuración-de-entornos-de-desarrollo)
+  - [Parte I: instalación de plataformas base](#parte-i-instalación-de-plataformas-base)
+  - [Parte II: instalación de IDEs](#parte-ii-instalación-de-ides)
+  - [Parte III: configuración unificada de apariencia](#parte-iii-configuración-unificada-de-apariencia)
+  - [Parte IV: configuración avanzada](#parte-iv-configuración-avanzada)
 
-## Práctica 3: instalación y configuración de entornos de desarrollo
 
-**Objetivo:** Instalar y configurar todas las herramientas del curso: kits de desarrollo (.NET 10 SDK, JDK 25), Git, Oh My Posh, y los IDEs JetBrains Rider, IntelliJ IDEA y Visual Studio Code con tema, fuente y ligaduras unificados.
+# Práctica 3: instalación y configuración de entornos de desarrollo
+
+> 💡 **Punto de partida:** Un entorno mal instalado es la peor forma de empezar un curso. Hoy montas, de una vez, todas las herramientas.
+
+**Objetivos de aprendizaje:** Instalar y configurar todas las herramientas del curso: kits de desarrollo (.NET 10 SDK, JDK 25), Git, Oh My Posh, y los IDEs JetBrains Rider, IntelliJ IDEA y Visual Studio Code con tema, fuente y ligaduras unificados.
 
 **Requisito de Documentación:** Realizar **capturas de pantalla de cada paso crucial** de instalación y configuración.
 
----
 
 ### Parte I: instalación de plataformas base
 
@@ -56,7 +63,6 @@ El JDK es necesario para desarrollar aplicaciones Java. Se usa en **IntelliJ IDE
 2. Configure un tema (ej. *Agnoster* o *agnoster*) en su perfil de PowerShell.
 3. **[CAPTURAR]** La terminal con el tema de Oh My Posh aplicado.
 
----
 
 ### Parte II: instalación de IDEs
 
@@ -88,7 +94,6 @@ La Toolbox App gestiona todas las actualizaciones de los IDEs JetBrains.
 2. Ejecute el instalador y acepte las opciones por defecto.
 3. **[CAPTURAR]** La pantalla principal de VS Code.
 
----
 
 ### Parte III: configuración unificada de apariencia
 
@@ -178,7 +183,6 @@ El CCEE d) exige demostrar que sabes configurar el sistema de actualizaciones.
 
 **[CAPTURAR]** Los **tres IDEs** abiertos simultáneamente mostrando la apariencia unificada (mismo tema, misma fuente, mismas ligaduras).
 
----
 
 ### Parte IV: configuración avanzada
 
@@ -220,6 +224,5 @@ code --install-extension eamodio.gitlens
 
 **[CAPTURAR]** El script ejecutándose correctamente.
 
----
 
 **Formato de entrega:** PDF con capturas de pantalla de cada paso documentado, organizadas por partes (I, II, III, IV). Incluir el script setup.ps1 y el archivo .editorconfig creados.

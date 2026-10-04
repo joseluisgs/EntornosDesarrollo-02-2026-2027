@@ -1,10 +1,21 @@
-## Práctica 5: creación y ejecución de proyectos en múltiples entornos
+- [Práctica 5: creación y ejecución de proyectos en múltiples entornos](#práctica-5-creación-y-ejecución-de-proyectos-en-múltiples-entornos)
+  - [Parte I: C# con JetBrains Rider](#parte-i-c-con-jetbrains-rider)
+  - [Parte II: C# con Visual Studio Code](#parte-ii-c-con-visual-studio-code)
+  - [Parte III: C# con dotnet CLI (sin IDE)](#parte-iii-c-con-dotnet-cli-sin-ide)
+  - [Parte IV: Java con IntelliJ IDEA (Gradle)](#parte-iv-java-con-intellij-idea-gradle)
+  - [Parte V: Kotlin con IntelliJ IDEA (Gradle)](#parte-v-kotlin-con-intellij-idea-gradle)
+  - [Parte VI: mismo código, varios IDEs (CCEE f)](#parte-vi-mismo-código-varios-ides-ccee-f)
+  - [Tabla resumen](#tabla-resumen)
 
-**Objetivo:** Crear, compilar y ejecutar proyectos en C#, Java y Kotlin utilizando diferentes IDEs y herramientas, demostrando la generación de ejecutables a partir de código fuente.
+
+# Práctica 5: creación y ejecución de proyectos en múltiples entornos
+
+> 💡 **Punto de partida:** ¿De dónde salen los archivos .exe que ejecutas? Hoy compilarás y generarás ejecutables en tres entornos distintos.
+
+**Objetivos de aprendizaje:** Crear, compilar y ejecutar proyectos en C#, Java y Kotlin utilizando diferentes IDEs y herramientas, demostrando la generación de ejecutables a partir de código fuente.
 
 **Requisito de Documentación:** Capturas de pantalla de cada paso: creación, compilación, ejecución y archivos generados.
 
----
 
 ### Parte I: C# con JetBrains Rider
 
@@ -33,7 +44,6 @@
    ```
 4. **[CAPTURAR]** El ejecutable funcionando desde terminal
 
----
 
 ### Parte II: C# con Visual Studio Code
 
@@ -67,7 +77,6 @@ cd publish
 
 **[CAPTURAR]** El ejecutable generado y funcionando
 
----
 
 ### Parte III: C# con dotnet CLI (sin IDE)
 
@@ -96,7 +105,6 @@ dotnet publish MiApp -c Release -o ./publish
 
 **[CAPTURAR]** Cada paso: creación de solución, proyecto, compilación y ejecución
 
----
 
 ### Parte IV: Java con IntelliJ IDEA (Gradle)
 
@@ -141,7 +149,6 @@ java -jar build/libs/HolaMundoJava.jar
 
 **[CAPTURAR]** El JAR generado y ejecutándose
 
----
 
 ### Parte V: Kotlin con IntelliJ IDEA (Gradle)
 
@@ -183,7 +190,6 @@ java -jar build/libs/HolaMundoKotlin.jar
 
 **[CAPTURAR]** El JAR generado y ejecutándose
 
----
 
 ### Parte VI: mismo código, varios IDEs (CCEE f)
 
@@ -227,7 +233,6 @@ El CCEE f) exige demostrar que el **mismo código fuente** se puede compilar con
 
 4. Compare experiencias: ¿Qué IDE ofrece mejor soporte para Java?
 
----
 
 ### Tabla resumen
 
@@ -239,6 +244,5 @@ El CCEE f) exige demostrar que el **mismo código fuente** se puede compilar con
 | 4 | Java | IntelliJ + Gradle | `./gradlew build` | `.jar` | `java -jar app.jar` |
 | 5 | Kotlin | IntelliJ + Gradle | `./gradlew build` | `.jar` | `java -jar app.jar` |
 
----
 
 **Formato de entrega:** PDF con capturas de cada proyecto: creación, compilación, ejecución y archivos generados. Incluir la tabla resumen rellenada.
