@@ -1,4 +1,4 @@
-# Entornos de desarrollo - 02 - entornos de desarrollo
+# Entornos de Desarrollo - 02 - Entornos de desarrollo
 
 UD02. Entornos de desarrollo. Curso 2026-2027.
 
