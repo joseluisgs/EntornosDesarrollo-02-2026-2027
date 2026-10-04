@@ -7,21 +7,21 @@ UD02. Entornos de desarrollo. Curso 2026-2027.
 ## Contenidos
 
 1. [Introducción a los IDE](./01-introduccion-ide.md)
-2. [Instalación de herramientas](./02-instalacion-herramientas.md)
+2. [Instalación de Herramientas](./02-instalacion-herramientas.md)
 3. [Anatomía de los IDEs](./03-anatomia-ides.md)
-4. [Configuración y personalización](./04-configuracion-personalizacion.md)
-5. [Operativa básica del IDE](./05-operativa-basica.md)
-6. [Atajos de teclado](./06-atajos-teclado.md)
-7. [Resumen y conclusiones](./07-resumen.md)
+4. [Configuración y Personalización](./04-configuracion-personalizacion.md)
+5. [Operativa Básica del IDE](./05-operativa-basica.md)
+6. [Atajos de Teclado](./06-atajos-teclado.md)
+7. [Resumen y Conclusiones](./07-resumen.md)
 
 ## Contenido en YouTube
 
 - [Resumen](https://youtu.be/ScL0443bVdk)
 - [Montando tu entorno de desarrollo en 15 minutos](https://youtu.be/hG1iohmNt-c)
 - [Jetbrains Rider](https://youtu.be/dm_-anD-50E)
-- [Lista de reproducción](https://www.youtube.com/playlist?list=PLIaRVRNDWeMA)
+- [Lista de Reproducción](https://www.youtube.com/playlist?list=PLIaRVRNDWeMA)
 
-## Resultados de aprendizaje y criterios de evaluación
+## Resultados de Aprendizaje y Criterios de Evaluación
 
 - RA2: Evalúa entornos integrados de desarrollo analizando sus características para editar código fuente y generar ejecutables.
 
