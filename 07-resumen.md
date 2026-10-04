@@ -1,24 +1,24 @@
-- [7. Resumen y Conclusiones](#7-resumen-y-conclusiones)
-  - [7.1. Mapa Conceptual de la Unidad](#71-mapa-conceptual-de-la-unidad)
-  - [7.2. Conceptos Clave](#72-conceptos-clave)
-    - [Entorno de Desarrollo Integrado (IDE)](#entorno-de-desarrollo-integrado-ide)
-    - [Herramientas Fundamentales](#herramientas-fundamentales)
+- [7. Resumen y conclusiones](#7-resumen-y-conclusiones)
+  - [7.1. Mapa conceptual de la unidad](#71-mapa-conceptual-de-la-unidad)
+  - [7.2. Conceptos clave](#72-conceptos-clave)
+    - [Entorno de desarrollo integrado (IDE)](#entorno-de-desarrollo-integrado-ide)
+    - [Herramientas fundamentales](#herramientas-fundamentales)
     - [Anatomía del IDE](#anatomía-del-ide)
-    - [Configuración y Personalización](#configuración-y-personalización)
-    - [Operativa Básica](#operativa-básica)
-  - [7.3. Herramientas y Perfiles](#73-herramientas-y-perfiles)
-    - [Kits de Desarrollo](#kits-de-desarrollo)
-    - [IDEs del Curso](#ides-del-curso)
-    - [Herramientas de Apoyo](#herramientas-de-apoyo)
-  - [7.4. Checklist de Supervivencia](#74-checklist-de-supervivencia)
-  - [7.5. Errores Comunes a Evitar](#75-errores-comunes-a-evitar)
-  - [7.6. Glosario de Términos](#76-glosario-de-términos)
-  - [7.7. Ejercicios de Repaso](#77-ejercicios-de-repaso)
+    - [Configuración y personalización](#configuración-y-personalización)
+    - [Operativa básica](#operativa-básica)
+  - [7.3. Herramientas y perfiles](#73-herramientas-y-perfiles)
+    - [Kits de desarrollo](#kits-de-desarrollo)
+    - [IDEs del curso](#ides-del-curso)
+    - [Herramientas de apoyo](#herramientas-de-apoyo)
+  - [7.4. Checklist de supervivencia](#74-checklist-de-supervivencia)
+  - [7.5. Errores comunes a evitar](#75-errores-comunes-a-evitar)
+  - [7.6. Glosario de términos](#76-glosario-de-términos)
+  - [7.7. Ejercicios de repaso](#77-ejercicios-de-repaso)
   - [7.8. ¿Qué viene después?](#78-qué-viene-después)
-  - [7.9. Mapa de Conexiones entre Temas](#79-mapa-de-conexiones-entre-temas)
+  - [7.9. Mapa de conexiones entre temas](#79-mapa-de-conexiones-entre-temas)
 
 
-# 7. Resumen y Conclusiones
+# 7. Resumen y conclusiones
 
 > 💡 **Punto de partida:** Hemos recorrido todo el camino desde qué es un IDE hasta cómo usarlo como un profesional. Este resumen consolida todo lo aprendido.
 
@@ -30,7 +30,7 @@ Hemos visto la teoría completa de Entornos de Desarrollo. Este punto consolida 
 - Consolidar el vocabulario técnico
 - Tener una referencia rápida para el examen
 
-## 7.1. Mapa Conceptual de la Unidad
+## 7.1. Mapa conceptual de la unidad
 
 ```mermaid
 graph TD
@@ -88,14 +88,14 @@ graph TD
     style ATAJ fill:#4CAF50,color:#fff
 ```
 
-## 7.2. Conceptos Clave
+## 7.2. Conceptos clave
 
-### Entorno de Desarrollo Integrado (IDE)
+### Entorno de desarrollo integrado (IDE)
 - **Definición:** Aplicación que agrupa editor, compilador, depurador y herramientas de gestión
 - **Componentes esenciales:** Editor, compilador/intérprete, depurador, control de versiones
 - **IDEs del curso:** JetBrains Rider, IntelliJ IDEA, VS Code
 
-### Herramientas Fundamentales
+### Herramientas fundamentales
 | Herramienta | Función | Comando clave |
 |-------------|---------|---------------|
 | **JDK 25** | Desarrollo Java | `javac`, `java` |
@@ -117,7 +117,7 @@ graph TD
 - Terminal integrada (`` Ctrl+` ``)
 - Multi-cursor y fuzzy search
 
-### Configuración y Personalización
+### Configuración y personalización
 - **Plugins/Extensiones:** Modularidad y funcionalidades adicionales
 - **Temas:** Light/Dark/Darcula
 - **Fuentes:** JetBrains Mono, Fira Code con ligaduras
@@ -125,29 +125,29 @@ graph TD
 - **Dotfiles:** Sincronización de configuración entre máquinas
 - **Actualizaciones:** Canal Stable, actualizaciones automáticas
 
-### Operativa Básica
+### Operativa básica
 - **Edición asistida:** IntelliSense, autocompletado, Code Actions
 - **Build:** Compilación incremental vs clean rebuild
 - **Debugging:** Breakpoints, Step Over/Into/Out, variables
 - **Git:** Commit, push, pull, branch, merge
 
-## 7.3. Herramientas y Perfiles
+## 7.3. Herramientas y perfiles
 
-### Kits de Desarrollo
+### Kits de desarrollo
 - **JDK 25:** Java Development Kit — necesita `JAVA_HOME` y `PATH` configurados
 - **.NET 10 SDK:** Incluye compilador, runtime y CLI (`dotnet`)
 
-### IDEs del Curso
+### IDEs del curso
 - **JetBrains Rider:** IDE principal, multiplataforma, profesional (.NET, Java)
 - **IntelliJ IDEA:** IDE secundario, Java/Kotlin (Community gratuito)
 - **VS Code:** Editor extensible, gratuito, multiplataforma
 
-### Herramientas de Apoyo
+### Herramientas de apoyo
 - **Git:** Control de versiones distribuido (imprescindible)
 - **GitKraken:** Cliente visual de Git (alternativa a la línea de comandos)
 - **Oh My Posh:** Temas para terminal (personalización visual)
 
-## 7.4. Checklist de Supervivencia
+## 7.4. Checklist de supervivencia
 
 Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas preguntas:
 
@@ -166,7 +166,7 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 - [ ] ¿Puedo comparar IDEs y elegir el más adecuado según el lenguaje y proyecto?
 - [ ] ¿Puedo crear un proyecto, compilarlo, depurarlo desde la consola con su CLI y desde el IDE?
 
-## 7.5. Errores Comunes a Evitar
+## 7.5. Errores comunes a evitar
 
 | Error | Por qué está mal | Cómo evitarlo |
 |-------|------------------|---------------|
@@ -181,7 +181,7 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 | No conocer atajos básicos | Evas tiempo usando el ratón para todo | Memorizar los 10 atajos esenciales primero |
 | Confundir Rider con IntelliJ | Rider es para .NET, IntelliJ para Java | Usar el IDE según el lenguaje del proyecto |
 
-## 7.6. Glosario de Términos
+## 7.6. Glosario de términos
 
 | Término | Definición |
 |---------|------------|
@@ -207,7 +207,7 @@ Antes de dar por cerrado el tema, asegúrate de poder responder **SÍ** a estas 
 | **Top Level Statements** | Sintaxis C# sin clase Main explícita |
 | **Main simplificado** | Sintaxis Java 25: `void main()` sin `public static` |
 
-## 7.7. Ejercicios de Repaso
+## 7.7. Ejercicios de repaso
 
 1. **Conceptos:** Explica con tus palabras qué es un IDE y por qué no basta con un editor de texto.
 2. **Instalación:** Instala Rider, IntelliJ y VS Code. Configura el mismo tema en los tres.
@@ -226,7 +226,7 @@ En la siguiente unidad (**UD03: Sistema de Control de Versiones**) veremos en pr
 
 > 💡 **Buenas Prácticas:** 1) Invierte tiempo en configurar bien tu IDE al inicio del curso, 2) Aprende los atajos esenciales antes de instalar extensiones, 3) Usa la misma configuración en todos tus ordenadores con sincronización en la nube, 4) Documenta tus atajos y configuraciones favoritas.
 
-## 7.9. Mapa de Conexiones entre Temas
+## 7.9. Mapa de conexiones entre temas
 
 ```mermaid
 graph LR

@@ -1,4 +1,4 @@
-## Práctica 5: Creación y Ejecución de Proyectos en Múltiples Entornos
+## Práctica 5: creación y ejecución de proyectos en múltiples entornos
 
 **Objetivo:** Crear, compilar y ejecutar proyectos en C#, Java y Kotlin utilizando diferentes IDEs y herramientas, demostrando la generación de ejecutables a partir de código fuente.
 
@@ -6,7 +6,7 @@
 
 ---
 
-### PARTE I: C# con JetBrains Rider
+### Parte I: C# con JetBrains Rider
 
 #### 1. Proyecto de consola en Rider
 
@@ -35,7 +35,7 @@
 
 ---
 
-### PARTE II: C# con Visual Studio Code
+### Parte II: C# con Visual Studio Code
 
 #### 3. Proyecto de consola en VS Code
 
@@ -69,7 +69,7 @@ cd publish
 
 ---
 
-### PARTE III: C# con dotnet CLI (sin IDE)
+### Parte III: C# con dotnet CLI (sin IDE)
 
 #### 5. Proyecto completo desde línea de comandos
 
@@ -98,7 +98,7 @@ dotnet publish MiApp -c Release -o ./publish
 
 ---
 
-### PARTE IV: Java con IntelliJ IDEA (Gradle)
+### Parte IV: Java con IntelliJ IDEA (Gradle)
 
 #### 6. Proyecto Java con Gradle en IntelliJ
 
@@ -143,7 +143,7 @@ java -jar build/libs/HolaMundoJava.jar
 
 ---
 
-### PARTE V: Kotlin con IntelliJ IDEA (Gradle)
+### Parte V: Kotlin con IntelliJ IDEA (Gradle)
 
 #### 8. Proyecto Kotlin con Gradle en IntelliJ
 
@@ -185,7 +185,7 @@ java -jar build/libs/HolaMundoKotlin.jar
 
 ---
 
-### PARTE VI: Mismo Código, Varios IDEs (CCEE f)
+### Parte VI: mismo código, varios IDEs (CCEE f)
 
 El CCEE f) exige demostrar que el **mismo código fuente** se puede compilar con **varios entornos de desarrollo**.
 
@@ -229,7 +229,7 @@ El CCEE f) exige demostrar que el **mismo código fuente** se puede compilar con
 
 ---
 
-### TABLA RESUMEN
+### Tabla resumen
 
 | # | Lenguaje | IDE/Herramienta | Comando compilación | Archivo generado | Ejecución |
 |---|----------|-----------------|---------------------|------------------|-----------|

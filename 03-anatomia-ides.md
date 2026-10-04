@@ -1,12 +1,12 @@
-- [3. Anatomía y Estructura de los IDEs Seleccionados](#3-anatomía-y-estructura-de-los-ides-seleccionados)
-  - [3.1. Filosofía JetBrains: Uniformidad de Flujo de Trabajo](#31-filosofía-jetbrains-uniformidad-de-flujo-de-trabajo)
-    - [3.1.1. Consistencia de la Interfaz (Rider y IntelliJ IDEA)](#311-consistencia-de-la-interfaz-rider-y-intellij-idea)
-    - [3.1.2. Uso de la Terminal integrada](#312-uso-de-la-terminal-integrada)
+- [3. Anatomía y estructura de los IDEs seleccionados](#3-anatomía-y-estructura-de-los-ides-seleccionados)
+  - [3.1. Filosofía JetBrains: uniformidad de flujo de trabajo](#31-filosofía-jetbrains-uniformidad-de-flujo-de-trabajo)
+    - [3.1.1. Consistencia de la interfaz (Rider y IntelliJ IDEA)](#311-consistencia-de-la-interfaz-rider-y-intellij-idea)
+    - [3.1.2. Uso de la terminal integrada](#312-uso-de-la-terminal-integrada)
   - [3.2. Estructura de JetBrains Rider y IntelliJ IDEA](#32-estructura-de-jetbrains-rider-y-intellij-idea)
   - [3.3. Estructura de Visual Studio Code (VS Code)](#33-estructura-de-visual-studio-code-vs-code)
 
 
-# 3. Anatomía y Estructura de los IDEs Seleccionados
+# 3. Anatomía y estructura de los IDEs seleccionados
 
 > 💡 **Punto de partida:** Si nunca has abierto el capó de un coche, no sabes qué hay dentro. Lo mismo pasa con un IDE: saber qué hay y para qué sirve cada cosa te convierte en un usuario más eficiente.
 
@@ -24,7 +24,7 @@ En el Punto 02 instalaste las herramientas de desarrollo. Ahora veremos qué hay
 - Entender la filosofía de uniformidad entre IDEs de JetBrains
 - Usar la terminal integrada y la barra de navegación
 
-## 3.1. Filosofía JetBrains: Uniformidad de Flujo de Trabajo
+## 3.1. Filosofía JetBrains: uniformidad de flujo de trabajo
 
 Una característica notable al utilizar IDEs del mismo fabricante, como **JetBrains Rider** e **IntelliJ IDEA**, es la **consistencia de la interfaz** y la **familiaridad del flujo de trabajo**. Esto facilita la transición entre entornos diseñados para diferentes plataformas (.NET en Rider, Java en IDEA).
 
@@ -32,7 +32,7 @@ Una característica notable al utilizar IDEs del mismo fabricante, como **JetBra
 
 > 📌 **Ejemplo real:** Cuando abres Rider por primera vez, verás el Solution Explorer a la izquierda, el editor al centro y la barra de estado abajo. Es exactamente la misma disposición que en IntelliJ IDEA, solo que en vez de ver un proyecto Java, ves un proyecto C# con archivos .cs y una solución .slnx.
 
-### 3.1.1. Consistencia de la Interfaz (Rider y IntelliJ IDEA)
+### 3.1.1. Consistencia de la interfaz (Rider y IntelliJ IDEA)
 
 Ambos IDEs comparten una filosofía de diseño basada en:
 
@@ -91,7 +91,7 @@ graph TD
   - **Mensajes:** En el lado izquierdo, muestra mensajes de eventos recientes y el progreso de las tareas en segundo plano (*Background Tasks*).
   - **Widgets:** En el lado derecho, contiene *widgets* que indican el estado general del proyecto y del IDE. Ejemplos incluyen el número de línea y columna (ej. `52:11`), terminaciones de línea (LF o CRLF), codificación de archivo (UTF-8), y el estilo de sangría (ej. `2 spaces`). Rider también incluye *widgets* para el estado del análisis de la solución y el Análisis Dinámico de Programas (DPA).
 
-### 3.1.2. Uso de la Terminal integrada
+### 3.1.2. Uso de la terminal integrada
 
 La Terminal integrada se presenta como una *Tool Window*.
 

@@ -1,18 +1,18 @@
-## Cuestionario Tipo Test: Evaluación de Entornos Integrados de Desarrollo
+## Cuestionario tipo test: evaluación de entornos integrados de desarrollo
 
-- [Cuestionario Tipo Test: Evaluación de Entornos Integrados de Desarrollo](#cuestionario-tipo-test-evaluación-de-entornos-integrados-de-desarrollo)
-      - [I. Fundamentos y Componentes del IDE](#i-fundamentos-y-componentes-del-ide)
-      - [II. Instalación y Requisitos](#ii-instalación-y-requisitos)
-      - [III. Anatomía y Estructura del IDE](#iii-anatomía-y-estructura-del-ide)
-      - [IV. Plugins, Configuración y Personalización](#iv-plugins-configuración-y-personalización)
-      - [V. Operativa Básica del IDE](#v-operativa-básica-del-ide)
-      - [VI. Atajos de Teclado](#vi-atajos-de-teclado)
-      - [VII. Conceptos Adicionales](#vii-conceptos-adicionales)
+- [Cuestionario tipo test: evaluación de entornos integrados de desarrollo](#cuestionario-tipo-test-evaluación-de-entornos-integrados-de-desarrollo)
+      - [I. Fundamentos y componentes del IDE](#i-fundamentos-y-componentes-del-ide)
+      - [II. Instalación y requisitos](#ii-instalación-y-requisitos)
+      - [III. Anatomía y estructura del IDE](#iii-anatomía-y-estructura-del-ide)
+      - [IV. Plugins, configuración y personalización](#iv-plugins-configuración-y-personalización)
+      - [V. Operativa básica del IDE](#v-operativa-básica-del-ide)
+      - [VI. Atajos de teclado](#vi-atajos-de-teclado)
+      - [VII. Conceptos adicionales](#vii-conceptos-adicionales)
 
 Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones que cubren los aspectos fundamentales de los Entornos Integrados de Desarrollo (IDE), su instalación, estructura, configuración, operativa básica, atajos de teclado y conceptos adicionales. Cada pregunta tiene cuatro opciones de respuesta, de las cuales solo una es correcta.
 
 
-##### I. Fundamentos y Componentes del IDE
+##### I. Fundamentos y componentes del IDE
 
 1. ¿Cuál es la fase del ciclo de vida del software donde se utilizan fundamentalmente los entornos de desarrollo (IDE)?
     a) Fase de análisis
@@ -44,7 +44,7 @@ Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones
     c) Depurador
     d) Generador de artefactos
 
-##### II. Instalación y Requisitos
+##### II. Instalación y requisitos
 
 6. ¿Cuál es la herramienta recomendada por JetBrains para instalar y gestionar diferentes productos o varias versiones del mismo IDE, incluyendo *Early Access Program* (EAP) y *Nightly releases*?
     a) IDE Installer Wizard
@@ -70,7 +70,7 @@ Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones
     c) Git
     d) .NET 10
 
-##### III. Anatomía y Estructura del IDE
+##### III. Anatomía y estructura del IDE
 
 10. Al utilizar IDEs del mismo fabricante (JetBrains Rider e IntelliJ IDEA), ¿cuál es el principal beneficio de la **Filosofía JetBrains**?
     a) Se elimina la necesidad de instalar el JDK.
@@ -108,7 +108,7 @@ Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones
     c) La rama actual del Control de Versiones.
     d) Las terminaciones de línea y la codificación utilizada en el archivo actual.
 
-##### IV. Plugins, Configuración y Personalización
+##### IV. Plugins, configuración y personalización
 
 16. ¿Qué atajo de teclado abre el menú de configuración (*Settings*) en JetBrains Rider e IntelliJ IDEA?
     a) Ctrl+Shift+A
@@ -146,7 +146,7 @@ Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones
     c) Configuración de la *Activity Bar*
     d) Configuración de *Hot Exit*
 
-##### V. Operativa Básica del IDE
+##### V. Operativa básica del IDE
 
 22. En los IDEs JetBrains, ¿qué atajo de teclado abre la lista de refactorizaciones disponibles contextualmente (*Refactor This*)?
     a) Ctrl+Shift+A
@@ -203,7 +203,7 @@ Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones
     d) Ctrl+K Ctrl+F (Formatear Selección)
 
 
-##### VI. Atajos de Teclado
+##### VI. Atajos de teclado
 
 31. ¿Qué atajo de teclado en Visual Studio Code (Windows/Linux) permite abrir rápidamente un archivo (*Quick Open, Go to File*)?
     a) Ctrl+Shift+O
@@ -265,7 +265,7 @@ Este cuestionario tipo test consta de 50 preguntas divididas en varias secciones
     c) Alt + F8
     d) Ctrl + F8
 
-##### VII. Conceptos Adicionales
+##### VII. Conceptos adicionales
 
 41. ¿Cuál es un requisito fundamental y previo para instalar NetBeans, según las fuentes?
     a) Tener instalado el servidor GlassFish.

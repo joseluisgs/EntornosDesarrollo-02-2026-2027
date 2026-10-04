@@ -1,16 +1,16 @@
-- [5. Operativa Básica del IDE](#5-operativa-básica-del-ide)
-  - [5.1. Edición Asistida y Refactorización](#51-edición-asistida-y-refactorización)
-    - [5.1.1. Edición Asistida (IntelliSense y Sugerencias)](#511-edición-asistida-intellisense-y-sugerencias)
-    - [5.1.2. Funciones Avanzadas de Edición (VS Code)](#512-funciones-avanzadas-de-edición-vs-code)
-    - [5.1.3. Refactorización (Operativa JetBrains)](#513-refactorización-operativa-jetbrains)
-  - [5.2. Generación de Ejecutables (Build)](#52-generación-de-ejecutables-build)
-  - [5.3. Depuración (Debugging)](#53-depuración-debugging)
-  - [5.4. Integración de Control de Versiones](#54-integración-de-control-de-versiones)
+- [5. Operativa básica del IDE](#5-operativa-básica-del-ide)
+  - [5.1. Edición asistida y refactorización](#51-edición-asistida-y-refactorización)
+    - [5.1.1. Edición asistida (IntelliSense y sugerencias)](#511-edición-asistida-intellisense-y-sugerencias)
+    - [5.1.2. Funciones avanzadas de edición (VS Code)](#512-funciones-avanzadas-de-edición-vs-code)
+    - [5.1.3. Refactorización (operativa JetBrains)](#513-refactorización-operativa-jetbrains)
+  - [5.2. Generación de ejecutables (build)](#52-generación-de-ejecutables-build)
+  - [5.3. Depuración (debugging)](#53-depuración-debugging)
+  - [5.4. Integración de control de versiones](#54-integración-de-control-de-versiones)
       - [5.4.1. Visual Studio Code (VS Code)](#541-visual-studio-code-vs-code)
-      - [5.4.2. IntelliJ IDEA y JetBrains Rider](#542-intellij-idea-y-jetbrains-rider)
+      - [5.4.2. JetBrains Rider y IntelliJ IDEA](#542-jetbrains-rider-y-intellij-idea)
 
 
-# 5. Operativa Básica del IDE
+# 5. Operativa básica del IDE
 
 > 💡 **Punto de partida:** Tienes el IDE instalado y personalizado. Ahora viene lo importante: ¿cómo se usa para programar de verdad?
 
@@ -29,9 +29,9 @@ En el Punto 04 personalizaste tu entorno. Ahora veremos la operativa básica: c�
 - Gestionar el control de versiones Git desde el IDE
 - Generar ejecutables a partir de código fuente
 
-## 5.1. Edición Asistida y Refactorización
+## 5.1. Edición asistida y refactorización
 
-### 5.1.1. Edición Asistida (IntelliSense y Sugerencias)
+### 5.1.1. Edición asistida (IntelliSense y sugerencias)
 
 - **IntelliSense (VS Code):** Las sugerencias aparecerán al escribir. Se pueden navegar usando las teclas `Up` y `Down`, y se aceptan con `Tab` o `Enter`. Se puede activar manualmente con **Ctrl+Space**.
 
@@ -63,7 +63,7 @@ graph LR
     style E fill:#9C27B0,color:#fff
 ```
 
-### 5.1.2. Funciones Avanzadas de Edición (VS Code)
+### 5.1.2. Funciones avanzadas de edición (VS Code)
 
 - **Búsqueda y Reemplazo:** **Ctrl+F** abre el control de Búsqueda y Reemplazo en el archivo actual. **Ctrl+Shift+F** permite buscar y reemplazar globalmente a través de todos los archivos del *workspace*.
 
@@ -113,7 +113,7 @@ graph LR
 | `Ctrl + K Ctrl + 0` | Plegar todo |
 | `Ctrl + K Ctrl + J` | Desplegar todo |
 
-### 5.1.3. Refactorización (Operativa JetBrains)
+### 5.1.3. Refactorización (operativa JetBrains)
 
 La refactorización se invoca con **Ctrl+Alt+Shift+T**.
 
@@ -152,7 +152,7 @@ La refactorización se invoca con **Ctrl+Alt+Shift+T**.
 
 - **Deshacer:** Se puede **deshacer la refactorización** con **Ctrl+Z**.
 
-## 5.2. Generación de Ejecutables (Build)
+## 5.2. Generación de ejecutables (build)
 
 El proceso de **Construcción (*Build*)** implica compilar y enlazar el código.
 
@@ -184,7 +184,7 @@ graph TD
 
 - **Compilación Automática (*Auto-build*):** Se puede configurar en `Settings | Build, Execution, Deployment | Compiler` seleccionando **Build project automatically**.
 
-### Diferencia entre Build, Rebuild y Clean
+### Diferencia entre build, rebuild y clean
 
 | Comando | Qué hace | Cuándo usarlo |
 |---------|----------|---------------|
@@ -244,7 +244,7 @@ Un mismo código fuente puede compilarse con diferentes entornos de desarrollo, 
 
 > 💡 **Consejo:** Practica compilar el mismo proyecto con al menos 2 IDEs diferentes. Así entenderás que el IDE es solo una herramienta: el código fuente es el que importa.
 
-## 5.3. Depuración (Debugging)
+## 5.3. Depuración (debugging)
 
 El depurador (*debugger*) interfiere con la ejecución para obtener información sobre el estado del programa y facilitar la detección y corrección de *bugs*.
 
@@ -312,7 +312,7 @@ graph TD
 > nombre = "TEST"; // Para verificar lógica
 > ```
 
-## 5.4. Integración de Control de Versiones
+## 5.4. Integración de control de versiones
 
 #### 5.4.1. Visual Studio Code (VS Code)
 

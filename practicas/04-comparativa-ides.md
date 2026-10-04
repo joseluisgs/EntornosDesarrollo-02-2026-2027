@@ -1,4 +1,4 @@
-## Práctica 4: Comparativa Funcional de Entornos de Desarrollo
+## Práctica 4: comparativa funcional de entornos de desarrollo
 
 **Objetivo:** Identificar y comparar las herramientas clave de desarrollo en **JetBrains Rider**, **IntelliJ IDEA** y **Visual Studio Code**, documentando su ubicación, atajos y funcionalidades.
 
@@ -6,7 +6,7 @@
 
 ---
 
-### PARTE I: Componentes de Interfaz y Navegación
+### Parte I: componentes de interfaz y navegación
 
 | Funcionalidad | JetBrains Rider | IntelliJ IDEA | VS Code | Captura |
 |:---|:---|:---|:---|:---|
@@ -20,7 +20,7 @@
 
 ---
 
-### PARTE II: Edición Avanzada y Productividad
+### Parte II: edición avanzada y productividad
 
 | Funcionalidad | JetBrains Rider | IntelliJ IDEA | VS Code | Captura |
 |:---|:---|:---|:---|:---|
@@ -35,7 +35,7 @@
 
 ---
 
-### PARTE III: Compilación y Depuración
+### Parte III: compilación y depuración
 
 | Funcionalidad | JetBrains Rider | IntelliJ IDEA | VS Code | Captura |
 |:---|:---|:---|:---|:---|
@@ -51,7 +51,7 @@
 
 ---
 
-### PARTE IV: Refactorización y Mantenimiento
+### Parte IV: refactorización y mantenimiento
 
 | Funcionalidad | JetBrains Rider | IntelliJ IDEA | VS Code | Captura |
 |:---|:---|:---|:---|:---|
@@ -63,7 +63,7 @@
 
 ---
 
-### PARTE V: Gestión de Dependencias y Plugins
+### Parte V: gestión de dependencias y plugins
 
 | Funcionalidad | JetBrains Rider | IntelliJ IDEA | VS Code | Captura |
 |:---|:---|:---|:---|:---|
@@ -74,7 +74,7 @@
 
 ---
 
-### PARTE VI: Investigación — Otros IDEs
+### Parte VI: investigación — otros IDEs
 
 Investigue y responda brevemente:
 
@@ -87,7 +87,7 @@ Investigue y responda brevemente:
 
 ---
 
-### TABLA RESUMEN: Atajos Principales
+### Tabla resumen: atajos principales
 
 | Acción | Rider / IntelliJ | VS Code |
 |:---|:---|:---|

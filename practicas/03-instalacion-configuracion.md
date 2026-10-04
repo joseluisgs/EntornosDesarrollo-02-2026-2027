@@ -1,5 +1,5 @@
 
-## Práctica 3: Instalación y Configuración de Entornos de Desarrollo
+## Práctica 3: instalación y configuración de entornos de desarrollo
 
 **Objetivo:** Instalar y configurar todas las herramientas del curso: kits de desarrollo (.NET 10 SDK, JDK 25), Git, Oh My Posh, y los IDEs JetBrains Rider, IntelliJ IDEA y Visual Studio Code con tema, fuente y ligaduras unificados.
 
@@ -7,7 +7,7 @@
 
 ---
 
-### PARTE I: Instalación de Plataformas Base
+### Parte I: instalación de plataformas base
 
 #### 1. Instalación de .NET 10 SDK
 
@@ -58,7 +58,7 @@ El JDK es necesario para desarrollar aplicaciones Java. Se usa en **IntelliJ IDE
 
 ---
 
-### PARTE II: Instalación de IDEs
+### Parte II: instalación de IDEs
 
 #### 5. Instalación de JetBrains Toolbox App
 
@@ -68,14 +68,14 @@ La Toolbox App gestiona todas las actualizaciones de los IDEs JetBrains.
 1. Descargue e instale la **JetBrains Toolbox App** desde https://www.jetbrains.com/toolbox-app/
 2. **[CAPTURAR]** La interfaz de la Toolbox App con los IDEs disponibles.
 
-#### 6. Instalación de JetBrains Rider (IDE Principal)
+#### 6. Instalación de JetBrains Rider (IDE principal)
 
 **Pasos a realizar (con captura):**
 1. Use la Toolbox App para instalar **JetBrains Rider**.
 2. Si está en Windows, seleccione la opción de añadir los ejecutables de Rider a las **exclusiones de Windows Defender** (mejora el tiempo de arranque).
 3. **[CAPTURAR]** La pantalla principal de Rider.
 
-#### 7. Instalación de IntelliJ IDEA (IDE Secundario)
+#### 7. Instalación de IntelliJ IDEA (IDE secundario)
 
 **Pasos a realizar (con captura):**
 1. Use la Toolbox App para instalar **IntelliJ IDEA Community** (gratuita).
@@ -90,13 +90,13 @@ La Toolbox App gestiona todas las actualizaciones de los IDEs JetBrains.
 
 ---
 
-### PARTE III: Configuración Unificada de Apariencia
+### Parte III: configuración unificada de apariencia
 
 El objetivo es lograr la máxima similitud visual en los tres IDEs.
 
-#### 9. Instalación de Plugins y Fuentes
+#### 9. Instalación de plugins y fuentes
 
-##### 9.1. Plugins de Apariencia
+##### 9.1. Plugins de apariencia
 - **Rider / IntelliJ IDEA:** `File → Settings → Plugins` → busque e instale el tema deseado (Material Theme o Dracula)
 - **VS Code:** Vista Extensiones (`Ctrl+Shift+X`) → busque e instale el mismo tema
 
@@ -104,7 +104,7 @@ El objetivo es lograr la máxima similitud visual en los tres IDEs.
 1. Descargue **Fira Code** desde https://github.com/tonsky/FiraCode
 2. Instale la fuente en su sistema operativo.
 
-##### 9.3. Gestión de Plugins: Instalación y Eliminación (CCEE b)
+##### 9.3. Gestión de plugins: instalación y eliminación (CCEE b)
 
 El CCEE b) exige demostrar que sabes **añadir y eliminar módulos** en el entorno de desarrollo.
 
@@ -124,7 +124,7 @@ El CCEE b) exige demostrar que sabes **añadir y eliminar módulos** en el entor
 
 **[CAPTURAR]** Antes y después de instalar/desinstalar en cada IDE.
 
-##### 9.4. Sistema de Actualizaciones (CCEE d)
+##### 9.4. Sistema de actualizaciones (CCEE d)
 
 El CCEE d) exige demostrar que sabes configurar el sistema de actualizaciones.
 
@@ -140,7 +140,7 @@ El CCEE d) exige demostrar que sabes configurar el sistema de actualizaciones.
 
 **[CAPTURAR]** El proceso de verificación de actualizaciones en cada IDE.
 
-#### 10. Configuración de Tema, Fuente y Ligaduras
+#### 10. Configuración de tema, fuente y ligaduras
 
 ##### 10.1. Configuración de JetBrains Rider
 1. `File → Settings` (`Ctrl+Alt+S`)
@@ -161,7 +161,7 @@ El CCEE d) exige demostrar que sabes configurar el sistema de actualizaciones.
 4. `editor.fontLigatures`: **true**
 5. **[CAPTURAR]** Editor de VS Code con la misma configuración
 
-#### 11. Instalación de Extensiones Esenciales en VS Code
+#### 11. Instalación de extensiones esenciales en VS Code
 
 | Extensión | Función |
 |-----------|---------|
@@ -174,15 +174,15 @@ El CCEE d) exige demostrar que sabes configurar el sistema de actualizaciones.
 
 **[CAPTURAR]** La vista de extensiones instaladas en VS Code.
 
-#### 12. Captura Final
+#### 12. Captura final
 
 **[CAPTURAR]** Los **tres IDEs** abiertos simultáneamente mostrando la apariencia unificada (mismo tema, misma fuente, mismas ligaduras).
 
 ---
 
-### PARTE IV: Configuración Avanzada
+### Parte IV: configuración avanzada
 
-#### 13. Snippets Personalizados en VS Code
+#### 13. Snippets personalizados en VS Code
 
 Cree al menos 3 snippets en `settings.json`:
 - Uno para `Console.WriteLine` (C#)
@@ -191,7 +191,7 @@ Cree al menos 3 snippets en `settings.json`:
 
 **[CAPTURAR]** El archivo `settings.json` con los snippets configurados.
 
-#### 14. Dotfiles y Configuración Reproducible
+#### 14. Dotfiles y configuración reproducible
 
 Cree un archivo `.editorconfig` en la raíz de un proyecto con:
 - `indent_style = space`
@@ -201,7 +201,7 @@ Cree un archivo `.editorconfig` en la raíz de un proyecto con:
 
 **[CAPTURAR]** El contenido del archivo `.editorconfig`.
 
-#### 15. Script de Configuración Post-Instalación
+#### 15. Script de configuración post-instalación
 
 Cree un script `setup.ps1` (PowerShell) que instale automáticamente:
 ```powershell

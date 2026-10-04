@@ -1,21 +1,21 @@
-- [2. Instalación de Herramientas Fundamentales para el Curso](#2-instalación-de-herramientas-fundamentales-para-el-curso)
-  - [2.1. Kits de Desarrollo](#21-kits-de-desarrollo)
+- [2. Instalación de herramientas fundamentales para el curso](#2-instalación-de-herramientas-fundamentales-para-el-curso)
+  - [2.1. Kits de desarrollo](#21-kits-de-desarrollo)
     - [2.1.1. Instalación de JDK 25 (Java Development Kit)](#211-instalación-de-jdk-25-java-development-kit)
-    - [2.1.2. Instalación de .NET 10 (SDK/Runtime)](#212-instalación-de-net-10-sdkruntime)
-  - [2.2. Instalación de Entornos Integrados de Desarrollo (IDE)](#22-instalación-de-entornos-integrados-de-desarrollo-ide)
+    - [2.1.2. Instalación de .NET 10 (SDK/runtime)](#212-instalación-de-net-10-sdkruntime)
+  - [2.2. Instalación de entornos integrados de desarrollo (IDE)](#22-instalación-de-entornos-integrados-de-desarrollo-ide)
     - [2.2.1. Instalación de JetBrains Rider (JetBrains)](#221-instalación-de-jetbrains-rider-jetbrains)
     - [2.2.2. Instalación de IntelliJ IDEA (JetBrains)](#222-instalación-de-intellij-idea-jetbrains)
     - [2.2.3. Instalación de Visual Studio Code (VS Code)](#223-instalación-de-visual-studio-code-vs-code)
-  - [2.3. Instalación de Herramientas de Control de Versiones](#23-instalación-de-herramientas-de-control-de-versiones)
+  - [2.3. Instalación de herramientas de control de versiones](#23-instalación-de-herramientas-de-control-de-versiones)
     - [2.3.1. Instalación de Git](#231-instalación-de-git)
     - [2.3.2. Instalación de GitKraken](#232-instalación-de-gitkraken)
   - [2.4. Instalación de fuentes adicionales](#24-instalación-de-fuentes-adicionales)
-  - [2.5. Instalación de terminal Oh My Posh (Desarrollador)](#25-instalación-de-terminal-oh-my-posh-desarrollador)
+  - [2.5. Instalación de terminal Oh My Posh (desarrollador)](#25-instalación-de-terminal-oh-my-posh-desarrollador)
     - [2.5.1. Fuentes Nerd Fonts](#251-fuentes-nerd-fonts)
-  - [2.6. Creación de Proyectos y Soluciones en C#](#26-creación-de-proyectos-y-soluciones-en-c)
+  - [2.6. Creación de proyectos y soluciones en C#](#26-creación-de-proyectos-y-soluciones-en-c)
 
 
-# 2. Instalación de Herramientas Fundamentales para el Curso
+# 2. Instalación de herramientas fundamentales para el curso
 
 > 💡 **Punto de partida:** Tienes el mejor coche del mundo, pero si no tienes motor, no va a ningún lado. Los IDEs son el coche, pero necesitas instalar los motores (JDK, .NET SDK) primero.
 
@@ -37,7 +37,7 @@ En el Punto 01 vimos qué es un IDE y sus componentes principales. Ahora veremos
 
 Esta sección describe los procesos de instalación de los componentes esenciales, enfocándose en los requisitos y los métodos de instalación de los IDEs JetBrains y VS Code.
 
-## 2.1. Kits de Desarrollo
+## 2.1. Kits de desarrollo
 
 Los Kits de Desarrollo son plataformas base que el IDE utiliza para compilar y ejecutar el código escrito.
 
@@ -71,7 +71,7 @@ javadoc *.java          # Generar documentación
 | **SDKMAN!** (Linux/Mac) | Gestiona versiones múltiples | Solo terminal |
 | **Chocolatey/winget** (Windows) | Fácil actualización | Gestor adicional |
 
-### 2.1.2. Instalación de .NET 10 (SDK/Runtime)
+### 2.1.2. Instalación de .NET 10 (SDK/runtime)
 
 La instalación de este SDK es un requisito fundamental para el desarrollo de proyectos en el ecosistema **.NET** (C#, F#). Este SDK es especialmente relevante para **JetBrains Rider**, ya que es el IDE que se centra en el desarrollo de soluciones .NET.
 
@@ -89,7 +89,7 @@ dotnet test                          # Ejecutar pruebas
 - **.NET 10:** LTS (soportado hasta noviembre 2028)
 - **.NET 11:** Preview (2026)
 
-## 2.2. Instalación de Entornos Integrados de Desarrollo (IDE)
+## 2.2. Instalación de entornos integrados de desarrollo (IDE)
 
 ### 2.2.1. Instalación de JetBrains Rider (JetBrains)
 
@@ -226,7 +226,7 @@ graph TD
 
 > 📝 **ReSharper para VS Code:** JetBrains ofrece ReSharper como extensión para VS Code. Proporciona análisis de código avanzado, detección de code smells y refactorizaciones potentes para C#. Se instala desde el marketplace de VS Code buscando "ReSharper".
 
-## 2.3. Instalación de Herramientas de Control de Versiones
+## 2.3. Instalación de herramientas de control de versiones
 
 ### 2.3.1. Instalación de Git
 
@@ -291,7 +291,7 @@ graph TD
 2. Instalar en el sistema operativo
 3. Configurar en el IDE: Settings → Font → JetBrains Mono
 
-## 2.5. Instalación de terminal Oh My Posh (Desarrollador)
+## 2.5. Instalación de terminal Oh My Posh (desarrollador)
 
 **Oh My Posh** es una herramienta que permite personalizar la terminal de comandos, proporcionando un entorno visualmente atractivo y funcional.
 
@@ -340,13 +340,13 @@ Fuentes recomendadas para programar:
 
 > ⚠️ **Sin la Nerd Font**, Oh My Posh mostrará caracteres raros o cuadros en lugar de iconos. Siempre instala primero la fuente y luego configúrala en la terminal.
 
-## 2.6. Creación de Proyectos y Soluciones en C#
+## 2.6. Creación de proyectos y soluciones en C#
 
 Una vez instaladas las herramientas, necesitas saber cómo crear la estructura de un proyecto en C#. En .NET, la organización sigue una jerarquía: **solución → proyecto → código**.
 
 > 💡 **Analogía:** Una solución es como un libro. Los proyectos son los capítulos. Cada capítulo tiene sus propios archivos, pero todos forman parte del mismo libro.
 
-### Estructura de una Solución
+### Estructura de una solución
 
 Una **solución** (*solution*) agrupa uno o más proyectos relacionados. En .NET 10, el formato por defecto es `.slnx` (basado en XML):
 
@@ -356,7 +356,7 @@ Una **solución** (*solution*) agrupa uno o más proyectos relacionados. En .NET
 </Solution>
 ```
 
-### Estructura de un Proyecto
+### Estructura de un proyecto
 
 Un **proyecto** se define en un archivo `.csproj`:
 
@@ -381,7 +381,7 @@ Un **proyecto** se define en un archivo `.csproj`:
 | `Nullable` | Gestión estricta de nulos | `enable` |
 | `LangVersion` | Versión de C# | `14` para .NET 10 |
 
-### Crear una Solución con dotnet CLI
+### Crear una solución con dotnet CLI
 
 ```bash
 # 1. Crear carpeta raíz
@@ -404,7 +404,7 @@ dotnet run --project MiProyecto
 
 > 📝 **Nota:** En .NET 10, `dotnet new console` genera código con Top Level Statements. No necesitas `class Program` ni `static void Main()`.
 
-### Gestión de Paquetes NuGet
+### Gestión de paquetes NuGet
 
 **NuGet** es el gestor de paquetes de .NET (más de 350.000 bibliotecas).
 
@@ -440,7 +440,7 @@ dotnet list package
 | **Serilog** | Logging estructurado |
 | **NUnit** | Framework de tests |
 
-### Compilar y Ejecutar
+### Compilar y ejecutar
 
 ```bash
 dotnet build           # Compilar

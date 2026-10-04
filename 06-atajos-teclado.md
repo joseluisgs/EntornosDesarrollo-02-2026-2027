@@ -1,11 +1,11 @@
-- [6. Atajos de Teclado Esenciales para la Productividad](#6-atajos-de-teclado-esenciales-para-la-productividad)
-  - [6.1. Los 10 Atajos para Sobrevivir (Primeros días)](#61-los-10-atajos-para-sobrevivir-primeros-días)
-  - [6.2. Atajos Intermedios (Primeras semanas)](#62-atajos-intermedios-primeras-semanas)
-  - [6.3. Atajos Avanzados (Para destacar)](#63-atajos-avanzados-para-destacar)
-  - [6.4. Tabla Completa de Referencia](#64-tabla-completa-de-referencia)
+- [6. Atajos de teclado esenciales para la productividad](#6-atajos-de-teclado-esenciales-para-la-productividad)
+  - [6.1. Los 10 atajos para sobrevivir (primeros días)](#61-los-10-atajos-para-sobrevivir-primeros-días)
+  - [6.2. Atajos intermedios (primeras semanas)](#62-atajos-intermedios-primeras-semanas)
+  - [6.3. Atajos avanzados (para destacar)](#63-atajos-avanzados-para-destacar)
+  - [6.4. Tabla completa de referencia](#64-tabla-completa-de-referencia)
 
 
-# 6. Atajos de Teclado Esenciales para la Productividad
+# 6. Atajos de teclado esenciales para la productividad
 
 > 💡 **Punto de partida:** Un programador profesional hace miles de acciones al día en el IDE. Si cada acción te lleva 2 segundos más de lo necesario, al día son minutos perdidos. Al año, horas.
 
@@ -41,7 +41,7 @@ Dominar los atajos de teclado es fundamental para ser un programador eficiente. 
 
 > 💡 **Dato:** Un programador profesional hace miles de acciones al día. Cada segundo ahorrado en cada acción se multiplica por miles.
 
-## 6.1. Los 10 Atajos para Sobrevivir (Primeros días)
+## 6.1. Los 10 atajos para sobrevivir (primeros días)
 
 > 💡 **Punto de partida:** No necesitas memorizar 200 atajos. Empieza con estos 10 y serás más rápido que el 80% de los usuarios.
 
@@ -60,7 +60,7 @@ Dominar los atajos de teclado es fundamental para ser un programador eficiente. 
 
 > 🔧 **Truco:** Practica estos 10 durante una semana. No busques más hasta que estos sean automáticos.
 
-### Mini-ejercicio 1: Memoria muscular
+### Mini-ejercicio 1: memoria muscular
 1. Abre tu IDE
 2. Sin usar el ratón, ejecuta estos 5 pasos solo con atajos:
    - Abrir la paleta de comandos (`Ctrl+Shift+A` o `Ctrl+Shift+P`)
@@ -70,11 +70,11 @@ Dominar los atajos de teclado es fundamental para ser un programador eficiente. 
    - Cerrar la terminal
 3. Cronometra cuánto tardas. Repite hasta hacerlo en menos de 15 segundos.
 
-## 6.2. Atajos Intermedios (Primeras semanas)
+## 6.2. Atajos intermedios (primeras semanas)
 
 Una vez dominas los 10 básicos, estos te harán productivo:
 
-### Navegación Avanzada
+### Navegación avanzada
 
 | Atajo | Rider/IntelliJ | VS Code | Para qué sirve |
 |-------|----------------|---------|----------------|
@@ -84,7 +84,7 @@ Una vez dominas los 10 básicos, estos te harán productivo:
 | **Historial** | `Ctrl+Alt+←` | `Alt+←` | Volver a la posición anterior |
 | **Archivos recientes** | `Ctrl+E` | `Ctrl+Tab` | Ver archivos abiertos recientemente |
 
-### Edición Eficiente
+### Edición eficiente
 
 | Atajo | Rider/IntelliJ | VS Code | Para qué sirve |
 |-------|----------------|---------|----------------|
@@ -103,14 +103,14 @@ Una vez dominas los 10 básicos, estos te harán productivo:
 | `Ctrl+Alt+V` | Extraer variable |
 | `Ctrl+Alt+P` | Extraer parámetro |
 
-### Mini-ejercicio 2: Refactorización sin ratón
+### Mini-ejercicio 2: refactorización sin ratón
 1. Abre un archivo con un método de 10+ líneas
 2. Selecciona 3 líneas relacionadas (`Alt+J`)
 3. Extrae a un método nuevo (`Ctrl+Alt+M`)
 4. Renombra el método nuevo (`Ctrl+Shift+A` → Rename)
 5. Documenta cada paso con capturas
 
-## 6.3. Atajos Avanzados (Para destacar)
+## 6.3. Atajos avanzados (para destacar)
 
 | Atajo | Rider/IntelliJ | VS Code | Para qué sirve |
 |-------|----------------|---------|----------------|
@@ -123,13 +123,13 @@ Una vez dominas los 10 básicos, estos te harán productivo:
 
 > 📝 **Nota:** VS Code **no trae bookmarks ni grabación de macros de serie**: las dos funciones necesitan una extensión. Ojo porque `Ctrl+K Ctrl+K` es el atajo de **Visual Studio** (otro IDE de Microsoft), no el de VS Code; en Rider e IntelliJ, en cambio, los macros sí existen de serie en `Edit → Macros`.
 
-### Mini-ejercicio 3: Búsqueda masiva
+### Mini-ejercicio 3: búsqueda masiva
 1. En tu proyecto, busca todos los `Console.Write` (o `System.out.println`)
 2. Reemplázalos por `Console.WriteLine` (o `System.out.println` con formato)
 3. Usa `Ctrl+Shift+R` (Replace in Files) para hacerlo en todos los archivos
 4. Documenta cuántos cambios se hicieron
 
-## 6.4. Tabla Completa de Referencia
+## 6.4. Tabla completa de referencia
 
 ### JetBrains Rider
 

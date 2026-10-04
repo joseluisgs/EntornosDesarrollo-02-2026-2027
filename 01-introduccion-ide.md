@@ -1,19 +1,19 @@
-- [1. Introducción a los Entornos de Desarrollo Integrados (IDE)](#1-introducción-a-los-entornos-de-desarrollo-integrados-ide)
+- [1. Introducción a los entornos de desarrollo integrados (IDE)](#1-introducción-a-los-entornos-de-desarrollo-integrados-ide)
   - [1.1. Concepto y rol del IDE en la codificación](#11-concepto-y-rol-del-ide-en-la-codificación)
-    - [Rol en el Ciclo de Vida del Software](#rol-en-el-ciclo-de-vida-del-software)
+    - [Rol en el ciclo de vida del software](#rol-en-el-ciclo-de-vida-del-software)
     - [Clasificación básica](#clasificación-básica)
   - [1.2. Componentes esenciales del IDE y su función](#12-componentes-esenciales-del-ide-y-su-función)
-    - [1.2.1. Editor de código fuente (Resaltado, autocompletado, analizadores)](#121-editor-de-código-fuente-resaltado-autocompletado-analizadores)
-    - [1.2.2. Compilador/Intérprete (Traducción a código máquina)](#122-compiladorintérprete-traducción-a-código-máquina)
-    - [1.2.3. Depurador (Debugger) (Puntos de ruptura, examen de variables)](#123-depurador-debugger-puntos-de-ruptura-examen-de-variables)
-    - [1.2.4. Gestión de proyectos o fichecheros (Explorador de archivos o Soluciones)](#124-gestión-de-proyectos-o-fichecheros-explorador-de-archivos-o-soluciones)
+    - [1.2.1. Editor de código fuente (resaltado, autocompletado, analizadores)](#121-editor-de-código-fuente-resaltado-autocompletado-analizadores)
+    - [1.2.2. Compilador/intérprete (traducción a código máquina)](#122-compiladorintérprete-traducción-a-código-máquina)
+    - [1.2.3. Depurador (debugger) (puntos de ruptura, examen de variables)](#123-depurador-debugger-puntos-de-ruptura-examen-de-variables)
+    - [1.2.4. Gestión de proyectos o ficheros (explorador de archivos o soluciones)](#124-gestión-de-proyectos-o-ficheros-explorador-de-archivos-o-soluciones)
     - [1.2.5. Terminal integrado](#125-terminal-integrado)
-    - [1.2.6. Control de Versiones](#126-control-de-versiones)
-    - [1.2.7. Herramientas de Refactorización (Mejora de Código)](#127-herramientas-de-refactorización-mejora-de-código)
-    - [1.2.8. Plugins y Complementos (Modularidad)](#128-plugins-y-complementos-modularidad)
+    - [1.2.6. Control de versiones](#126-control-de-versiones)
+    - [1.2.7. Herramientas de refactorización (mejora de código)](#127-herramientas-de-refactorización-mejora-de-código)
+    - [1.2.8. Plugins y complementos (modularidad)](#128-plugins-y-complementos-modularidad)
 
 
-# 1. Introducción a los Entornos de Desarrollo Integrados (IDE)
+# 1. Introducción a los entornos de desarrollo integrados (IDE)
 
 > 💡 **Punto de partida:** ¿Alguna vez te has preguntado por qué un programador puede crear una aplicación completa en horas mientras que otro tarda días con la misma tarea? La diferencia no es solo el talento: es la herramienta que usa.
 
@@ -35,7 +35,7 @@ Un **Entorno de Desarrollo Integrado (IDE)** (*Integrated Development Environmen
 
 > 💡 **Analogía:** Un IDE es como un taller mecánico especializado. En lugar de tener herramientas sueltas (llave inglesa, destornillador, etc.) dispersas por todo el garage, tienes un taller completo con todo organizado: elevador, herramientas específicas para cada tipo de reparación, manuales técnicos a mano, etc. Todo está integrado para que el mecánico trabaje más rápido y con menos errores.
 
-### Rol en el Ciclo de Vida del Software
+### Rol en el ciclo de vida del software
 
 Los entornos de desarrollo se utilizan fundamentalmente en la **fase de codificación** del ciclo de vida del software, independientemente del modelo de desarrollo que se utilice. La utilización de un IDE permite desarrollar el proyecto de software de una forma mucho más ágil.
 
@@ -113,7 +113,7 @@ graph TD
 
 ![img](./images/intellij-01.png)
 
-### 1.2.1. Editor de código fuente (Resaltado, autocompletado, analizadores)
+### 1.2.1. Editor de código fuente (resaltado, autocompletado, analizadores)
 
 El editor de código es la herramienta principal que permite escribir y modificar el código fuente del programa. Sus funciones clave incluyen:
 
@@ -136,7 +136,7 @@ El editor de código es la herramienta principal que permite escribir y modifica
 
 - Otras utilidades: Identificación automática de código, e inserción automática de paréntesis, corchetes, tabulaciones y espaciados.
 
-### 1.2.2. Compilador/Intérprete (Traducción a código máquina)
+### 1.2.2. Compilador/intérprete (traducción a código máquina)
 
 Los IDEs integran las herramientas necesarias para traducir el código fuente.
 
@@ -150,7 +150,7 @@ Los IDEs integran las herramientas necesarias para traducir el código fuente.
 
 - Los IDEs permiten **compilar o interpretar** el código fuente en un formato ejecutable o en *bytecode*, y algunos ofrecen la capacidad de **ejecutar el código** directamente desde el entorno.
 
-### 1.2.3. Depurador (Debugger) (Puntos de ruptura, examen de variables)
+### 1.2.3. Depurador (debugger) (puntos de ruptura, examen de variables)
 
 El depurador es una herramienta fundamental que permite probar y eliminar posibles errores, facilitando un desarrollo más eficiente.
 
@@ -170,7 +170,7 @@ El depurador es una herramienta fundamental que permite probar y eliminar posibl
 
 > 📝 **Truco profesional:** Durante la depuración, puedes cambiar el valor de una variable para probar diferentes escenarios sin modificar el código fuente. Útil para probar casos límite.
 
-### 1.2.4. Gestión de proyectos o fichecheros (Explorador de archivos o Soluciones)
+### 1.2.4. Gestión de proyectos o ficheros (explorador de archivos o soluciones)
 
 Esta herramienta permite crear, organizar y administrar proyectos de software, incluyendo la gestión de directorios, archivos y dependencias.
 
@@ -200,7 +200,7 @@ Los IDEs suelen ofrecer integración con herramientas externas a través de una 
 
 > 💡 **Ventaja:** La terminal integrada tiene el mismo contexto que tu proyecto. Si estás en la carpeta `/projects/miapp`, la terminal ya abre ahí. No necesitas navegar con `cd`.
 
-### 1.2.6. Control de Versiones
+### 1.2.6. Control de versiones
 
 Es una herramienta que permite al desarrollador controlar los **distintos cambios que sufre el código** de una aplicación a lo largo de su construcción.
 
@@ -227,7 +227,7 @@ graph LR
 
 > 📝 **Nota del Profesor:** Git es esencial en el desarrollo moderno. Desde el primer día de prácticas profesionales tendréis que usar Git. Practicad los comandos básicos: add, commit, push, pull, branch, merge.
 
-### 1.2.7. Herramientas de Refactorización (Mejora de Código)
+### 1.2.7. Herramientas de refactorización (mejora de código)
 
 La refactorización es la parte del mantenimiento del código que busca **mejorar la facilidad de comprensión** sin alterar su funcionalidad externa.
 
@@ -247,7 +247,7 @@ La refactorización es la parte del mantenimiento del código que busca **mejora
 > double precio3 = CalcularPrecio(cantidad3, precioUnitario3);
 > ```
 
-### 1.2.8. Plugins y Complementos (Modularidad)
+### 1.2.8. Plugins y complementos (modularidad)
 
 Los *plugins* o complementos son aplicaciones adicionales que se relacionan con otras herramientas para agregarles una función nueva y generalmente muy específica.
 

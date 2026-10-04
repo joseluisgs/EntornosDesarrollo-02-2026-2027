@@ -1,17 +1,17 @@
-- [4. Plugins, Configuración y Personalización del Entorno](#4-plugins-configuración-y-personalización-del-entorno)
-  - [4.1. Gestión de Plugins y Extensiones (Modularidad)](#41-gestión-de-plugins-y-extensiones-modularidad)
+- [4. Plugins, configuración y personalización del entorno](#4-plugins-configuración-y-personalización-del-entorno)
+  - [4.1. Gestión de plugins y extensiones (modularidad)](#41-gestión-de-plugins-y-extensiones-modularidad)
     - [4.1.1. Gestión en IntelliJ IDEA y JetBrains Rider (JetBrains)](#411-gestión-en-intellij-idea-y-jetbrains-rider-jetbrains)
     - [4.1.2. Gestión en Visual Studio Code (VS Code)](#412-gestión-en-visual-studio-code-vs-code)
-  - [4.2. Personalización Visual y de Uso](#42-personalización-visual-y-de-uso)
-      - [4.2.1. Acceso a la Configuración General](#421-acceso-a-la-configuración-general)
-      - [4.2.2. Temas, Apariencia y Configuración de Archivos](#422-temas-apariencia-y-configuración-de-archivos)
-      - [4.2.3. Configuraciones Específicas del Proyecto (VS Code)](#423-configuraciones-específicas-del-proyecto-vs-code)
-      - [4.2.4. Refactorización (Mejora de Código)](#424-refactorización-mejora-de-código)
-  - [4.3. Automatización y Configuración Reproducible](#43-automatización-y-configuración-reproducible)
-  - [4.4. Actualización y Mantenimiento del Entorno](#44-actualización-y-mantenimiento-del-entorno)
+  - [4.2. Personalización visual y de uso](#42-personalización-visual-y-de-uso)
+      - [4.2.1. Acceso a la configuración general](#421-acceso-a-la-configuración-general)
+      - [4.2.2. Temas, apariencia y configuración de archivos](#422-temas-apariencia-y-configuración-de-archivos)
+      - [4.2.3. Configuraciones específicas del proyecto (VS Code)](#423-configuraciones-específicas-del-proyecto-vs-code)
+      - [4.2.4. Refactorización (mejora de código)](#424-refactorización-mejora-de-código)
+  - [4.3. Automatización y configuración reproducible](#43-automatización-y-configuración-reproducible)
+  - [4.4. Actualización y mantenimiento del entorno](#44-actualización-y-mantenimiento-del-entorno)
 
 
-# 4. Plugins, Configuración y Personalización del Entorno
+# 4. Plugins, configuración y personalización del entorno
 
 > 💡 **Punto de partida:** ¿Por qué dos programadores con el mismo IDE pueden tener experiencias tan diferentes? Porque uno personaliza su entorno y el otro no.
 
@@ -34,7 +34,7 @@ La personalización es vital, ya que el programador pasa mucho tiempo en el ento
 
 > 💡 **Analogía:** Un IDE es como tu puesto de trabajo. Puedes mover los monitores, organizar los cajones, poner una foto en el escritorio... Lo importante es que estés cómodo y productivo.
 
-## 4.1. Gestión de Plugins y Extensiones (Modularidad)
+## 4.1. Gestión de plugins y extensiones (modularidad)
 
 Un *plugin* es un complemento que agrega una función nueva y específica a la aplicación principal.
 
@@ -104,9 +104,9 @@ VS Code permite añadir soporte para lenguajes, depuradores y herramientas a tra
 > code --install-extension eamodio.gitlens
 > ```
 
-## 4.2. Personalización Visual y de Uso
+## 4.2. Personalización visual y de uso
 
-#### 4.2.1. Acceso a la Configuración General
+#### 4.2.1. Acceso a la configuración general
 
 - **Rider / IntelliJ IDEA:** Se accede mediante **Ctrl+Alt+S** o `File -> Settings`. El panel de opciones está dividido en un panel de navegación a la izquierda (árbol de directorios como Apariencia, Plugins, Control de Versiones) y un área de presentación a la derecha.
 
@@ -137,7 +137,7 @@ graph TD
 
 > 💡 **Truco VS Code:** La configuración se guarda en JSON. Puedes editar `settings.json` directamente para configuraciones avanzadas.
 
-#### 4.2.2. Temas, Apariencia y Configuración de Archivos
+#### 4.2.2. Temas, apariencia y configuración de archivos
 
 - **Temas y Apariencia (Rider / IntelliJ IDEA):** Al arrancar el IDE por primera vez, se le pide al usuario que **elija un tema** para la apariencia.
 
@@ -181,7 +181,7 @@ Enable ligatures: ✓
 }
 ```
 
-#### 4.2.3. Configuraciones Específicas del Proyecto (VS Code)
+#### 4.2.3. Configuraciones específicas del proyecto (VS Code)
 
 En VS Code, las configuraciones se dividen por alcance:
 
@@ -208,7 +208,7 @@ En VS Code, las configuraciones se dividen por alcance:
 }
 ```
 
-#### 4.2.4. Refactorización (Mejora de Código)
+#### 4.2.4. Refactorización (mejora de código)
 
 La **refactorización** es la parte del mantenimiento del código que busca **mejorar la facilidad de comprensión**.
 
@@ -233,14 +233,14 @@ La **refactorización** es la parte del mantenimiento del código que busca **me
 
 - **Limpieza de Código (Rider):** JetBrains Rider permite aplicar la limpieza de código para aplicar reglas de estilo mediante **Ctrl+R, C**.
 
-## 4.3. Automatización y Configuración Reproducible
+## 4.3. Automatización y configuración reproducible
 
 > 💡 **Punto de partida:** ¿Y si pudieras configurar tu entorno de una sola vez y que se aplique automáticamente en cualquier ordenador? Eso es la automatización: configurar una vez, usar siempre.
 
 > 💡 **¿Por qué me importa?**
 > En el ámbito profesional, los desarrolladores trabajan en múltiples máquinas (local, oficina, nube). La automatización permite tener el mismo entorno en todas partes sin configurar cada vez manualmente.
 
-### Dotfiles: Tu configuración como código
+### Dotfiles: tu configuración como código
 
 Los **dotfiles** son archivos de configuración que empiezan por punto (`.settings.json`, `.editorconfig`). Guardarlos en un repositorio Git permite sincronizar tu configuración entre dispositivos.
 
@@ -264,7 +264,7 @@ indent_size = 2
 trim_trailing_whitespace = false
 ```
 
-### Sincronización de Configuración entre Dispositivos
+### Sincronización de configuración entre dispositivos
 
 **VS Code — Settings Sync:**
 1. `Ctrl+Shift+P` → "Settings Sync: Turn On"
@@ -279,7 +279,7 @@ trim_trailing_whitespace = false
 
 > 📝 **Nota:** La sincronización incluye: configuración del editor, atajos de teclado, extensiones/plugins, snippets y apariencia. No incluye archivos de proyecto ni código.
 
-### Snippets Personalizados
+### Snippets personalizados
 
 Los **snippets** son plantillas de código que se expanden con un atajo. Ahorra tiempo escribiendo código repetitivo.
 
@@ -309,7 +309,7 @@ Los **snippets** son plantillas de código que se expanden con un atajo. Ahorra 
 }
 ```
 
-### Configuración Sincronizada
+### Configuración sincronizada
 
 **VS Code:** Settings Sync (`Ctrl+Shift+P` → "Settings Sync") sincroniza: extensiones, settings, keybindings, snippets, themes.
 
@@ -334,11 +334,11 @@ Los **snippets** son plantillas de código que se expanden con un atajo. Ahorra 
 | **Scripts setup** | Instalación automatizada |
 | **`.editorconfig`** | Formato consistente en equipo |
 
-## 4.4. Actualización y Mantenimiento del Entorno
+## 4.4. Actualización y mantenimiento del entorno
 
 > 💡 **Punto de partida:** Tus IDEs se actualizan constantemente con nuevas funciones y parches de seguridad. ¿Sabes cuándo y cómo actualizar sin romper tu entorno?
 
-### Canales de Actualización
+### Canales de actualización
 
 Los IDEs de JetBrains ofrecen diferentes **canales de actualización**:
 
@@ -357,7 +357,7 @@ Los IDEs de JetBrains ofrecen diferentes **canales de actualización**:
 - `File → Preferences → Settings → Search "update"`
 - `"update.mode": "manual"` para control manual
 
-### Proceso de Actualización
+### Proceso de actualización
 
 **JetBrains (IntelliJ/Rider):**
 1. `Help → Check for Updates`
@@ -372,7 +372,7 @@ Los IDEs de JetBrains ofrecen diferentes **canales de actualización**:
 
 > ⚠️ **Advertencia:** Antes de actualizar, haz commit de tu código. Algunas actualizaciones pueden cambiar configuraciones de proyecto o requerir migración de plugins.
 
-### Rollback: Volver a una Versión Anterior
+### Rollback: volver a una versión anterior
 
 Si una actualización causa problemas:
 
@@ -387,7 +387,7 @@ Si una actualización causa problemas:
 
 > 💡 **Consejo:** JetBrains guarda configuraciones en `~/.IdeaICXXXX.X/` (IntelliJ) o `~/.riderXXXX.X/` (Rider). Si necesitas migrar configuración entre versiones, copia esta carpeta.
 
-### Actualización de Plugins/Extensiones
+### Actualización de plugins/extensiones
 
 **JetBrains:** `Settings → Plugins → Updates` → ver actualizaciones pendientes → actualizar una o todas
 
