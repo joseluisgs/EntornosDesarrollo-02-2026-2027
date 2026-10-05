@@ -44,7 +44,7 @@ graph TD
     A --> E[Editor Area]
 
     B --> B1[Alt+1: Proyecto]
-    B --> B2[Alt+12: Git]
+    B --> B2[Alt+9: Git]
     B --> B3[Alt+F12: Terminal]
 
     C --> C1[Números de línea]
@@ -67,10 +67,12 @@ graph TD
 | Atajo | Ventana | Función |
 |-------|---------|---------|
 | `Alt + 1` | Proyecto | Ver estructura del proyecto |
-| `Alt + 2` | Favoritos | Marcadores y breakpoints |
+| `Alt + 2` | Bookmarks (Marcadores) | Marcadores y breakpoints |
 | `Alt + 9` | Git | Control de versiones |
-| `Alt + 12` | Database | Base de datos |
+| `Alt + 0` | Commit | Preparar commits |
 | `Alt + F12` | Terminal | Línea de comandos |
+
+> 📝 **Nota:** Los atajos numéricos de las *Tool Windows* llegan hasta `Alt + 9` (y `Alt + 0` para Commit); no existe ningún `Alt + 12`. La ventana **Database** no tiene atajo numérico por defecto: se abre desde la barra de tool windows o con `View | Tool Windows | Database`, y se le puede asignar uno personalizado en `Settings | Keymap`.
 
 - **Gutter:** El panel a la izquierda del editor contiene **iconos de acción** para corregir problemas de código, ejecutar o depurar. También muestra **números de línea, puntos de ruptura (*breakpoints*)** y **marcadores** (*bookmarks*). Permite el plegado de código y marca las líneas modificadas bajo control de versiones.
 

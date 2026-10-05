@@ -106,7 +106,7 @@ graph TD
 ### Anatomía del IDE
 
 **JetBrains (Rider/IntelliJ):**
-- Tool Windows (`Alt+1` a `Alt+12`)
+- Tool Windows (`Alt+1` a `Alt+9` y `Alt+0`)
 - Gutter (números, breakpoints, acciones)
 - Status Bar (línea, encoding, branch)
 - Widgets en toolbar (Project, VCS, Run)
