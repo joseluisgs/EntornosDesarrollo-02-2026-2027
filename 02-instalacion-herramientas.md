@@ -383,6 +383,8 @@ Un **proyecto** se define en un archivo `.csproj`:
 
 ### Crear una solución con dotnet CLI
 
+Con la CLI puedes montar el esqueleto de un proyecto completo sin tocar el ratón: primero la carpeta raíz, después el fichero de solución (.slnx) y por último el proyecto dentro de ella. Esta estructura de dos niveles es la que usaremos en todas las prácticas del curso.
+
 ```bash
 # 1. Crear carpeta raíz
 mkdir MiSolucion
@@ -441,6 +443,8 @@ dotnet list package
 | **NUnit** | Framework de tests |
 
 ### Compilar y ejecutar
+
+Estos cinco comandos son el día a día de cualquier desarrollador .NET: compilar, ejecutar, limpiar, restaurar paquetes y publicar. Guárdalos como chuleta: los vas a usar hasta el último día del ciclo.
 
 ```bash
 dotnet build           # Compilar
