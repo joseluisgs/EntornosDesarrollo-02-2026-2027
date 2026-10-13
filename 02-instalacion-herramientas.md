@@ -93,7 +93,7 @@ dotnet test                          # Ejecutar pruebas
 
 ### 2.2.1. Instalación de JetBrains Rider (JetBrains)
 
-JetBrains Rider es un IDE *cross-platform* que proporciona una experiencia consistente en Windows, macOS y Linux. Su instalación también ofrece múltiples métodos.
+JetBrains Rider es un IDE *cross-platform* que proporciona una experiencia consistente en Windows, macOS y Linux. Está disponible en una única edición **comercial** (de pago), con *trial* de 30 días para probarlo; los estudiantes disponen de licencia gratuita mediante el *GitHub Student Pack*. Su instalación también ofrece múltiples métodos.
 
 **Métodos de Instalación:**
 
