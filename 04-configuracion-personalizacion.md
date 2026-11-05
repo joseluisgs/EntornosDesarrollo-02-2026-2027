@@ -1,6 +1,6 @@
 - [4. Plugins, configuración y personalización del entorno](#4-plugins-configuración-y-personalización-del-entorno)
   - [4.1. Gestión de plugins y extensiones (modularidad)](#41-gestión-de-plugins-y-extensiones-modularidad)
-    - [4.1.1. Gestión en IntelliJ IDEA y JetBrains Rider (JetBrains)](#411-gestión-en-intellij-idea-y-jetbrains-rider-jetbrains)
+    - [4.1.1. Gestión en JetBrains Rider y IntelliJ IDEA (JetBrains)](#411-gestión-en-jetbrains-rider-y-intellij-idea-jetbrains)
     - [4.1.2. Gestión en Visual Studio Code (VS Code)](#412-gestión-en-visual-studio-code-vs-code)
   - [4.2. Personalización visual y de uso](#42-personalización-visual-y-de-uso)
       - [4.2.1. Acceso a la configuración general](#421-acceso-a-la-configuración-general)
