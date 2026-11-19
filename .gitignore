@@ -4,3 +4,13 @@ upload.sh
 /docs/
 /multimedia/
 /evaluacion/
+
+# Node y Slidev
+node_modules/
+.slidev/
+dist/
+*.local
+.npm/
+
+# Instrucciones locales de agentes
+AGENTS.md

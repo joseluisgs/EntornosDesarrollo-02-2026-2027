@@ -21,6 +21,10 @@ UD02. Entornos de desarrollo. Curso 2026-2027.
 - [JetBrains Rider](https://youtu.be/dm_-anD-50E)
 - [Lista de reproducción](https://www.youtube.com/playlist?list=PLIaRVRNDWeMA)
 
+## Presentaciones
+
+- Presentación PDF ([tema claro](presentaciones/ud02-entornos-desarrollo-claro.pdf), [tema oscuro](presentaciones/ud02-entornos-desarrollo-oscuro.pdf))
+
 ## Resultados de Aprendizaje y Criterios de Evaluación
 
 - RA2: Evalúa entornos integrados de desarrollo analizando sus características para editar código fuente y generar ejecutables.
